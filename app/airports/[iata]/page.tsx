@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { AirportLiveStatus } from "@/app/components/airport-live-status";
 import { getAirportContent, getAllAirportIatas } from "@/lib/airport-content";
+import { getAirportLiveData } from "@/lib/airport-live-data";
 
 interface AirportPageProps {
   params: Promise<{ iata: string }>;
@@ -40,6 +42,7 @@ export default async function AirportPage({ params }: AirportPageProps) {
   }
 
   const { frontmatter, content } = data;
+  const liveData = await getAirportLiveData(frontmatter.iata);
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10">
@@ -67,6 +70,8 @@ export default async function AirportPage({ params }: AirportPageProps) {
           </ul>
         </div>
       )}
+
+      <AirportLiveStatus data={liveData} />
 
       <article className="prose prose-zinc dark:prose-invert max-w-none prose-headings:tracking-tight prose-h2:mt-10 prose-h2:mb-4 prose-p:leading-relaxed">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>

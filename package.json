@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:airport": "tsx scripts/generate-airport.ts",
-    "review:airports": "tsx scripts/review-airport-pages.ts"
+    "generate:airport": "tsx --env-file-if-exists=.env.local scripts/generate-airport.ts",
+    "review:airports": "tsx --env-file-if-exists=.env.local scripts/review-airport-pages.ts"
   },
   "dependencies": {
     "@ai-sdk/gateway": "^3.0.120",
@@ -19,6 +19,7 @@
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.16.0",
+    "lz-string": "^1.5.0",
     "next": "16.2.6",
     "radix-ui": "^1.4.3",
     "react": "19.2.4",
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@cursor/sdk": "^1.0.13",
     "@tailwindcss/postcss": "^4",
+    "@types/lz-string": "^1.5.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -43,6 +45,10 @@
     "typescript": "^5"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sqlite3", "esbuild", "sharp"]
+    "onlyBuiltDependencies": [
+      "sqlite3",
+      "esbuild",
+      "sharp"
+    ]
   }
 }

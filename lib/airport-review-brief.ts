@@ -1,9 +1,14 @@
-export const VIelfliegertreff_REFERENCE =
+import {
+  formatForumActivityForPrompt,
+  type CommunityForumThreadActivity,
+} from "./community-forum";
+
+export const COMMUNITY_FORUM_URL =
   "https://www.vielfliegertreff.de/forum/forums/airports-lounges.12/";
 
 /**
- * Editorial style inspired by Vielfliegertreff's Airports & Lounges forum:
- * practical, community-tested tips from frequent flyers — not marketing copy.
+ * Editorial style inspired by frequent-flyer community forums:
+ * practical, community-tested tips — not marketing copy.
  */
 export const AIRPORT_REVIEW_STYLE = `
 ## Voice and bar for updates
@@ -15,7 +20,7 @@ Write like an experienced frequent flyer sharing hard-won airport knowledge:
 - Note when advice depends on status, alliance, time of day, or terminal
 - Flag stale or uncertain claims instead of guessing
 
-## Topics Vielfliegertreff readers care about (prioritize gaps)
+## Topics frequent-flyer communities care about (prioritize gaps)
 
 1. **Minimum connection times (MCT)** — realistic airside transfer times, terminal changes, immigration quirks
 2. **Airport ↔ city transport** — fastest, cheapest, and insider timing (rush hour, night arrivals)
@@ -43,9 +48,15 @@ Each file under \`content/airports/*.md\` must keep:
 - Do not invent prices, wait times, or lounge access rules — verify or mark as "check before travel"
 `.trim();
 
+export interface AirportReviewForumContext {
+  airportThreads?: CommunityForumThreadActivity[];
+  referenceThreads?: CommunityForumThreadActivity[];
+}
+
 export function buildAirportReviewPrompt(options?: {
   iata?: string;
   openPr?: boolean;
+  forumContext?: AirportReviewForumContext;
 }): string {
   const scope = options?.iata
     ? `Focus this run on **${options.iata.toUpperCase()}** (\`content/airports/${options.iata.toLowerCase()}.md\`). Still skim other pages only if you spot cross-airport inconsistencies.`
@@ -55,12 +66,15 @@ export function buildAirportReviewPrompt(options?: {
     ? "Open a pull request with a clear summary of what changed and why."
     : "Apply edits directly in the working tree. Do not commit unless explicitly asked.";
 
+  const forumSection = buildForumContextSection(options?.forumContext);
+
   return `
 You maintain TravelGuide — one scannable Markdown page per airport with practical traveler tips.
 
-Style reference (community tone): ${VIelfliegertreff_REFERENCE}
+Community forum for airport tips (German frequent-flyer board): ${COMMUNITY_FORUM_URL}
 
 ${AIRPORT_REVIEW_STYLE}
+${forumSection}
 
 ## Your task this run
 
@@ -69,16 +83,18 @@ ${scope}
 For each page:
 1. Read the current Markdown file and compare it to the style bar above.
 2. Research recent, reputable updates (official airport site, transport operators, alliance pages).
-3. Expand thin or placeholder sections with Vielfliegertreff-style practical detail.
-4. Fix outdated facts; tighten wording; add "works best when / avoid if" context to hacks.
-5. Refresh \`lastUpdated\` and \`sources\` in frontmatter when you change material facts.
-6. Keep the existing heading structure — do not rename sections.
+3. When forum activity is listed below, read those threads and fold in verified or well-supported traveler tips.
+4. Expand thin or placeholder sections with practical frequent-flyer detail.
+5. Fix outdated facts; tighten wording; add "works best when / avoid if" context to hacks.
+6. Refresh \`lastUpdated\` and \`sources\` in frontmatter when you change material facts.
+7. Keep the existing heading structure — do not rename sections.
 
 ## Quality gate
 
 - Only add information you can tie to a source or clearly label as traveler consensus ("many FF reports…").
 - Prefer fewer, sharper bullets over long generic lists.
 - If a page is already strong, make small high-value additions rather than rewriting for its own sake.
+- Forum posts are often in German — synthesize in English; add thread URLs to \`sources\` when used.
 
 ## Output
 
@@ -88,5 +104,25 @@ When done, list:
 - Airports touched
 - Top 3 highest-value additions per airport
 - Anything you could not verify and left unchanged
+`.trim();
+}
+
+function buildForumContextSection(forumContext?: AirportReviewForumContext): string {
+  if (!forumContext) return "";
+
+  const airportThreads = forumContext.airportThreads ?? [];
+  const referenceThreads = forumContext.referenceThreads ?? [];
+
+  if (airportThreads.length === 0 && referenceThreads.length === 0) {
+    return "";
+  }
+
+  return `
+
+## New community forum activity (since last sync)
+
+${formatForumActivityForPrompt(airportThreads, referenceThreads)}
+
+Read the linked threads for details beyond the snippets. Cross-check tips against official sources before adding them.
 `.trim();
 }

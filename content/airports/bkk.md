@@ -3,7 +3,7 @@ iata: "BKK"
 name: "Suvarnabhumi Airport (Bangkok)"
 city: "Bangkok"
 country: "Thailand"
-lastUpdated: "2026-05-27"
+lastUpdated: "2026-05-28"
 sources:
   - "https://suvarnabhumi.airportthai.co.th/"
   - "https://suvarnabhumi.airportthai.co.th/service/airport-guide/detail/Transportation_BKK"
@@ -56,7 +56,7 @@ quickFacts:
 - **Empty bottle:** Refill stations airside near many restrooms — skip **฿150+** bottled water at duty-free.
 - **Airport Rail Link beats taxi** to **Phaya Thai / Makkasan** in rush hour (**17:00–20:00**) — taxi wins only with **3+ passengers** or **heavy bags** at quiet hours.
 - **After midnight:** ARL stops ~**24:00** — taxi/Grab only; queue at official taxi stand (**Level 1, Gates 4–7**) with meter + **฿50** airport surcharge.
-- **Avoid:** Booking **90 min** int'l–int'l in **January** with checked bags and an **SAT-1** departure — forum consensus treats that as a self-inflicted misconnect.
+- **Avoid:** Booking **90 min** int'l–int'l in **January** with checked bags and an **SAT-1** departure — tight even on one ticket when immigration or SAT-1 routing bites.
 
 ## Terminals & Navigation
 - **MTB:** Single giant hall — **4F** departures/check-in, **3F** shops, **2F** arrivals and many transfer desks, **1F** taxis/buses, **B1** Airport Rail Link, **B2** APM to SAT-1.

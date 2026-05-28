@@ -3,11 +3,13 @@ iata: "LHR"
 name: "London Heathrow Airport"
 city: "London"
 country: "United Kingdom"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-28"
 sources:
   - "https://www.heathrow.com/"
+  - "https://www.heathrow.com/connecting-flights"
   - "https://www.heathrow.com/airport-guide/security"
   - "https://www.heathrow.com/transport-and-directions"
+  - "https://tfl.gov.uk/modes/elizabeth-line/getting-to-and-from-heathrow-on-the-elizabeth-line"
   - "https://www.britishairways.com/information/airport-information/flight-connections"
 quickFacts:
   - "4 active terminals (2, 3, 4, 5); not all are connected airside"
@@ -29,7 +31,8 @@ quickFacts:
 - **Liquids:** Still assume strict 100 ml rules unless your terminal uses newer CT lanes — check Heathrow security pages before travel.
 
 ## Security & Screening Tips
-- **Connection security is real:** Even airside transfers usually require **another security screening** at your departure terminal — budget queue time, not just walking time.
+- **Connection security is the default:** Heathrow states that **all connecting passengers must go through security again** at the departure terminal — budget queue time, not just walking time ([Connecting flights](https://www.heathrow.com/connecting-flights)).
+- **One Stop Security pilot (limited):** On select **U.S. inbound** routes (e.g. **Atlanta** and **Dallas–Fort Worth** into **Terminal 3**), eligible **international-to-international** connections to **T3 or T5** may skip re-screening via a dedicated airside transfer — this does **not** apply to most other arrivals; assume normal security unless your airline confirms OSS for your itinerary.
 - **Peak pain windows:** Early morning (roughly 06:30–09:30) and late afternoon/evening (16:00–19:00) are consistently slower; add buffer on Mondays and holiday peaks.
 - **Fast Track:** Paid lanes via the Heathrow app can help when your flight is soon and queues spike — prices vary by terminal/time (verify in app).
 - **Liquids bag:** Keep everything in one transparent **20×20 cm** bag; oversized items are often discarded without debate.
@@ -41,7 +44,7 @@ quickFacts:
 - **T2 length:** The walk to T2B satellite gates is long (**15–20 minutes** of walking alone) — don’t linger at duty free if your connection is tight.
 - **Heathrow app** for live security wait times and gates often beats the overhead screens.
 - **Inter-terminal landside:** Heathrow Express and Elizabeth line transfers between terminals are **free** when staying within Heathrow (contactless/Oyster for Tube/Elizabeth as applicable).
-- **Separate-ticket self-transfer:** Treat it like an airport change — immigration, baggage, terminal hop, new check-in. Frequent-flyer forums consistently say **3–4 hours minimum**, not airline MCT marketing.
+- **Separate-ticket self-transfer:** Treat it like an airport change — immigration, baggage, terminal hop, new check-in. **British Airways recommends at least 4 hours** between separate tickets at LHR; many experienced travelers use **3–4 hours** as a floor — not airline MCT marketing.
 - **Long layover:** YOTELAIR sleep pods in T4/T5 can beat overcrowded lounges when you only need a few hours (check current pricing in terminal).
 
 ## Terminals & Navigation
@@ -71,7 +74,9 @@ quickFacts:
 
 ## Official Sources
 - [Heathrow Official Site](https://www.heathrow.com/)
+- [Heathrow Connecting flights](https://www.heathrow.com/connecting-flights)
 - [Heathrow Security](https://www.heathrow.com/airport-guide/security)
 - [Heathrow Transport](https://www.heathrow.com/transport-and-directions)
+- [Elizabeth line at Heathrow (TfL)](https://tfl.gov.uk/modes/elizabeth-line/getting-to-and-from-heathrow-on-the-elizabeth-line)
 - [BA Flight Connections at LHR](https://www.britishairways.com/information/airport-information/flight-connections)
 - Always re-check terminal assignments and construction notices the day before travel.

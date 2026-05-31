@@ -15,7 +15,7 @@ sources:
 quickFacts:
   - "4 active terminals (2, 3, 4, 5); not all are connected airside"
   - "BA hub in Terminal 5; Star Alliance heavy in Terminal 2"
-  - "Plan 90+ minutes for inter-terminal connections; 2.5–3 hours in peaks"
+  - "Plan 90+ minutes for inter-terminal connections; 2–2.5 hours in peaks"
   - "Elizabeth line and Heathrow Express are free for inter-terminal transfers landside"
   - "All connecting passengers re-clear security — limited One Stop Security pilot for select US inbound ATL/DFW routes"
 ---

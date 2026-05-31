@@ -3,16 +3,16 @@ iata: "DXB"
 name: "Dubai International Airport"
 city: "Dubai"
 country: "United Arab Emirates"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.dubaiairports.ae/"
-  - "https://www.rta.ae/"
+  - "https://www.rta.ae/wps/portal/rta/ae/public-transport"
 quickFacts:
-  - "World's busiest international airport"
-  - "Three terminals; T1 and T3 connected airside"
-  - "Emirates hub; flydubai at T2"
-  - "High passenger volumes year-round"
-  - "Strict security with liquid rules enforced"
+  - "World's busiest airport by international passenger traffic"
+  - "Three terminals: T1 (most foreign carriers), T2 (flydubai), T3 (Emirates)"
+  - "T1 and T3 connected airside; T2 requires landside shuttle + re-screening"
+  - "Emirates hub in T3; allow 15–20 min for distant T3 gate walks"
+  - "Metro Red Line: Terminals 1 and 3 stations, ~45–60 min to downtown"
 ---
 
 # DXB Airport Guide
@@ -21,7 +21,8 @@ quickFacts:
 
 ## Quick Facts
 - Three terminals: T1 (most international carriers), T3 (Emirates), T2 (flydubai and low-cost).
-- T1 and T3 are linked by a 10-15 minute airside walkway; T2 requires a shuttle bus.
+- **T1 ↔ T3:** Connected **airside** via travelators — allow **15–20 min** minimum for connections.
+- **T2 (flydubai):** **Not** connected airside to T1/T3 — landside shuttle and **new security** required; budget **30–45 min**.
 - Emirates and flydubai dominate; long-haul connections are usually efficient within T3.
 - Security is strict on liquids and electronics; expect thorough bag checks.
 - Free Wi-Fi is reliable but can slow during peak hours.
@@ -34,15 +35,14 @@ quickFacts:
 
 ## Best Airport Tricks & Hacks
 - Download the Dubai Airports app for real-time gate and security wait times before you arrive.
-- Walk the moving walkways in T3 to shave 5-7 minutes between distant gates.
-- Use the shower facilities in T3 Concourse B for long layovers; they are free and rarely crowded before 7 AM.
-- Buy a Nol Silver metro card at the airport station for seamless onward travel; it works on buses too.
-- Avoid T2 food courts during 2-5 PM rush; instead, walk to T3 for better options if your connection allows.
+- Walk the moving walkways in T3 to save time between distant **A/B/C** gates.
+- **Showers:** Available in **Emirates and paid lounges** — there is no general free public shower in T3 concourses.
+- Buy a **Nol card** at the metro station for RTA buses and metro.
 - Charge devices at the quiet power banks near gates B30-B40 in T3 rather than crowded central areas.
 
 ## Terminals & Navigation
-- T1-T3 airside link is clearly signed; allow 15 minutes minimum for connections.
-- T2 is isolated—budget 25-30 minutes for bus transfers and extra security.
+- T1–T3 airside link is clearly signed; allow **15–20 min** for connections.
+- **T2 is isolated** — budget **30–45 min** for bus transfer and **re-screening**; you cannot "walk to T3" from T2 airside.
 - Follow yellow signs for Emirates connections; common mistake is exiting airside unnecessarily.
 
 ## Lounges, Food & Amenities

@@ -3,17 +3,18 @@ iata: "FRA"
 name: "Frankfurt Airport"
 city: "Frankfurt"
 country: "Germany"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.frankfurt-airport.com/"
   - "https://www.frankfurt-airport.com/en/flights/check-in-security.html"
+  - "https://www.frankfurt-airport.com/en/passengers-and-visitors/transfer.html"
 quickFacts:
   - "Primary hub for Lufthansa and Star Alliance"
-  - "Two terminals linked by free SkyLine train (4-5 min)"
-  - "Handles 65-75 million passengers per year"
-  - "Direct long-distance ICE rail from Terminal 1"
-  - "Security wait times often 20-45 min in peaks"
-  - "Strong rail links to Frankfurt city center (15 min)"
+  - "Terminals 1 and 2 linked airside by free SkyLine train (~2 min ride)"
+  - "Long-distance ICE from Fernbahnhof at Terminal 1"
+  - "S8/S9 regional rail to Frankfurt Hbf: ~15 min"
+  - "Plan 45–60 min minimum for T1↔T2 connections on one ticket"
+  - "CT scanners at equipped checkpoints — liquids/electronics may stay in bag"
 ---
 
 # FRA Airport Guide
@@ -21,33 +22,27 @@ quickFacts:
 > Fast-reference guide to move through Frankfurt Airport with minimal wasted time and stress.
 
 ## Quick Facts
-- Lufthansa dominates Terminal 1; Terminal 2 serves mainly Condor, United, and some Star Alliance flights.
-- SkyLine automated train runs every 3-4 minutes between terminals; walking is not practical.
-- Long-distance ICE trains depart from the lower level of Terminal 1 (Fernbahnhof).
-- Regional S-Bahn and U-Bahn reach Frankfurt Hauptbahnhof in 10-15 minutes.
-- Peak congestion occurs 06:00-09:00 and 16:00-20:00; arrive earlier for non-Schengen departures.
-- Free Wi-Fi is reliable but login required every 2 hours.
+- Lufthansa dominates **Terminal 1** (Schengen **A/B**, non-Schengen **Z**); **Terminal 2** serves Condor, United, and other carriers.
+- **SkyLine** runs every **2–3 min** between T1 and T2 airside — walking between terminals landside is impractical.
+- **MCT:** Airline-published mins can be **45 min** (T1 only) or **60 min** (T1↔T2) — experienced travelers add buffer in peaks.
+- Regional **S8/S9** and long-distance **ICE** from **Terminal 1 Fernbahnhof**; S-Bahn to Frankfurt Hbf ~**15 min**.
+- Peak congestion **06:00–09:00** and **16:00–20:00**; non-Schengen departures need extra time for passport control.
 
 ## Security & Screening Tips
-- Use the dedicated fast-track lanes at Terminal 1 A/B and C/D if you hold Star Alliance Gold or paid access (€25-35).
-- Avoid the central security area in Terminal 1 between 07:00-08:30; use the smaller A-West or B checkpoints instead.
-- Liquids and electronics rules match EU standards; 100 ml limit strictly enforced.
+- **Star Alliance Gold / First** use dedicated lanes at T1 when eligible — verify signage at A/B/Z checkpoints.
+- **CT lanes:** At equipped checkpoints, compliant **liquids (100 ml) and laptops** can stay in your bag — not a waiver on liquid volume.
+- Avoid the central T1 security hall **07:00–08:30** if you can use a pier-specific checkpoint (A-West, B, Z).
 - Families and passengers with reduced mobility get priority lanes—ask staff directly rather than queuing.
 
 ## Best Airport Tricks & Hacks
-- Take the SkyLine to Terminal 2 even if your flight is from Terminal 1 when security lines there are shorter, then ride back (works best 10:00-15:00).
-- Book the paid “Fast Lane” security online the night before via the airport app when your flight is before 09:00.
-- Use the quiet seating area on the upper level of Terminal 1 near gates A50-A60 when lounges are full.
-- For long connections, exit airside and re-enter via the train station level to reset security wait time (only useful with 3+ hour layovers).
-- Download the RMV app for real-time regional train departures from the airport station.
-- Avoid the main Terminal 1 food court; walk to the quieter Z gates area for shorter lines at the same chains.
+- **Lufthansa Fast Lane** (paid, bookable) can help on early departures — check frankfurt-airport.com for current pricing.
+- **Quiet seating:** Upper level near **A50–A60** when Senator lounges are full.
+- **RMV app** for S-Bahn/regional departures from the regional station under T1.
 - If arriving on a late flight, the S-Bahn runs until 01:00; after that use the night bus N5 to the city.
 
 ## Terminals & Navigation
-- Terminal 1 handles ~80 % of traffic; most Schengen flights depart from gates A and B, non-Schengen from Z.
-- Terminal 2 is smaller and calmer; reach it via SkyLine from Terminal 1 in under 5 minutes.
-- Minimum connection time is 45 minutes within Terminal 1 and 60 minutes between terminals.
-- Follow yellow “SkyLine” signs; do not attempt to walk between terminals.
+- **T1 ↔ T2:** SkyLine **~2 min** ride + walking — budget **45–60 min** total for a connection including possible re-screening on some routings.
+- **Do not walk** between T1 and T2 landside for tight connections — use SkyLine airside on one ticket.
 
 ## Lounges, Food & Amenities
 - Lufthansa First Class Lounge in Terminal 1 (A gates) is the best option if eligible; otherwise use the Senator Lounge.

@@ -3,16 +3,18 @@ iata: "ICN"
 name: "Incheon International Airport"
 city: "Seoul"
 country: "South Korea"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.airport.kr/ap/en/index.do"
+  - "https://www.airport.kr/ap/en/svc/airlinesTerInfoList.do"
   - "https://www.arex.co.kr/en/"
 quickFacts:
-  - "Two terminals linked by free shuttle (15 min)"
-  - "Primary hub for Korean Air and Asiana Airlines"
-  - "AREX express train reaches Seoul Station in 43 min"
-  - "Strong free Wi-Fi and abundant charging stations"
-  - "24-hour transit hotel and capsule options available"
+  - "Two terminals (T1 and T2) — not connected airside; free shuttle ~12–15 min"
+  - "T2: Korean Air, Asiana (from Jan 2026), Jin Air, and SkyTeam partners"
+  - "T1: most other Star Alliance, Oneworld, and foreign carriers"
+  - "Alliance ≠ terminal anymore — always check your flight number"
+  - "AREX express to Seoul Station: ~43 min, ₩9,500"
+  - "Shoe removal and strict 100 ml liquids screening"
 ---
 
 # ICN Airport Guide
@@ -20,45 +22,49 @@ quickFacts:
 > Fast, no-nonsense reference for clearing ICN with minimal stress and wasted time.
 
 ## Quick Facts
-- Terminals 1 and 2 are separate; shuttle runs every 5–10 min.
-- Korean Air and SkyTeam use Terminal 2; Star Alliance and others use Terminal 1.
-- Security and immigration are efficient but slow during 06:00–09:00 and 18:00–22:00 peaks.
-- Free Wi-Fi is reliable; power outlets are plentiful at gates.
-- AREX, buses, and taxis all depart from the arrivals level of each terminal.
+- **Terminal 2:** **Korean Air**, **Asiana Airlines** (moved from T1 **14 Jan 2026**), **Jin Air**, **Air Busan**, **Air Seoul**, and **SkyTeam** carriers (Delta, Air France, KLM, etc.).
+- **Terminal 1:** Most **other Star Alliance** members (United, Lufthansa, Singapore Airlines, etc.), **Oneworld**, and remaining international/LCC carriers.
+- **Critical change (2026):** **Asiana now operates from T2** — the old rule "Star = T1" is **wrong for Asiana**. Always verify terminal on your ticket/app ([airline terminal list](https://www.airport.kr/ap/en/svc/airlinesTerInfoList.do)).
+- **T1 ↔ T2:** Free **inter-terminal shuttle** — **~12–15 min** including wait; **no airside walkway**.
+- **AREX:** Express train to **Seoul Station** — **~43 min**, **₩9,500**; all-stop train also available.
+- **Wi‑Fi:** Free and reliable; power outlets at many gates.
 
 ## Security & Screening Tips
-- Expect full liquids screening and shoe removal; 100 ml rule strictly enforced.
-- No PreCheck equivalent; arrive 2.5 h early for international flights during peaks.
-- Use Terminal 2 security when possible—faster lanes and newer equipment.
-- Avoid the central security area in T1 between 07:00–08:30; side lanes move quicker.
+- **Full screening:** Expect **shoe removal** and strict **100 ml** liquids enforcement.
+- **No TSA PreCheck equivalent** — arrive **2.5 h** early for international departures in peaks.
+- **Peak windows:** **06:00–09:00** and **18:00–22:00** — add **20–30 min** buffer.
+- **T2 security:** Newer equipment, often faster than T1 central lanes — but T2 can crowd during Korean Air banks.
+- **T1 side lanes:** During **07:00–08:30** peaks, follow staff redirects to alternate checkpoints.
 
 ## Best Airport Tricks & Hacks
-- Download the official airport app for real-time shuttle and gate info before landing.
-- If connecting from T1 to T2, take the free shuttle from arrivals level, not departures.
-- Capsule hotel on the transit side (between T1 and T2) lets you shower and nap without clearing immigration.
-- Buy T-money card at AREX machines for seamless bus/metro rides into Seoul.
-- Korean Air lounge in T2 (near gate 250) offers better food and showers than most paid options.
-- For early flights, sleep in the 24-hour rest zone on the 4th floor of T2 instead of fighting gate seating.
-- Skip taxi queues at peak arrival times; walk one level up to the bus stop for faster departure.
+- **Terminal check before landing:** Wrong terminal adds **30+ min** shuttle time — especially for **Asiana ↔ other Star** connections.
+- **Connecting T1 ↔ T2:** Use the **free shuttle from arrivals level** — confirm whether your connection stays **airside** (intl-intl on one ticket) or requires immigration.
+- **Transit hotel / capsules:** Between terminals for sleep/showers without clearing immigration — book ahead for peak seasons.
+- **T-money card:** Buy at AREX machines for seamless bus/metro in Seoul.
+- **Avoid:** Booking **60–75 min** connections that change **T1 ↔ T2** — experienced travelers treat **90 min** as the floor.
 
 ## Terminals & Navigation
-- T1 and T2 are 2 km apart; free shuttle takes 12–15 min including wait.
-- Walking between terminals is not practical—always use the shuttle.
-- Most international arrivals are processed in T1; T2 handles newer long-haul gates.
-- Clear signage in English and Korean; follow color-coded lines for departures vs arrivals.
+- **Distance:** Terminals are **~2 km** apart — walking is not practical.
+- **Shuttle:** Every **5–10 min**; follow color-coded signage (English + Korean).
+- **Recommended buffers:**
+  - Same terminal, airside: **60–75 min**
+  - T1 ↔ T2 transfer: **90 min** floor, **2 h** safer
+  - Separate tickets: **3+ h**
 
-## Lounges, Food & Amenities
-- Best lounge: Korean Air First/Business in T2—showers, quality Korean food, quiet zones.
-- Solid paid option: The Lounge in T1 (near gate 40) for non-Korean Air passengers.
-- Standout food: Korean BBQ and bibimbap counters on T2 departures (4F); avoid overpriced coffee chains.
-- Quietest spot: T2 rest zone on the 4th floor near the transit hotel.
+## Lounges Food & Amenities
+- **Korean Air lounges (T2):** Best for eligible passengers — quality Korean food, showers near gate **250** area.
+- **Asiana lounges (T2):** Check current locations post-T1 move — access rules unchanged for eligible cabins/status.
+- **Paid option:** **Matina / KAL** lounges in T1 for non-carrier passengers.
+- **Food:** Korean BBQ and bibimbap counters in **T2 departures (4F)** beat generic coffee chains.
 
 ## Ground Transport & Parking
-- AREX express is fastest and cheapest to Seoul Station (₩9,500, 43 min); runs every 15–30 min.
-- KAL limousine buses are comfortable for specific hotel drops but slower in traffic.
-- Taxis to central Seoul cost ₩60,000–80,000; use official stand to avoid overcharges.
-- Short-term parking is expensive; long-term lots are cheaper but require shuttle.
+- **AREX express:** Fastest to **Seoul Station** (**₩9,500**, **~43 min**); runs every **15–30 min**.
+- **Limousine buses:** Hotel-specific but traffic-sensitive.
+- **Taxi:** **₩60,000–80,000** to central Seoul — official stand only.
+- **Parking:** Short-stay expensive; long-term lots require shuttle.
 
 ## Official Sources
-- https://www.airport.kr/ap/en/index.do
-- https://www.arex.co.kr/en/
+- [Incheon International Airport](https://www.airport.kr/ap/en/index.do)
+- [Airlines by Terminal](https://www.airport.kr/ap/en/svc/airlinesTerInfoList.do)
+- [AREX Airport Railroad](https://www.arex.co.kr/en/)
+- Re-check terminal assignment before every trip — **Asiana's T2 move (Jan 2026)** broke the old alliance-based shortcuts.

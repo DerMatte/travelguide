@@ -3,7 +3,7 @@ iata: "CAN"
 name: "Guangzhou Baiyun International Airport"
 city: "Guangzhou"
 country: "China"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.baiyunairport.com/"
   - "https://www.gbiac.net/en/"

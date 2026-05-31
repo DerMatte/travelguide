@@ -3,7 +3,7 @@ iata: "DFW"
 name: "Dallas/Fort Worth International Airport"
 city: "Dallas"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.dfwairport.com/"
   - "https://www.tsa.gov/airports/dallas-fort-worth-international-airport"
@@ -28,8 +28,8 @@ quickFacts:
 
 ## Security & Screening Tips
 - PreCheck lanes at every terminal; CLEAR is fastest at A and D during morning peaks.
-- Avoid security at Terminal A between 7–9 a.m. and 4–6 p.m.; use Terminal C instead.
-- Global Entry kiosks sit in Terminal D arrivals; use them even on domestic returns if connecting internationally.
+- Avoid security at Terminal A between 7–9 a.m. and 4–6 p.m.; use Terminal C or D instead when practical.
+- **International arrivals:** Clear CBP, collect bags, recheck, and **re-clear TSA once** — after that, **Skylink** connects all terminals airside without further screening (except limited One Stop Security pilots on select routes).
 - Liquids in quart-size bags are still enforced; no water refill stations before security in A or E.
 
 ## Best Airport Tricks & Hacks
@@ -44,7 +44,7 @@ quickFacts:
 ## Terminals & Navigation
 - A–B–C–D–E run in a horseshoe; Skylink stops at each in sequence.
 - Walking between adjacent terminals takes 10–15 minutes; use Skylink for anything farther.
-- International arrivals in D require re-clearing security for connections to A, B, or C.
+- International arrivals in **Terminal D** (and other int'l gates) require **CBP + baggage recheck + one TSA screening** before Skylink to **A/B/C/E** — not a continuous airside walk from the arrival gate.
 - Common mistake: exiting security to catch the inter-terminal shuttle when Skylink is faster and free.
 
 ## Lounges, Food & Amenities

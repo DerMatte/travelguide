@@ -3,63 +3,78 @@ iata: "ORD"
 name: "Chicago O'Hare International Airport"
 city: "Chicago"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-31"
 sources:
+  - "https://www.flychicago.com/ohare/tofrom/connecting"
   - "https://www.flychicago.com/ohare/home.page"
   - "https://www.tsa.gov/airports/chicago-ohare-international-airport"
 quickFacts:
-  - "Four terminals: 1, 2, 3, and 5"
-  - "United Airlines primary hub; American Airlines secondary"
-  - "Serves ~80 million passengers yearly"
-  - "Airport Transit System connects all terminals in ~10 minutes"
-  - "TSA PreCheck and CLEAR available at all terminals"
+  - "Four terminals: 1, 2, 3, and 5 (Terminal 4 closed decades ago)"
+  - "Terminals 1–3 connected airside on foot; Terminal 5 is separate"
+  - "Terminal Transfer Bus (airside) links T1/T3 ↔ T5 during limited hours"
+  - "Airport Transit System (ATS) is landside — requires re-clearing TSA"
   - "Terminal 5 handles nearly all international arrivals"
+  - "TSA PreCheck and CLEAR at all terminals"
 ---
 
 # ORD Airport Guide
 
-> Fast, no-nonsense reference for moving through O’Hare with minimal wasted time.
+> Fast, no-nonsense reference for moving through O'Hare with minimal wasted time.
 
 ## Quick Facts
-- United dominates Terminals 1 and 2; American uses Terminal 3; Terminal 5 is international.
-- The free Airport Transit System (ATS) runs 24/7 between terminals and the rental car center.
-- Security lines in Terminal 1 are longest before 8 a.m. and 4–7 p.m.
-- Terminal 5 customs can exceed 90 minutes on heavy European arrival banks.
-- No airside connection exists between Terminal 5 and the other terminals.
+- **Terminals 1–3 (domestic cluster):** **T1** (United), **T2** (United Express), **T3** (American and others) — connected **airside** via departures-level walkways.
+- **Terminal 5 (international):** Physically separate — **not** walkable airside from T1–T3.
+- **Terminal Transfer Bus (TTB):** Airside shuttle between **T1, T3, and T5** — requires a **same-day boarding pass** for the departure terminal; operates **11:30 a.m.–9:30 p.m.** daily ([connecting guide](https://www.flychicago.com/ohare/tofrom/connecting)). Pick-ups: **T1 Gate C18B**, **T3 Gates G17 & K20**, **T5 Gate M13**.
+- **Airport Transit System (ATS):** Free 24/7 train — **landside only**; use when TTB is closed or after international arrivals that require customs/baggage.
+- **International → domestic:** CBP, **baggage claim**, recheck, **new TSA** — plan **2.5–3+ h** minimum.
+- **No airside connection T5 ↔ T1–T3** except via the **TTB** during its operating hours (and only when you remain in the secure flow without clearing customs).
 
 ## Security & Screening Tips
-- Enroll in CLEAR + TSA PreCheck; the combined lane at Terminal 1 is usually the fastest.
-- Avoid the main Terminal 3 checkpoint 5–7 p.m.; use the satellite checkpoint near Gate K8 instead.
-- International arrivals in Terminal 5: Global Entry kiosks cut wait times by 60–75 % on most days.
-- Peak congestion hits 6–9 a.m. and 3–8 p.m.; arrive at security no more than 75 minutes before departure if PreCheck.
+- **Terminal change = new TSA** unless you use the **TTB** airside (domestic-to-domestic or eligible int'l connection flows only).
+- **Peak pain windows:** Early morning (**06:00–09:00**) and evening (**16:00–20:00**); add **20–30 min** buffer.
+- **Enroll in CLEAR + TSA PreCheck** — combined lane at **Terminal 1** is often fastest for United passengers.
+- **Terminal 3:** Avoid the main checkpoint **17:00–19:00**; satellite checkpoint near **Gate K8** can be shorter.
+- **Terminal 5 customs:** Can exceed **60–90 min** on heavy European arrival banks — Global Entry helps.
+- **After TTB hours:** Exit security → **ATS** → re-clear TSA at destination terminal.
 
 ## Best Airport Tricks & Hacks
-- Walk the tunnel between Terminals 2 and 3 to bypass the ATS when moving between United and American flights.
-- Use the post-security walkway from Terminal 1 to Terminal 2 (8–10 minutes) instead of riding the ATS during rush hours.
-- Grab the 4 a.m.–6 a.m. window for shortest security lines even on heavy travel days.
-- Download the Fly Chicago app for real-time ATS and security wait times; it updates every 5 minutes.
-- Terminal 5 arrivals: clear customs first, then re-check bags airside before taking the ATS to avoid re-screening.
-- The United Polaris lounge in Terminal 1 accepts day passes after 5 p.m. when under capacity; arrive after 6 p.m. for best odds.
+- **Walk T1 ↔ T2 ↔ T3 airside** when connecting within the domestic cluster — **8–15 min** depending on gates; faster than ATS during peaks.
+- **T1 ↔ T3 via TTB or walk through T2** — the tunnel/walkway between **T2 and T3** bypasses ATS entirely for domestic connections.
+- **T5 connections before 11:30 a.m. or after 9:30 p.m.:** Must use **ATS landside** and **re-clear TSA** — budget extra time.
+- **International arrivals at T5:** You **collect bags** and clear CBP landside — you **cannot** use the TTB until bags are rechecked and you're back airside.
+- **Download the Fly Chicago app** for ATS wait times and security estimates.
+- **4–6 a.m. window:** Shortest security lines even on heavy travel days.
 
 ## Terminals & Navigation
-- Terminal 1 (United): gates B and C; Terminal 2 (United Express): gates E and F.
-- Terminal 3 (American): gates H, K, L; Terminal 5 (all international): gates M.
-- Walking time between Terminal 1 and 3 via the tunnel is 12–15 minutes; ATS ride is 4 minutes plus wait.
-- Common mistake: assuming you can connect airside from Terminal 5—plan 45–60 minutes for the ATS plus security.
+- **Terminal 1 (United):** Gates **B** and **C**; Polaris lounge near **C18**.
+- **Terminal 2 (United Express):** Gates **E** and **F**.
+- **Terminal 3 (American):** Gates **H, K, L**.
+- **Terminal 5 (International):** Gates **M** — all major int'l arrivals.
+- **Transfer times (practical):**
+  - T1 ↔ T3 airside walk: **12–18 min**
+  - T1/T3 ↔ T5 via TTB: **15–25 min** ride + wait (when operating)
+  - T5 ↔ T1/T3 via ATS + TSA: **45–90 min**
+- **Recommended buffers:**
+  - Same terminal or T1–T3 airside: **60–90 min**
+  - T1–T3 ↔ T5 via TTB: **90 min–2 h**
+  - Int'l → domestic via T5: **3 h**
+  - Separate tickets: **4 h**
 
-## Lounges, Food & Amenities
-- United Polaris Lounge (Terminal 1, near gate C18) is the only genuinely quiet paid option with good showers.
-- Garrett Popcorn in Terminal 3 (near gate H4) and Terminal 1 (near B8) is the best quick snack.
-- Tortas Frontera (Terminal 1, B8 and Terminal 3, K4) offers the highest-quality sit-down meal under $20.
-- The yoga room in Terminal 3 (near gate K12) is free, rarely crowded, and open 24/7.
+## Lounges Food & Amenities
+- **United Polaris Lounge (T1, near C18):** Best paid option with showers when eligible.
+- **Garrett Popcorn:** **T1 (B8)** and **T3 (H4)** — reliable quick snack.
+- **Tortas Frontera:** **T1 (B8)** and **T3 (K4)** — best sit-down meal under **$20**.
+- **T5 food:** Most limited of the four terminals — eat in T1/T3 if you have time before a TTB ride.
+- **Yoga room (T3, near K12):** Free, 24/7, rarely crowded.
 
 ## Ground Transport & Parking
-- Blue Line “L” train to downtown is $5 and runs 24/7; 45–55 minutes to the Loop.
-- Terminal 2/3 curb is fastest for rideshares; Terminal 1 often has 10-minute surge pricing.
-- Economy parking ($15/day) is a 5-minute ATS ride; avoid the garage ($40/day) unless you need <2 hours.
-- Leave the rental car center by 6:30 a.m. to beat the worst security rush on weekday mornings.
+- **Blue Line "L":** **$5** to downtown Loop — **45–55 min**; runs **24/7** from the O'Hare station (access via ATS to Multi-Modal Facility area).
+- **Rideshare:** Terminal **2/3** curb often faster than **T1** during peaks.
+- **Economy parking:** ~**$15/day** with ATS link; garage ~**$40/day** for short trips.
+- **Leave rental car center by 06:30** on weekday mornings to beat the worst security rush.
 
 ## Official Sources
-- https://www.flychicago.com/ohare/home.page
-- https://www.tsa.gov/airports/chicago-ohare-international-airport
-- https://www.flychicago.com/ohare/flights/terminals.page
+- [ORD Connecting Traveler Guide](https://www.flychicago.com/ohare/tofrom/connecting)
+- [Fly Chicago — O'Hare](https://www.flychicago.com/ohare/home.page)
+- [TSA — ORD](https://www.tsa.gov/airports/chicago-ohare-international-airport)
+- Re-check **TTB hours** and your **operating terminal** before every trip — T5 connections are where ORD trips go wrong.

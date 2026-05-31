@@ -3,17 +3,18 @@ iata: "LAX"
 name: "Los Angeles International Airport"
 city: "Los Angeles"
 country: "United States"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-05-31"
 sources:
   - "https://www.flylax.com/"
   - "https://www.flylax.com/inter-terminal-connections"
   - "https://www.flylax.com/lax-it"
   - "https://www.flylax.com/flyaway-bus/fares-tickets"
   - "https://www.flylax.com/flyaway"
+  - "https://www.lawa.org/news-releases/2025/LAX%20ANNOUNCES%20TERMINAL%205%20CLOSURE%20TO%20MAKE%20WAY%20FOR%20MAJOR%20TRANSFORMATION"
   - "https://www.tsa.gov/travel/security-screening/whatcanibring"
   - "https://shakeshack.com/locations"
 quickFacts:
-  - "Terminals 1–8 plus Tom Bradley International (Terminal B / TBIT)"
+  - "Terminals 1–4, 6–8 plus Tom Bradley International (Terminal B / TBIT); Terminal 5 closed for rebuild (Oct 2025–~2028)"
   - "All terminals connected airside on foot since 2023 — plan 10–30+ min walks"
   - "Airside walk T1→T8 is ~2 miles — budget 35–45 min for a full end-to-end hike"
   - "Standard rideshare/taxi pickups use LAX-it (free shuttle from arrivals); premium tiers pick up curbside"
@@ -27,7 +28,7 @@ quickFacts:
 > A sprawling horseshoe of nine terminal buildings — fast when you stay airside on one ticket, painful when you misread which concourse your gate is in or queue for the wrong rideshare pickup.
 
 ## Quick Facts
-- **Layout:** Terminals **1–8** plus **Tom Bradley International Terminal (Terminal B / TBIT)** — main TBIT concourse plus **West Gates** satellite linked by an underground tunnel (~**15 min** walk gate-to-gate per airport guides).
+- **Layout:** Terminals **1–4, 6–8** plus **Tom Bradley International Terminal (Terminal B / TBIT)** — main TBIT concourse plus **West Gates** satellite linked by an underground tunnel (~**15 min** walk gate-to-gate per airport guides). **Terminal 5 closed** for demolition/rebuild on **28 Oct 2025**; reopen targeted before the **2028 Olympics** ([LAWA T5 closure](https://www.lawa.org/news-releases/2025/LAX%20ANNOUNCES%20TERMINAL%205%20CLOSURE%20TO%20MAKE%20WAY%20FOR%20MAJOR%20TRANSFORMATION)).
 - **MCT (same ticket, practical floor):**
   - **Same terminal / adjacent airside walk:** **60 min** can work if inbound is on time — still risky at peak.
   - **Cross-terminal airside walk** (e.g. T1 → T4): budget **90 min+**; the full horseshoe is ~**2 miles** post-security per LAWA.
@@ -58,8 +59,8 @@ quickFacts:
 - **Avoid:** Assuming "same airport" means a short walk — **T1 to T7** airside can exceed **30 min** of walking alone.
 
 ## Terminals & Navigation
-- **North cluster (T1–T3 + TBIT):** **T1** (Southwest, JetBlue, Frontier, others), **T2** (LATAM, Virgin Atlantic, Norse, others), **T3** (Delta hub), **TBIT** (most long-haul international). Connected airside via **T1.5**, **T2–T3** walkways, and **T3–TBIT** bridge.
-- **South cluster (T4–T8):** **T4** (American), **T5** (Spirit and others — verify current ops; parts of LAX remain under construction), **T6** (Alaska, Air Canada, Hawaiian), **T7–T8** (United). Connected airside via tunnels and walkways; **TBIT** links via skybridge to **T4**.
+- **North cluster (T1–T3 + TBIT):** **T1** (Southwest, **JetBlue** — moved from T5 Oct 2025, Frontier, others), **T2** (**Spirit** — moved from T5 Oct 2025, LATAM, Virgin Atlantic, Norse, others), **T3** (Delta hub), **TBIT** (most long-haul international). Connected airside via **T1.5**, **T2–T3** walkways, and **T3–TBIT** bridge.
+- **South cluster (T4, T6–T8):** **T4** (American — consolidated from T5 Oct 2025), **T6** (Alaska, Air Canada, Hawaiian), **T7–T8** (United). **Terminal 5 is closed** for rebuild — do not follow old T5 gate assignments. Connected airside via tunnels and walkways; **TBIT** links via skybridge to **T4**.
 - **American Eagle remote gates (52A–52I):** Airside shuttle from T4 gate area — not a simple walk.
 - **Walking times (order-of-magnitude, post-security):**
   - Adjacent terminals: **10–15 min**
@@ -98,4 +99,5 @@ quickFacts:
 - [FlyAway bus fares](https://www.flylax.com/flyaway-bus/fares-tickets)
 - [LAX FlyAway bus](https://www.flylax.com/flyaway)
 - [TSA What Can I Bring?](https://www.tsa.gov/travel/security-screening/whatcanibring)
-- Re-check terminal, gate area (**West Gates** vs main TBIT), and construction notices before every trip — airline terminal assignments shift during LAX's ongoing modernization.
+- [LAWA Terminal 5 closure (Oct 2025)](https://www.lawa.org/news-releases/2025/LAX%20ANNOUNCES%20TERMINAL%205%20CLOSURE%20TO%20MAKE%20WAY%20FOR%20MAJOR%20TRANSFORMATION)
+- Re-check terminal, gate area (**West Gates** vs main TBIT), airline location after **T5 closure**, and construction notices before every trip.

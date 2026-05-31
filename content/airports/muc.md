@@ -51,7 +51,7 @@ quickFacts:
 ## Best Airport Tricks & Hacks
 - **Connection signage first:** After landing, follow **connecting flights** signs immediately — don’t drift into arrivals shopping unless you need to clear immigration.
 - **T2 Satellite trap:** Gates **J/K/L** are **after** central security via the **PTS** shuttle (every **4 min**, ~**1 min** ride, **04:00–24:00**). Landing at **G/H** and departing from **J** can cost **15–25 min** walking + PTS even without security — check **both** gate areas on your pass.
-- **T1↔T2 airside:** Free **shuttle bus** between terminals for connecting passengers (**5–7 min** ride). Still allow **walking + passport** time — this is not a sub-30-minute terminal change in practice.
+- **T1↔T2 airside:** Free **shuttle bus** between terminals for connecting passengers (**5–7 min** ride; every **10 min** 07:00–17:00, every **20 min** at other published hours per airport). Still allow **walking + passport** time — this is not a sub-30-minute terminal change in practice.
 - **MAC is the spine:** Landside, almost everything (S-Bahn, Airbräu, many shops) funnels through **MAC Level 03** — learn it once and navigation gets easier.
 - **Airbräu (landside MAC):** World’s first airport brewery — solid Bavarian food and fresh beer **before** security or on a long layover **without** lounge access. Overrated for a 45-minute connection; excellent for **90+ min** landside.
 - **T1 module discipline:** Your boarding pass module letter matters — wrong module means a **long landside hike** (T1 is ~1.1 km end-to-end). Non-Schengen **B/C** often use **Level 05** passport gallery above security — don’t camp on Level 04.

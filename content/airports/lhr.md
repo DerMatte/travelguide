@@ -3,12 +3,13 @@ iata: "LHR"
 name: "London Heathrow Airport"
 city: "London"
 country: "United Kingdom"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-05-27"
 sources:
   - "https://www.heathrow.com/"
   - "https://www.heathrow.com/airport-guide/security"
   - "https://www.heathrow.com/transport-and-directions"
   - "https://www.britishairways.com/information/airport-information/flight-connections"
+  - "https://www.heathrow.com/connecting-flights"
 quickFacts:
   - "4 active terminals (2, 3, 4, 5); not all are connected airside"
   - "BA hub in Terminal 5; Star Alliance heavy in Terminal 2"
@@ -36,12 +37,12 @@ quickFacts:
 - **Terminal 5** is usually smoother for BA-to-BA connections; **Terminals 2 and 3** can feel slower when multiple long-haul banks depart together.
 
 ## Best Airport Tricks & Hacks
-- **Follow purple “Flight Connections” signs** immediately after landing — they lead to dedicated free shuttle buses (every ~6–10 minutes, step-free).
+- **Follow purple “Flight Connections” signs** immediately after landing — they lead to dedicated free shuttle buses (**every 10 minutes** per Heathrow, step-free).
 - **T5 satellite trap:** Gates B/C are in separate buildings linked by an **airside transit train** from T5A — landing at C and departing from A can eat **20+ minutes** before you even reach connection security.
 - **T2 length:** The walk to T2B satellite gates is long (**15–20 minutes** of walking alone) — don’t linger at duty free if your connection is tight.
 - **Heathrow app** for live security wait times and gates often beats the overhead screens.
 - **Inter-terminal landside:** Heathrow Express and Elizabeth line transfers between terminals are **free** when staying within Heathrow (contactless/Oyster for Tube/Elizabeth as applicable).
-- **Separate-ticket self-transfer:** Treat it like an airport change — immigration, baggage, terminal hop, new check-in. Frequent-flyer forums consistently say **3–4 hours minimum**, not airline MCT marketing.
+- **Separate-ticket self-transfer:** Treat it like an airport change — immigration, baggage, terminal hop, new check-in. Budget **3–4 hours minimum**, not airline MCT marketing.
 - **Long layover:** YOTELAIR sleep pods in T4/T5 can beat overcrowded lounges when you only need a few hours (check current pricing in terminal).
 
 ## Terminals & Navigation
@@ -74,4 +75,5 @@ quickFacts:
 - [Heathrow Security](https://www.heathrow.com/airport-guide/security)
 - [Heathrow Transport](https://www.heathrow.com/transport-and-directions)
 - [BA Flight Connections at LHR](https://www.britishairways.com/information/airport-information/flight-connections)
+- [Heathrow Connecting Flights](https://www.heathrow.com/connecting-flights)
 - Always re-check terminal assignments and construction notices the day before travel.

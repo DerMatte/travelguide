@@ -3,17 +3,17 @@ iata: "DEN"
 name: "Denver International Airport"
 city: "Denver"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-01"
 sources:
   - "https://www.flydenver.com/"
   - "https://www.flydenver.com/security"
+  - "https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den"
 quickFacts:
   - "Hub for United and Frontier Airlines"
   - "Single Jeppesen Terminal with Concourses A, B, C linked by train"
-  - "Largest US airport by land area"
+  - "West and East security checkpoints (Level 6) use CT scanners — liquids/electronics can stay in bags"
   - "Serves 60+ million passengers yearly"
-  - "PreCheck and CLEAR available at all checkpoints"
-  - "Direct flights to Europe and Asia"
+  - "PreCheck and CLEAR available at main checkpoints"
 ---
 
 # DEN Airport Guide
@@ -29,9 +29,9 @@ quickFacts:
 - Long walks are common; moving walkways help but still budget 20–30 min between gates.
 
 ## Security & Screening Tips
-- Use the main terminal checkpoints; avoid the smaller east checkpoint after 8 p.m.
+- Use the **West** or **East** checkpoint on **Level 6** when available — CT lanes are fastest; avoid the smaller **South** checkpoint after **20:00** only if West/East are closed.
 - CLEAR + PreCheck combo is fastest; CLEAR alone still beats standard lines during rushes.
-- Liquids and laptops must come out—DEN does not have the newest CT scanners yet.
+- **West and East security checkpoints (Level 6)** opened **2024–2025** with **CT scanners** — at these lanes, **liquids and laptops can stay in your carry-on** (still subject to TSA liquid limits). Older **South** lanes may still require bins-out screening.
 - Arrive 90 min early for domestic, 2.5 hours for international; add 30 min during snow.
 
 ## Best Airport Tricks & Hacks

@@ -3,16 +3,17 @@ iata: "AMS"
 name: "Amsterdam Airport Schiphol"
 city: "Amsterdam"
 country: "Netherlands"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-01"
 sources:
   - "https://www.schiphol.nl/"
   - "https://www.schiphol.nl/en/security/"
+  - "https://www.schiphol.nl/en/at-schiphol/services/shower-at-schiphol/"
+  - "https://www.ns.nl/en"
 quickFacts:
   - "Single terminal complex with piers A–G"
   - "KLM hub; also serves Delta, easyJet, Transavia"
-  - "Train to Amsterdam Centraal: 15–20 min"
-  - "Security opens 2.5 h before departure for Schengen"
-  - "Free showers and quiet zones available airside"
+  - "NS train to Amsterdam Centraal: ~16 min; from €5.50 (e-ticket; +€1.60 paper-ticket surcharge)"
+  - "Free shower cabins airside at EF filter (bring your own towel/toiletries)"
   - "Busiest 06:00–09:00 and 16:00–19:00"
 ---
 
@@ -23,7 +24,7 @@ quickFacts:
 ## Quick Facts
 - One terminal with piers A–G; all connected airside after security.
 - Dominant airline is KLM; Star Alliance and SkyTeam use piers B, C, D, G.
-- Direct NS train to Amsterdam Centraal every 10 min; €5.80 one-way.
+- Direct **NS** train to **Amsterdam Centraal** every **10 min**; **~16 min** ride; from **€5.50** one-way (e-ticket/app — disposable paper tickets add **€1.60** surcharge).
 - No TSA PreCheck equivalent; EU citizens can use automated gates when available.
 - Free Wi-Fi is reliable; power outlets plentiful in piers B and D.
 - Schiphol is compact—most gate walks are under 12 min once airside.
@@ -37,7 +38,7 @@ quickFacts:
 ## Best Airport Tricks & Hacks
 - Check in online, then drop bags at the far-left “Bag Drop Only” counters in Departure Hall 3 to skip the main queues.
 - After security, take the escalator down to the quiet zone between piers E and F for power outlets and fewer people.
-- Free showers are in the basement level near the meditation room—bring your own towel or buy one at the HEMA.
+- **Free showers** in the **EF filter** (accessible from **Lounge 2** or **Holland Boulevard**) — **24/7**, but **no towels or toiletries** provided; paid showers at **Mercure Hotel** in Lounge 3 (**€22.50** with amenities).
 - Buy an NS train ticket from the machines on the arrivals level before you clear customs to avoid platform queues.
 - If you have a long layover, exit airside to the landside library (free, open 24 h) then re-enter through a less crowded security lane.
 - Use the “Schiphol Valet” parking only if your flight is before 07:00; otherwise the P3 garage is faster and cheaper.

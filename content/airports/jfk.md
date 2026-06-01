@@ -3,7 +3,7 @@ iata: "JFK"
 name: "John F. Kennedy International Airport"
 city: "New York"
 country: "United States"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-01"
 sources:
   - "https://www.jfkairport.com/"
   - "https://www.jfkairport.com/flights/connections-guide"
@@ -14,7 +14,7 @@ sources:
   - "https://www.tsa.gov/travel/security-screening/whatcanibring"
   - "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk/terminal-6.html"
 quickFacts:
-  - "Five active terminals: 1, 4, 5, 7, 8 (2 and 3 demolished; new T6 opening in phases from 2026)"
+  - "Five active terminals: 1, 4, 5, 7, 8 (2 and 3 demolished; new T6 first gates opened early 2026)"
   - "No airside connections — every terminal change requires AirTrain + new TSA screening"
   - "AirTrain to Jamaica/Howard Beach: $8.75 one-way (free under age 5); free between terminals"
   - "Major $19B rebuild underway — verify terminal with your airline within 24 h of departure"
@@ -27,7 +27,7 @@ quickFacts:
 > New York’s global gateway — manageable on one ticket if you respect terminal hops and rebuild-related delays, unforgiving on separate tickets or tight international-to-domestic connections.
 
 ## Quick Facts
-- **Active terminals (May 2026):** **1** (many international carriers), **4** (Delta hub + largest int'l mix), **5** (JetBlue), **7** (transitional — confirm with airline), **8** (American/oneworld hub). **Terminal 2** and **3** are demolished. **New Terminal 6** is opening in **phases from spring 2026** on the former T6/T7 site; **New Terminal One (NTO)** also begins phased opening mid-2026 — assignments will shift ([JFK airlines list](https://www.jfkairport.com/flights/airlines), [Terminal 6 timeline](https://www.portauthoritybuilds.com/redevelopment/us/en/jfk/planned-projects/terminal-6.html)).
+- **Active terminals (Jun 2026):** **1** (many international carriers), **4** (Delta hub + largest int'l mix), **5** (JetBlue), **6** (first gates open — **Lufthansa, Air Canada, JetBlue**, and others migrating from **T7**), **7** (transitional — confirm with airline), **8** (American/oneworld hub). **Terminal 2** and **3** are demolished. **New Terminal One (NTO)** also begins phased opening mid-2026 — assignments will shift ([JFK airlines list](https://www.jfkairport.com/flights/airlines), [Terminal 6 timeline](https://www.portauthoritybuilds.com/redevelopment/us/en/jfk/planned-projects/terminal-6.html)).
 - **MCT (practical, not airline marketing):**
   - **Same terminal, domestic → domestic:** **60–90 min** can work — still tight if inbound is late.
   - **Terminal change on one ticket:** AirTrain leg is **under 10 min** — but add **exit arrivals, walk to AirTrain, ride, re-check-in if needed, TSA** → budget **90 min–2 h**.
@@ -63,7 +63,7 @@ quickFacts:
 - **Terminal 5:** **JetBlue** exclusively — int'l arrivals **05:00–22:30** at T5; some late int'l arrivals may use **T4** (verify on ticket).
 - **Terminal 7:** **Transitional** — some carriers still here during rebuild; confirm before every trip.
 - **Terminal 8:** **American Airlines** hub — **British Airways, Qatar, Iberia, Finnair** (oneworld) also operate here.
-- **Terminal 6 (opening 2026):** New facility on former T6/T7 site — first gates expected **2026**, full build by **2028**; will connect to **T5**.
+- **Terminal 6 (opened early 2026):** New facility on former T6/T7 site — connects to **T5**; airlines still migrating from **T7** in phases through **2028**.
 - **No airside shortcuts:** JFK terminals are **not** connected airside. Even T5↔T7 look close on a map — you still ride the **AirTrain** and pass through **TSA again**.
 - **Transfer times (practical):**
   - AirTrain between adjacent terminals: **~5–10 min** ride + **5–10 min** walking/waiting

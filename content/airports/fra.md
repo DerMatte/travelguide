@@ -3,7 +3,7 @@ iata: "FRA"
 name: "Frankfurt Airport"
 city: "Frankfurt"
 country: "Germany"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-01"
 sources:
   - "https://www.frankfurt-airport.com/"
   - "https://www.frankfurt-airport.com/en/flights/check-in-security.html"

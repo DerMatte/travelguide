@@ -3,7 +3,7 @@ iata: "ORD"
 name: "Chicago O'Hare International Airport"
 city: "Chicago"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-01"
 sources:
   - "https://www.flychicago.com/ohare/home.page"
   - "https://www.tsa.gov/airports/chicago-ohare-international-airport"
@@ -38,7 +38,7 @@ quickFacts:
 - Use the post-security walkway from Terminal 1 to Terminal 2 (8–10 minutes) instead of riding the ATS during rush hours.
 - Grab the 4 a.m.–6 a.m. window for shortest security lines even on heavy travel days.
 - Download the Fly Chicago app for real-time ATS and security wait times; it updates every 5 minutes.
-- Terminal 5 arrivals: clear customs first, then re-check bags airside before taking the ATS to avoid re-screening.
+- Terminal 5 arrivals: clear customs and collect bags on the **landside** arrivals level, then take the **ATS** to your departure terminal and **re-clear TSA** there — there is no airside baggage recheck at ORD.
 - The United Polaris lounge in Terminal 1 accepts day passes after 5 p.m. when under capacity; arrive after 6 p.m. for best odds.
 
 ## Terminals & Navigation

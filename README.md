@@ -81,6 +81,23 @@ Current disruption data is realistic mock data. A production version can replace
 pnpm dev
 pnpm build
 pnpm lint
+pnpm maintain:airports --dry-run
+```
+
+## AI Airport Maintenance
+
+`pnpm maintain:airports` uses Grok 4.3 through Vercel AI Gateway and Gateway web search to:
+
+- find missing high-traffic airports from `lib/major-airports.ts`
+- generate new Markdown pages in `content/airports/`
+- refresh stale airport guides with current official/web-sourced tips and tricks
+
+Useful commands:
+
+```bash
+pnpm maintain:airports --dry-run
+AI_GATEWAY_API_KEY=... pnpm maintain:airports --generate-limit 3 --review-limit 5
+AI_GATEWAY_API_KEY=... pnpm maintain:airports LHR
 ```
 
 ## Future Roadmap

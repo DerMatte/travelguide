@@ -9,8 +9,8 @@
  * IMPORTANT: Always review and fact-check the output before committing.
  */
 
-import { streamText } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { generateText, stepCountIs } from "ai";
+import { gateway } from "@ai-sdk/gateway";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -41,6 +41,27 @@ sources:
   - "https://relevant-security-or-transport-authority.example"
 quickFacts:
   - "4-6 short bullet facts as YAML strings"
+bentoTips:
+  - category: "timing"
+    label: "Timing"
+    title: "Short actionable title"
+    summary: "One-sentence tip for the card UI"
+    detail: "Specific extra context for experienced travelers"
+  - category: "terminal"
+    label: "Terminal"
+    title: "Short actionable title"
+    summary: "One-sentence tip for the card UI"
+    detail: "Specific extra context for experienced travelers"
+  - category: "food"
+    label: "Food & water"
+    title: "Short actionable title"
+    summary: "One-sentence tip for the card UI"
+    detail: "Specific extra context for experienced travelers"
+  - category: "status"
+    label: "Live checks"
+    title: "Short actionable title"
+    summary: "One-sentence tip for the card UI"
+    detail: "Specific extra context for experienced travelers"
 ---
 
 Then continue with the page body using this exact heading structure:
@@ -71,7 +92,9 @@ Then continue with the page body using this exact heading structure:
 - List the key official links travelers should bookmark.
 
 Tone: Direct, slightly opinionated, zero fluff. Prioritize traveler time-saving and stress reduction.
+Use current online data via the available web search tool.
 Use real official URLs in frontmatter sources whenever possible.
+Do not invent prices, lounge access rules, construction impacts, or security rules. Verify them or write "check before travel".
 
 IATA: ${normalizedIata}
 ${extraInstructions ? `Additional focus: ${extraInstructions}` : ""}
@@ -93,17 +116,20 @@ export async function generateAirportPage(iata: string, extraInstructions = "") 
   const normalizedIata = iata.toUpperCase();
   const prompt = buildAirportGenerationPrompt(normalizedIata, extraInstructions);
 
-  const gateway = createGateway({
-    apiKey: process.env.AI_GATEWAY_API_KEY,
-  });
-
-  const result = streamText({
+  const result = await generateText({
     model: gateway("xai/grok-4.3"),
+    tools: {
+      perplexity_search: gateway.tools.perplexitySearch({
+        maxResults: 8,
+        searchLanguageFilter: ["en"],
+      }),
+    },
+    stopWhen: stepCountIs(4),
     prompt,
     temperature: 0.3,
   });
 
-  const text = await result.text;
+  const text = result.text;
   const filename = `${normalizedIata.toLowerCase()}.md`;
   const filepath = path.join(CONTENT_DIR, filename);
 

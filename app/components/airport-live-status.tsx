@@ -1,6 +1,5 @@
 import { AlertTriangle, Clock3, ShieldCheck } from "lucide-react";
 import type { AirportLiveData, AirportDisruption, SecurityCheckpoint } from "@/lib/airport-live-data";
-import { getSecurityLaneLabel } from "@/lib/airport-live-data";
 
 interface AirportLiveStatusProps {
   data: AirportLiveData;
@@ -49,13 +48,24 @@ function statusBadgeLabel(status: AirportLiveData["disruptions"]["status"]): str
   }
 }
 
+function securityLaneLabel(laneType: SecurityCheckpoint["laneType"]): string {
+  switch (laneType) {
+    case "precheck":
+      return "TSA PreCheck";
+    case "standard":
+      return "General screening";
+    default:
+      return "Security lane";
+  }
+}
+
 function CheckpointRow({ checkpoint }: { checkpoint: SecurityCheckpoint }) {
   return (
     <div className="flex items-start justify-between gap-4 border-t border-zinc-200 pt-3 first:border-t-0 first:pt-0 dark:border-zinc-800">
       <div className="min-w-0">
         <div className="font-medium text-sm">{checkpoint.name}</div>
         <div className="text-xs text-zinc-500 dark:text-zinc-400">
-          {getSecurityLaneLabel(checkpoint.laneType)}
+          {securityLaneLabel(checkpoint.laneType)}
           {checkpoint.terminal ? ` • ${checkpoint.terminal}` : ""}
         </div>
       </div>

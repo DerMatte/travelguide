@@ -15,7 +15,7 @@ import {
   Utensils,
   Wifi,
 } from "lucide-react";
-import { DisruptionStatusPanel } from "@/app/components/disruption-status";
+import { AirportLiveStatusLoader } from "@/app/components/airport-live-status-loader";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -294,17 +294,11 @@ export function AirportDetailTabs({ airport }: AirportDetailTabsProps) {
               Current Disruptions
             </CardTitle>
             <p className="text-sm text-muted-foreground">
-              Flighty-style mock signals for delays, cancellation pressure, and active alerts.
+              Live operational signals from Flighty or FAA, plus checkpoint waits where airports publish them.
             </p>
           </CardHeader>
           <CardContent>
-            {/*
-              MVP uses realistic mock disruption data. Later this can be replaced
-              with a server-side ingestion job that scrapes https://flighty.com/airports
-              via Cheerio on a Vercel Cron schedule, or with a licensed third-party
-              aviation operations API exposed through a Next.js route handler.
-            */}
-            <DisruptionStatusPanel disruption={airport.disruption} />
+            <AirportLiveStatusLoader iata={airport.iata} />
           </CardContent>
         </Card>
       </TabsContent>

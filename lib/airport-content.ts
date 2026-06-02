@@ -4,6 +4,14 @@ import matter from "gray-matter";
 
 const CONTENT_DIR = path.join(process.cwd(), "content/airports");
 
+export interface AirportBentoTip {
+  category?: "timing" | "terminal" | "food" | "status";
+  label: string;
+  title: string;
+  summary: string;
+  detail?: string;
+}
+
 export interface AirportFrontmatter {
   iata: string;
   name: string;
@@ -12,6 +20,7 @@ export interface AirportFrontmatter {
   lastUpdated: string;
   sources?: string[];
   quickFacts?: string[];
+  bentoTips?: AirportBentoTip[];
 }
 
 export interface AirportContent {

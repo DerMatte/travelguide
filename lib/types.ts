@@ -27,6 +27,8 @@ export type TipCategory =
   | "family"
   | "lounge";
 
+export type ImportantTipCategory = "timing" | "terminal" | "food" | "status";
+
 export type AirportSort = "highest-score" | "most-reviewed" | "least-disruptions";
 
 export interface Amenity {
@@ -46,6 +48,15 @@ export interface Tip {
   details: string;
   pro?: string;
   con?: string;
+}
+
+export interface ImportantTip {
+  id: string;
+  category: ImportantTipCategory;
+  label: string;
+  title: string;
+  summary: string;
+  detail?: string;
 }
 
 export interface Review {
@@ -119,6 +130,7 @@ export interface Airport {
   bestFor: string[];
   watchOutFor: string[];
   amenities: Amenity[];
+  importantTips?: ImportantTip[];
   tips: Tip[];
   transport: TransportOption[];
   disruption: Disruption;

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, MapPin, Plane, ShieldCheck, Star } from "lucide-react";
 import { AirportDetailTabs } from "@/app/components/airport-detail-tabs";
+import { AirportTipBento } from "@/app/components/airport-tip-bento";
 import { DisruptionBadge } from "@/app/components/disruption-status";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -130,6 +131,10 @@ export default async function AirportPage({ params }: AirportPageProps) {
               </div>
             </CardContent>
           </Card>
+        </section>
+
+        <section className="mt-10">
+          <AirportTipBento airport={airport} />
         </section>
 
         <section className="mt-10">

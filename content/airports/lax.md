@@ -20,6 +20,27 @@ quickFacts:
   - "FlyAway buses serve Union Station and Van Nuys only: $12.75 one-way (no cash)"
   - "In-N-Out is landside (9149 S Sepulveda); Shake Shack is airside in Terminal 3 near Gate 34"
   - "TSA PreCheck at T1, T4, T6, T7, and TBIT South; CLEAR at most major terminals"
+bentoTips:
+  - category: "timing"
+    label: "Timing"
+    title: "Pad peak security and curb time"
+    summary: "Arrive 20-30 minutes earlier for morning and evening banks."
+    detail: "Bag drop, traffic, and TSA queues can stack up at once, especially before Pacific departures."
+  - category: "terminal"
+    label: "Terminal zones"
+    title: "Check whether you are in TBIT or West Gates"
+    summary: "The 200s gates add a long underground walk from the main hall."
+    detail: "TBIT has the strongest lounge zone, but West Gates can be 15 minutes beyond it."
+  - category: "food"
+    label: "Food & water"
+    title: "Use T3/TBIT for food; refill water airside"
+    summary: "Shake Shack is airside in T3, while In-N-Out is landside only."
+    detail: "Do not exit security for In-N-Out unless you have a long landside layover and time to re-clear TSA."
+  - category: "status"
+    label: "Live checks"
+    title: "Re-check weather and construction before leaving"
+    summary: "Marine layer delays and detours can change the best plan fast."
+    detail: "Confirm your gate, checkpoint, and LAX-it route with official airport and airline updates."
 ---
 
 # LAX Airport Guide

@@ -3,7 +3,7 @@ iata: "AMS"
 name: "Amsterdam Airport Schiphol"
 city: "Amsterdam"
 country: "Netherlands"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-03"
 sources:
   - "https://www.schiphol.nl/"
   - "https://www.schiphol.nl/en/security/"

@@ -3,7 +3,7 @@ iata: "DFW"
 name: "Dallas/Fort Worth International Airport"
 city: "Dallas"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-03"
 sources:
   - "https://www.dfwairport.com/"
   - "https://www.tsa.gov/airports/dallas-fort-worth-international-airport"
@@ -65,7 +65,7 @@ bentoTips:
 ## Terminals & Navigation
 - A–B–C–D–E run in a horseshoe; Skylink stops at each in sequence.
 - Walking between adjacent terminals takes 10–15 minutes; use Skylink for anything farther.
-- International arrivals in D require re-clearing security for connections to A, B, or C.
+- **International arrivals** (non-precleared) require **CBP** and **baggage recheck** before connections to other terminals — then **new TSA** at the departure terminal.
 - Common mistake: exiting security to catch the inter-terminal shuttle when Skylink is faster and free.
 
 ## Lounges, Food & Amenities

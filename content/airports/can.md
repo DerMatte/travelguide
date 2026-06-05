@@ -3,7 +3,7 @@ iata: "CAN"
 name: "Guangzhou Baiyun International Airport"
 city: "Guangzhou"
 country: "China"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.baiyunairport.com/"
   - "https://www.gbiac.net/en/"
@@ -68,7 +68,7 @@ bentoTips:
 - Walking time between farthest gates inside T2 exceeds 15 minutes; use moving walkways.
 - Common mistake: assuming airside transfer between terminals exists—none does.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - T2 China Southern Lounge (near gate 48) offers decent hot food and showers; access via membership or paid day pass.
 - Best quiet spot: T2 observation deck on level 4 near gate 55.
 - Reliable food: Din Tai Fung (T2) and Tim Ho Wan (T1) for consistent quality; avoid generic noodle stands.

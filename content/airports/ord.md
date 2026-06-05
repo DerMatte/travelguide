@@ -3,9 +3,10 @@ iata: "ORD"
 name: "Chicago O'Hare International Airport"
 city: "Chicago"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.flychicago.com/ohare/home.page"
+  - "https://www.flychicago.com/ohare/tofrom/connecting"
   - "https://www.tsa.gov/airports/chicago-ohare-international-airport"
 quickFacts:
   - "Four terminals: 1, 2, 3, and 5"
@@ -59,7 +60,7 @@ bentoTips:
 - Use the post-security walkway from Terminal 1 to Terminal 2 (8–10 minutes) instead of riding the ATS during rush hours.
 - Grab the 4 a.m.–6 a.m. window for shortest security lines even on heavy travel days.
 - Download the Fly Chicago app for real-time ATS and security wait times; it updates every 5 minutes.
-- Terminal 5 arrivals: clear customs first, then re-check bags airside before taking the ATS to avoid re-screening.
+- **T5 international arrivals:** clear CBP, claim bags, then **re-check at the counters just outside customs** (before the public arrivals hall) — still landside, but faster than hauling bags to T1/T3 ticketing. Then ATS + TSA at your connecting terminal.
 - The United Polaris lounge in Terminal 1 accepts day passes after 5 p.m. when under capacity; arrive after 6 p.m. for best odds.
 
 ## Terminals & Navigation
@@ -68,7 +69,7 @@ bentoTips:
 - Walking time between Terminal 1 and 3 via the tunnel is 12–15 minutes; ATS ride is 4 minutes plus wait.
 - Common mistake: assuming you can connect airside from Terminal 5—plan 45–60 minutes for the ATS plus security.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - United Polaris Lounge (Terminal 1, near gate C18) is the only genuinely quiet paid option with good showers.
 - Garrett Popcorn in Terminal 3 (near gate H4) and Terminal 1 (near B8) is the best quick snack.
 - Tortas Frontera (Terminal 1, B8 and Terminal 3, K4) offers the highest-quality sit-down meal under $20.

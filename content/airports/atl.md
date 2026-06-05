@@ -3,7 +3,7 @@ iata: "ATL"
 name: "Hartsfield-Jackson Atlanta International Airport"
 city: "Atlanta"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.atl.com/"
   - "https://www.tsa.gov/airports/hartsfield-jackson-atlanta-international-airport"
@@ -72,7 +72,7 @@ bentoTips:
 - Walking between Domestic and International terminals takes 15–20 minutes via the pedestrian bridge.
 - Common mistake: exiting security to change terminals—always stay airside via the train.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Delta Sky Club in Concourses A, B, D, E, and F; the F club is largest and least crowded midday.
 - The Club at ATL in the International Terminal offers day passes and solid views.
 - Standout food: One Flew South (Concourse E) for quality sit-down, Paschal’s (Domestic) for quick Southern.

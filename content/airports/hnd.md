@@ -3,7 +3,7 @@ iata: "HND"
 name: "Tokyo International Airport (Haneda)"
 city: "Tokyo"
 country: "Japan"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.tokyo-airport-bldg.co.jp/en/"
   - "https://www.haneda-airport.jp/en/"
@@ -69,7 +69,7 @@ bentoTips:
 - International arrivals must clear immigration then take shuttle or train to domestic if needed.
 - Common mistake: assuming all international flights use Terminal 3—double-check boarding pass.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - ANA and JAL lounges in Terminals 1 and 2 offer solid food and showers for eligible passengers.
 - Terminal 3 has the better international food options: ramen at Shinshu Shosuke and sushi at Edomae Sushi.
 - Quietest seating is on the upper level of Terminal 3 near gates 140-150.

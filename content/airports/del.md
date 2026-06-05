@@ -3,13 +3,14 @@ iata: "DEL"
 name: "Indira Gandhi International Airport"
 city: "Delhi"
 country: "India"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.newdelhiairport.in/"
   - "https://www.newdelhiairport.in/terminals"
+  - "https://www.airindia.com/in/en/vistara-air-india-merger-faqs.html"
 quickFacts:
-  - "Terminals: T1 (domestic LCCs), T3 (international + full-service domestic)"
-  - "Hub for IndiGo, Air India, Vistara; 70M+ passengers/year"
+  - "Terminals: T1 (domestic LCCs), T2 (some Air India domestic), T3 (international + most full-service domestic)"
+  - "Hub for IndiGo and Air India (Vistara merged into Air India Nov 2024); 70M+ passengers/year"
   - "T1 and T3 are 4 km apart; free shuttle runs every 10-15 min"
   - "No TSA PreCheck equivalent; paid fast-track available at T3"
   - "Delhi Metro reaches city center in 25-40 min for ₹60"
@@ -42,7 +43,7 @@ bentoTips:
 > One-page playbook to move through DEL fast, skip the worst lines, and use the actually good options.
 
 ## Quick Facts
-- T1 serves IndiGo, Akasa, SpiceJet domestic; T3 handles all international plus Air India/Vistara domestic.
+- T1 serves IndiGo, Akasa, SpiceJet domestic; T3 handles all international plus most Air India domestic; some Air India domestic uses **T2** — check your boarding pass (former Vistara routes now operate as **Air India AI 2XXX** since Nov 2024).
 - Peak chaos hits 05:00-09:00 and 18:00-23:00; arrive 3 h early for international, 2.5 h for domestic.
 - Free airside shuttle between T1 and T3; allow 20-25 min including wait.
 - Only T3 has reliable paid fast-track security (₹1,200-1,800).
@@ -68,7 +69,7 @@ bentoTips:
 - T3 is modern and well-signed; T1 is older and more chaotic—factor in extra walking time.
 - Common mistake: assuming you can transfer airside between terminals without exiting security.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Best lounge: Plaza Premium T3 (airside, near gate 33) for showers, decent food, and quiet zones.
 - Solid food: Haldiram’s and Sagar Ratna in T3 departures; avoid the overpriced international chains.
 - Quietest spot in T3: the seating area past gate 50 near the end of the pier.

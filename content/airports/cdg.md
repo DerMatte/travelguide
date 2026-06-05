@@ -3,10 +3,11 @@ iata: "CDG"
 name: "Paris Charles de Gaulle Airport"
 city: "Paris"
 country: "France"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.parisaeroport.fr/en"
   - "https://www.parisaeroport.fr/en/passengers/preparing-your-trip/security"
+  - "https://www.iledefrance-mobilites.fr/en/tickets-fares/detail/orly-airport-ticket"
 quickFacts:
   - "Primary hub for Air France and SkyTeam"
   - "Terminals 1, 2A-2G, 3 with complex transfers"
@@ -56,8 +57,8 @@ bentoTips:
 ## Best Airport Tricks & Hacks
 - Download the Paris Aéroport app for real-time gate and security data; works best on airport Wi-Fi.
 - For Terminal 2 connections, take the free N1 or N2 bus instead of walking when moving between 2A/2B and 2E/2F.
-- If you have 90+ minutes between flights, exit security and re-enter via a less crowded terminal (e.g., move from 2E to 2D).
-- RER B tickets bought at airport machines are €11.45; buy return tickets in Paris to skip airport lines.
+- **Do not exit security** for a terminal change on one ticket — use the official **purple Flight Connections** buses or CDGVAL/N1/N2 buses as signed; re-screening at the departure terminal is required either way.
+- **Paris Region ↔ Airports** ticket is **€14** full fare / **€7** reduced (child 4–9) for RER B to/from CDG — load on **Navigo Easy** or the Île-de-France Mobilités app ([IDFM](https://www.iledefrance-mobilites.fr/en/tickets-fares/detail/orly-airport-ticket)).
 - Quietest seating is on the upper level of Terminal 2E Hall L near gates 50–60 after security.
 - Avoid Terminal 3 entirely unless flying low-cost carriers; it has minimal amenities and slow security.
 
@@ -66,7 +67,7 @@ bentoTips:
 - CDGVAL shuttle is fastest for Terminal 1 ↔ 2 transfers (8 minutes).
 - Common mistake: assuming all Terminal 2 sections are walkable—many require buses or trains.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Best paid lounge: Air France Terminal 2E Hall L (paid day pass via Priority Pass or airline status).
 - Solid food options: Ladurée (2E) for pastries, Frenchie To Go (2E) for quick French sandwiches.
 - Quietest non-lounge spot: Terminal 2G after security—small but calm and rarely crowded.

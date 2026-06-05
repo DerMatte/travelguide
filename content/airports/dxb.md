@@ -3,9 +3,10 @@ iata: "DXB"
 name: "Dubai International Airport"
 city: "Dubai"
 country: "United Arab Emirates"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.dubaiairports.ae/"
+  - "https://dubaiairports.ae/experiences/services/details/showers"
   - "https://www.rta.ae/"
 quickFacts:
   - "World's busiest international airport"
@@ -56,7 +57,7 @@ bentoTips:
 ## Best Airport Tricks & Hacks
 - Download the Dubai Airports app for real-time gate and security wait times before you arrive.
 - Walk the moving walkways in T3 to shave 5-7 minutes between distant gates.
-- Use the shower facilities in T3 Concourse B for long layovers; they are free and rarely crowded before 7 AM.
+- **Free showers** in **T3 Concourse B** between gates **B13–B19** ([Dubai Airports](https://dubaiairports.ae/experiences/services/details/showers)) — basic stalls, no towels/toiletries; best before morning banks.
 - Buy a Nol Silver metro card at the airport station for seamless onward travel; it works on buses too.
 - Avoid T2 food courts during 2-5 PM rush; instead, walk to T3 for better options if your connection allows.
 - Charge devices at the quiet power banks near gates B30-B40 in T3 rather than crowded central areas.
@@ -66,7 +67,7 @@ bentoTips:
 - T2 is isolated—budget 25-30 minutes for bus transfers and extra security.
 - Follow yellow signs for Emirates connections; common mistake is exiting airside unnecessarily.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Emirates First Class Lounge in T3 is the standout for showers and quiet zones.
 - Marhaba Lounge offers good value day passes with solid food and fast Wi-Fi.
 - Grab reliable meals at gates B30 area in T3; avoid overpriced T1 options.

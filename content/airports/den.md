@@ -3,10 +3,11 @@ iata: "DEN"
 name: "Denver International Airport"
 city: "Denver"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.flydenver.com/"
   - "https://www.flydenver.com/security"
+  - "https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den"
 quickFacts:
   - "Hub for United and Frontier Airlines"
   - "Single Jeppesen Terminal with Concourses A, B, C linked by train"
@@ -52,7 +53,7 @@ bentoTips:
 ## Security & Screening Tips
 - Use the main terminal checkpoints; avoid the smaller east checkpoint after 8 p.m.
 - CLEAR + PreCheck combo is fastest; CLEAR alone still beats standard lines during rushes.
-- Liquids and laptops must come out—DEN does not have the newest CT scanners yet.
+- **CT scanners** at both **East and West** checkpoints (Level 6) — laptops and compliant liquids can usually stay in bags; follow TSA officer directions ([TSA DEN East checkpoint](https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den)).
 - Arrive 90 min early for domestic, 2.5 hours for international; add 30 min during snow.
 
 ## Best Airport Tricks & Hacks
@@ -70,7 +71,7 @@ bentoTips:
 - Follow signs for “Train to Gates” immediately after security to avoid backtracking.
 - Baggage claim is on Level 5; allow 15 min from train arrival.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - United Club in B is the largest and least crowded after 8 p.m.
 - The DEN Market in the terminal has solid grab-and-go sandwiches and local beer.
 - Great Hall food hall offers better variety than concourse options; eat here before boarding the train.

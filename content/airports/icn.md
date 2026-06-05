@@ -3,13 +3,14 @@ iata: "ICN"
 name: "Incheon International Airport"
 city: "Seoul"
 country: "South Korea"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.airport.kr/ap/en/index.do"
   - "https://www.arex.co.kr/en/"
+  - "https://www.walkerhill.com/capsulehotel/m/en/t1/about/Map.jsp"
 quickFacts:
-  - "Two terminals linked by free shuttle (15 min)"
-  - "Primary hub for Korean Air and Asiana Airlines"
+  - "Two terminals linked by free shuttle (~12–15 min); not walkable"
+  - "Korean Air and SkyTeam use T2; Asiana moved to T2 in Jan 2026"
   - "AREX express train reaches Seoul Station in 43 min"
   - "Strong free Wi-Fi and abundant charging stations"
   - "24-hour transit hotel and capsule options available"
@@ -23,7 +24,7 @@ bentoTips:
     label: "Transfers"
     title: "T1 and T2 are not walkable"
     summary: "Use the free shuttle and budget 12-15 minutes including wait."
-    detail: "Korean Air and SkyTeam use T2, while Star Alliance and many others use T1."
+    detail: "Korean Air, Asiana, and SkyTeam use T2; many other Star Alliance and oneworld carriers use T1."
   - category: "food"
     label: "Food & rest"
     title: "Use T2 for food, showers, and rest"
@@ -42,7 +43,7 @@ bentoTips:
 
 ## Quick Facts
 - Terminals 1 and 2 are separate; shuttle runs every 5–10 min.
-- Korean Air and SkyTeam use Terminal 2; Star Alliance and others use Terminal 1.
+- **Korean Air, Asiana** (moved to T2 Jan 2026), and **SkyTeam** use **Terminal 2**; many other **Star Alliance** and oneworld carriers use **Terminal 1**.
 - Security and immigration are efficient but slow during 06:00–09:00 and 18:00–22:00 peaks.
 - Free Wi-Fi is reliable; power outlets are plentiful at gates.
 - AREX, buses, and taxis all depart from the arrivals level of each terminal.
@@ -55,8 +56,8 @@ bentoTips:
 
 ## Best Airport Tricks & Hacks
 - Download the official airport app for real-time shuttle and gate info before landing.
-- If connecting from T1 to T2, take the free shuttle from arrivals level, not departures.
-- Capsule hotel on the transit side (between T1 and T2) lets you shower and nap without clearing immigration.
+- If connecting from T1 to T2, take the free **inter-terminal shuttle** — allow **12–15 min** including wait.
+- **Transit Hotel** (airside, T1 or T2 **4F**) is for passengers who **cannot** clear Korean immigration. **Darakhyu capsule hotel** is **landside** in each terminal's Transportation Center and requires immigration entry.
 - Buy T-money card at AREX machines for seamless bus/metro rides into Seoul.
 - Korean Air lounge in T2 (near gate 250) offers better food and showers than most paid options.
 - For early flights, sleep in the 24-hour rest zone on the 4th floor of T2 instead of fighting gate seating.
@@ -68,7 +69,7 @@ bentoTips:
 - Most international arrivals are processed in T1; T2 handles newer long-haul gates.
 - Clear signage in English and Korean; follow color-coded lines for departures vs arrivals.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Best lounge: Korean Air First/Business in T2—showers, quality Korean food, quiet zones.
 - Solid paid option: The Lounge in T1 (near gate 40) for non-Korean Air passengers.
 - Standout food: Korean BBQ and bibimbap counters on T2 departures (4F); avoid overpriced coffee chains.

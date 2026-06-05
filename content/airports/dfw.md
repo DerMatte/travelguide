@@ -3,7 +3,7 @@ iata: "DFW"
 name: "Dallas/Fort Worth International Airport"
 city: "Dallas"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.dfwairport.com/"
   - "https://www.tsa.gov/airports/dallas-fort-worth-international-airport"
@@ -68,7 +68,7 @@ bentoTips:
 - International arrivals in D require re-clearing security for connections to A, B, or C.
 - Common mistake: exiting security to catch the inter-terminal shuttle when Skylink is faster and free.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Admirals Club in D (near D21) is the largest and least crowded; day pass available.
 - Best food: 2.0 Taco & Tequila (Terminal D) and The Grove (Terminal C) for quick, solid meals.
 - Quietest non-lounge spot: Terminal E upper mezzanine near E15–E17.

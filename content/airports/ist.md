@@ -3,14 +3,15 @@ iata: "IST"
 name: "Istanbul Airport"
 city: "Istanbul"
 country: "Turkey"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-05"
 sources:
   - "https://www.istanbul-airport.com/"
   - "https://www.dhmi.gov.tr/"
+  - "https://en.wikipedia.org/wiki/M11_(Istanbul_Metro)"
 quickFacts:
   - "Single massive terminal complex handling all international and domestic flights"
   - "Primary hub for Turkish Airlines with extensive long-haul network"
-  - "Metro M11 and high-speed train links to city center in 30-45 minutes"
+  - "M11 metro to Gayrettepe ~30 min; operates 06:00–00:00 (not overnight)"
   - "One of the world's largest airport terminals by floor area"
   - "Strict liquid and security screening with frequent peak-hour queues"
 bentoTips:
@@ -70,15 +71,15 @@ bentoTips:
 - Common mistake: following “transfer” signs when already airside—stay on the departures level.
 - Moving walkways run most of the length; use them during tight connections.
 
-## Lounges, Food & Amenities
+## Lounges Food & Amenities
 - Turkish Airlines Lounge in Zone F offers the best showers and hot food selection.
 - Primeclass Lounge near Gate D provides decent value for day passes when the Turkish lounge is full.
 - Avoid most airside restaurants; the only standout is the Turkish kebab counter near Gate C15.
 - Quiet seating areas exist on the upper level of Zone E away from retail traffic.
 
 ## Ground Transport & Parking
-- M11 metro runs every 6–10 minutes to Gayrettepe in 30 minutes for the lowest cost.
-- High-speed train to Istanbul city center takes 45 minutes and avoids traffic.
+- **M11 metro** runs every **8–10 min** to **Gayrettepe** in ~**30 min** — lowest-cost option; operates **06:00–00:00** only ([M11](https://en.wikipedia.org/wiki/M11_(Istanbul_Metro))). Buy/use **Istanbulkart**.
+- **Havaist** and official taxis avoid metro's overnight gap; taxis use metered ranks — avoid unlicensed touts.
 - Havaist buses to Taksim or Kadıköy are reliable and run 24 hours; buy tickets on the app.
 - Official airport taxis use fixed rates—insist on the meter or pre-agreed price to avoid scams.
 - Short-term parking is expensive; long-term lots are cheaper but require a shuttle.

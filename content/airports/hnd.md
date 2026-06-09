@@ -3,7 +3,7 @@ iata: "HND"
 name: "Tokyo International Airport (Haneda)"
 city: "Tokyo"
 country: "Japan"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-09"
 sources:
   - "https://www.tokyo-airport-bldg.co.jp/en/"
   - "https://www.haneda-airport.jp/en/"
@@ -41,7 +41,7 @@ bentoTips:
 > Fast, reliable access to Tokyo with minimal hassle when you know the terminal layout and transport options.
 
 ## Quick Facts
-- Terminal 1 (JAL group), Terminal 2 (ANA group), Terminal 3 (international and Peach, Jetstar, Spring).
+- Terminal 1 (JAL group), Terminal 2 (ANA domestic + **some ANA international**), Terminal 3 (**most international** carriers plus Peach, Jetstar, Spring).
 - Domestic flights rarely need more than 90 minutes; international requires 2 hours minimum.
 - Free shuttle buses run every 5-10 minutes between all terminals.
 - Excellent on-time performance; delays are rare outside typhoon season.
@@ -67,7 +67,7 @@ bentoTips:
 - Terminals 1 and 2 are 5 minutes apart by free shuttle; Terminal 3 is another 5-7 minutes.
 - Walking between 1/2 and 3 is possible but long and poorly signed; take the shuttle.
 - International arrivals must clear immigration then take shuttle or train to domestic if needed.
-- Common mistake: assuming all international flights use Terminal 3—double-check boarding pass.
+- Common mistake: assuming all international flights use Terminal 3 — **ANA** can use **T2 or T3** by route; other airlines are generally **T3 only** ([ANA Haneda terminal info](https://www.ana.co.jp/en/us/travel-information/airport-and-city-info/haneda/terminal-info/)).
 
 ## Lounges, Food & Amenities
 - ANA and JAL lounges in Terminals 1 and 2 offer solid food and showers for eligible passengers.

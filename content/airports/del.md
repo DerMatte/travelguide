@@ -3,14 +3,16 @@ iata: "DEL"
 name: "Indira Gandhi International Airport"
 city: "Delhi"
 country: "India"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-09"
 sources:
   - "https://www.newdelhiairport.in/"
   - "https://www.newdelhiairport.in/terminals"
+  - "https://www.newdelhiairport.in/inter-terminal-connectivity/shuttle-service"
+  - "https://www.airindia.com/in/en/travel-information/delhi-terminal-change.html"
 quickFacts:
-  - "Terminals: T1 (domestic LCCs), T3 (international + full-service domestic)"
-  - "Hub for IndiGo, Air India, Vistara; 70M+ passengers/year"
-  - "T1 and T3 are 4 km apart; free shuttle runs every 10-15 min"
+  - "Terminals: T1 (IndiGo/SpiceJet/Akasa domestic), T2 (Air India domestic AI1xxx), T3 (all international + other domestic)"
+  - "Hub for IndiGo and Air India; Vistara merged into Air India in Nov 2024"
+  - "T1 and T3 are ~4 km apart; free landside shuttle every 20 min (airside buses pending BCAS approval)"
   - "No TSA PreCheck equivalent; paid fast-track available at T3"
   - "Delhi Metro reaches city center in 25-40 min for ₹60"
   - "Strict 100 ml liquid rule enforced; water bottles confiscated"
@@ -42,9 +44,9 @@ bentoTips:
 > One-page playbook to move through DEL fast, skip the worst lines, and use the actually good options.
 
 ## Quick Facts
-- T1 serves IndiGo, Akasa, SpiceJet domestic; T3 handles all international plus Air India/Vistara domestic.
-- Peak chaos hits 05:00-09:00 and 18:00-23:00; arrive 3 h early for international, 2.5 h for domestic.
-- Free airside shuttle between T1 and T3; allow 20-25 min including wait.
+- **T1:** IndiGo, Akasa, SpiceJet domestic. **T2:** Air India domestic flights renumbered **AI1xxx** (from Oct 2025). **T3:** all international plus remaining Air India domestic.
+- Peak chaos hits **05:00–09:00** and **18:00–23:00**; arrive **3 h** early for international, **2.5 h** for domestic.
+- **Landside shuttle** (not airside yet) connects T1/T2/T3 every **20 min**, 24/7 — free with connecting boarding pass; T1↔T3 ride **20–25 min** ([DIAL shuttle](https://www.newdelhiairport.in/inter-terminal-connectivity/shuttle-service)). Dedicated **airside** buses are awaiting BCAS clearance as of mid-2026.
 - Only T3 has reliable paid fast-track security (₹1,200-1,800).
 - Delhi Metro Yellow Line is the fastest, cheapest exit; avoid cabs at rush hour.
 
@@ -57,14 +59,14 @@ bentoTips:
 ## Best Airport Tricks & Hacks
 - Book the 05:30-06:30 metro slot from Terminal 3 to avoid both security and traffic.
 - At T3, enter departures through Gate 3 (far left) for shorter check-in queues on Air India and Star Alliance flights.
-- Use the free shuttle only if you have 45+ min; otherwise take a prepaid taxi between terminals (₹150-200).
+- Use the free **landside** shuttle only if you have **45+ min** (coupon at shuttle desk + ride + re-security); prepaid taxi between terminals (₹150–200) can beat a missed connection.
 - Plaza Premium lounge in T3 (near gate 33) offers the best value day-pass; skip the crowded ones near immigration.
 - Download the “Delhi Airport” app for real-time shuttle and security wait times.
 - For early domestic flights at T1, check in online and head straight to the far-left security lane that opens earlier.
 - Carry a power bank—charging points are scarce in T1 and often broken in T3 domestic gates.
 
 ## Terminals & Navigation
-- T1 and T3 are not walkable; the free shuttle is the only free link.
+- T1, T2, and T3 are not walkable; the free **landside** shuttle is the standard link — you must **re-clear security** at the departure terminal until airside buses launch.
 - T3 is modern and well-signed; T1 is older and more chaotic—factor in extra walking time.
 - Common mistake: assuming you can transfer airside between terminals without exiting security.
 

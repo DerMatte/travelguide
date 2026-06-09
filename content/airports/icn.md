@@ -3,13 +3,15 @@ iata: "ICN"
 name: "Incheon International Airport"
 city: "Seoul"
 country: "South Korea"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-09"
 sources:
   - "https://www.airport.kr/ap/en/index.do"
   - "https://www.arex.co.kr/en/"
+  - "https://m.flyasiana.com/C/CZ/EN/customer/notice/detail?id=CM202511100002527013"
 quickFacts:
-  - "Two terminals linked by free shuttle (15 min)"
-  - "Primary hub for Korean Air and Asiana Airlines"
+  - "Two terminals linked by free shuttle (~12–15 min); not walkable"
+  - "T2: Korean Air, Asiana (from Jan 2026), Jin Air, Air Busan, Air Seoul, SkyTeam"
+  - "T1: most other international carriers (Star Alliance except Asiana group, Oneworld, etc.)"
   - "AREX express train reaches Seoul Station in 43 min"
   - "Strong free Wi-Fi and abundant charging stations"
   - "24-hour transit hotel and capsule options available"
@@ -23,7 +25,7 @@ bentoTips:
     label: "Transfers"
     title: "T1 and T2 are not walkable"
     summary: "Use the free shuttle and budget 12-15 minutes including wait."
-    detail: "Korean Air and SkyTeam use T2, while Star Alliance and many others use T1."
+    detail: "Asiana moved to T2 in Jan 2026 — alliance alone no longer predicts your terminal."
   - category: "food"
     label: "Food & rest"
     title: "Use T2 for food, showers, and rest"
@@ -41,8 +43,9 @@ bentoTips:
 > Fast, no-nonsense reference for clearing ICN with minimal stress and wasted time.
 
 ## Quick Facts
-- Terminals 1 and 2 are separate; shuttle runs every 5–10 min.
-- Korean Air and SkyTeam use Terminal 2; Star Alliance and others use Terminal 1.
+- Terminals 1 and 2 are separate buildings; shuttle runs every **5–10 min**.
+- **Terminal 2 (from Jan 2026):** Korean Air, **Asiana Airlines**, Jin Air, Air Busan, Air Seoul, and **SkyTeam** carriers ([Asiana relocation notice](https://m.flyasiana.com/C/CZ/EN/customer/notice/detail?id=CM202511100002527013)).
+- **Terminal 1:** most other international airlines — United, Singapore Airlines, JAL, Cathay Pacific, Emirates, and other **Star Alliance** carriers **except** the Asiana group.
 - Security and immigration are efficient but slow during 06:00–09:00 and 18:00–22:00 peaks.
 - Free Wi-Fi is reliable; power outlets are plentiful at gates.
 - AREX, buses, and taxis all depart from the arrivals level of each terminal.
@@ -65,7 +68,7 @@ bentoTips:
 ## Terminals & Navigation
 - T1 and T2 are 2 km apart; free shuttle takes 12–15 min including wait.
 - Walking between terminals is not practical—always use the shuttle.
-- Most international arrivals are processed in T1; T2 handles newer long-haul gates.
+- Check your **operating carrier** on the ticket — codeshares can land you in the wrong building. T2 is now the Korean Air/Asiana/SkyTeam hub; T1 remains the default for most other long-haul carriers.
 - Clear signage in English and Korean; follow color-coded lines for departures vs arrivals.
 
 ## Lounges, Food & Amenities

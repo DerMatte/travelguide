@@ -3,10 +3,12 @@ iata: "AMS"
 name: "Amsterdam Airport Schiphol"
 city: "Amsterdam"
 country: "Netherlands"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-09"
 sources:
   - "https://www.schiphol.nl/"
   - "https://www.schiphol.nl/en/security/"
+  - "https://www.schiphol.nl/en/timeslots/"
+  - "https://www.rijdendetreinen.nl/en/tickets/amsterdam-centraal/schiphol-airport"
 quickFacts:
   - "Single terminal complex with piers A–G"
   - "KLM hub; also serves Delta, easyJet, Transavia"
@@ -19,7 +21,7 @@ bentoTips:
     label: "Timing"
     title: "Pad the morning and evening banks"
     summary: "Arrive 2 hours early for Schengen and 2.5 hours for non-Schengen."
-    detail: "Security peaks around 06:30-08:30 and 17:00-19:00, so fast-track rarely saves much unless you also have bags."
+    detail: "Security peaks around 06:30-08:30 and 17:00-19:00 — book a free timeslot 3 days ahead instead of hoping for a walk-up lane."
   - category: "terminal"
     label: "Piers"
     title: "It is one building, but signs matter"
@@ -44,14 +46,14 @@ bentoTips:
 ## Quick Facts
 - One terminal with piers A–G; all connected airside after security.
 - Dominant airline is KLM; Star Alliance and SkyTeam use piers B, C, D, G.
-- Direct NS train to Amsterdam Centraal every 10 min; €5.80 one-way.
+- Direct NS train to Amsterdam Centraal every 10 min; €5.50 one-way (2nd class e-ticket).
 - No TSA PreCheck equivalent; EU citizens can use automated gates when available.
 - Free Wi-Fi is reliable; power outlets plentiful in piers B and D.
 - Schiphol is compact—most gate walks are under 12 min once airside.
 
 ## Security & Screening Tips
 - Arrive 2 h early for Schengen, 2.5 h for non-Schengen; lines peak 06:30–08:30 and 17:00–19:00.
-- Use the “Fast Track” (€35–50) only if you have bags and are flying non-Schengen; otherwise it rarely saves time.
+- Book a **free 15-minute security timeslot** online starting 3 days before departure ([Schiphol timeslots](https://www.schiphol.nl/en/timeslots/)); Privium members get priority lanes year-round.
 - Liquids in 100 ml rule strictly enforced; no exceptions at this airport.
 - Keep passport and boarding pass ready—multiple ID checks before security.
 

@@ -9,13 +9,20 @@
  *   pnpm maintain:airports --dry-run
  */
 
-import { generateText, stepCountIs } from "ai";
+import { generateText } from "ai";
 import { gateway } from "@ai-sdk/gateway";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { AIRPORT_REVIEW_STYLE } from "../lib/airport-review-brief";
 import { getMajorAirportCandidates, type MajorAirportCandidate } from "../lib/major-airports";
-import { airportContentExists, CONTENT_DIR, generateAirportPage } from "./generate-airport";
+import {
+  airportContentExists,
+  CONTENT_DIR,
+  gatewayAirportModelOptions,
+  generateAirportPage,
+  normalizeModelMarkdown,
+  validateAirportMarkdown,
+} from "./generate-airport";
 import { loadLocalEnv } from "./load-env";
 
 loadLocalEnv();
@@ -60,6 +67,12 @@ interface MaintenanceSummary {
   failed: string[];
 }
 
+function parseLimit(value: string | undefined, fallback: number): number {
+  if (value === undefined) return fallback;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isFinite(parsed) ? Math.max(0, parsed) : fallback;
+}
+
 function parseArgs(): MaintenanceOptions {
   const args = process.argv.slice(2);
   const options: MaintenanceOptions = {
@@ -82,13 +95,13 @@ function parseArgs(): MaintenanceOptions {
     } else if (arg === "--review-only") {
       options.reviewOnly = true;
     } else if (arg === "--generate-limit" && next) {
-      options.generateLimit = Math.max(0, Number.parseInt(next, 10) || DEFAULT_GENERATE_LIMIT);
+      options.generateLimit = parseLimit(next, DEFAULT_GENERATE_LIMIT);
       i++;
     } else if (arg === "--review-limit" && next) {
-      options.reviewLimit = Math.max(0, Number.parseInt(next, 10) || DEFAULT_REVIEW_LIMIT);
+      options.reviewLimit = parseLimit(next, DEFAULT_REVIEW_LIMIT);
       i++;
     } else if (arg === "--from-rank" && next) {
-      options.fromRank = Math.max(1, Number.parseInt(next, 10) || 1);
+      options.fromRank = Math.max(1, parseLimit(next, 1) || 1);
       i++;
     } else if (arg === "--iata" && next) {
       options.iata = next.toUpperCase();
@@ -138,30 +151,8 @@ function extractLastUpdated(markdown: string): string {
   return markdown.match(/^lastUpdated:\s*"?([^"\n]+)"?/m)?.[1]?.trim() ?? "0000-00-00";
 }
 
-function normalizeModelMarkdown(raw: string): string {
-  const trimmed = raw.trim();
-  const fenced = trimmed.match(/^```(?:markdown|md)?\s*([\s\S]*?)\s*```$/i);
-  return (fenced?.[1] ?? trimmed).trim() + "\n";
-}
-
 function isNoChangesResponse(text: string): boolean {
   return /^NO_CHANGES\b/i.test(text.trim());
-}
-
-function validateAirportMarkdown(iata: string, markdown: string) {
-  if (!markdown.startsWith("---\n")) {
-    throw new Error(`${iata}: response is missing YAML frontmatter`);
-  }
-
-  if (!new RegExp(`^iata:\\s*"?${iata}"?\\s*$`, "im").test(markdown)) {
-    throw new Error(`${iata}: response frontmatter does not contain the expected IATA code`);
-  }
-
-  for (const headingGroup of REQUIRED_HEADING_GROUPS) {
-    if (!headingGroup.some((heading) => markdown.includes(heading))) {
-      throw new Error(`${iata}: response is missing required heading ${headingGroup[0]}`);
-    }
-  }
 }
 
 function buildGatewayReviewPrompt(iata: string, currentMarkdown: string): string {
@@ -179,7 +170,7 @@ If missing, add exactly four \`bentoTips\` entries with categories \`timing\`, \
 
 ## Review task
 
-1. Use the available web search tool for current official airport, transport authority, alliance, and airline pages.
+1. Use live web search for current official airport, transport authority, alliance, and airline pages.
 2. Add or tighten useful tips and tricks: realistic connection buffers, terminal traps, water/power, lounge gotchas, security peaks, and best transport choices.
 3. Update \`lastUpdated\` to "${today}" only if you make material changes.
 4. Add source URLs to frontmatter when you rely on them.
@@ -194,6 +185,39 @@ Current file:
 
 ${currentMarkdown}
 `.trim();
+}
+
+async function reviewAirportPageWithGateway(iata: string): Promise<"updated" | "unchanged"> {
+  const { filePath, markdown } = await readAirportMarkdown(iata);
+  const result = await generateText({
+    model: gateway("xai/grok-4.3"),
+    ...gatewayAirportModelOptions(),
+    temperature: 0.2,
+    prompt: buildGatewayReviewPrompt(iata, markdown),
+  });
+
+  if (isNoChangesResponse(result.text)) {
+    return "unchanged";
+  }
+
+  const updatedMarkdown = normalizeModelMarkdown(result.text);
+  validateAirportMarkdown(iata, updatedMarkdown);
+  assertReviewHeadings(iata, updatedMarkdown);
+
+  if (updatedMarkdown.trim() === markdown.trim()) {
+    return "unchanged";
+  }
+
+  await fs.writeFile(filePath, updatedMarkdown);
+  return "updated";
+}
+
+function assertReviewHeadings(iata: string, markdown: string) {
+  for (const headingGroup of REQUIRED_HEADING_GROUPS) {
+    if (!headingGroup.some((heading) => markdown.includes(heading))) {
+      throw new Error(`${iata}: response is missing required heading ${headingGroup[0]}`);
+    }
+  }
 }
 
 async function selectMissingAirports(options: MaintenanceOptions): Promise<MajorAirportCandidate[]> {
@@ -263,36 +287,6 @@ async function selectReviewAirports(
   );
 
   return [...generatedPages, ...stalePages].slice(0, options.reviewLimit);
-}
-
-async function reviewAirportPageWithGateway(iata: string): Promise<"updated" | "unchanged"> {
-  const { filePath, markdown } = await readAirportMarkdown(iata);
-  const result = await generateText({
-    model: gateway("xai/grok-4.3"),
-    tools: {
-      perplexity_search: gateway.tools.perplexitySearch({
-        maxResults: 10,
-        // searchLanguageFilter: ["en"],
-      }),
-    },
-    stopWhen: stepCountIs(5),
-    temperature: 0.2,
-    prompt: buildGatewayReviewPrompt(iata, markdown),
-  });
-
-  if (isNoChangesResponse(result.text)) {
-    return "unchanged";
-  }
-
-  const updatedMarkdown = normalizeModelMarkdown(result.text);
-  validateAirportMarkdown(iata, updatedMarkdown);
-
-  if (updatedMarkdown.trim() === markdown.trim()) {
-    return "unchanged";
-  }
-
-  await fs.writeFile(filePath, updatedMarkdown);
-  return "updated";
 }
 
 async function runMaintenance() {

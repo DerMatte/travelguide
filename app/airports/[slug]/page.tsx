@@ -8,9 +8,11 @@ import { DisruptionBadge } from "@/app/components/disruption-status";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import {
-  airportJsonLd,
   getAirportBySlug,
   getAirportSlugs,
+} from "@/lib/airport-catalog";
+import {
+  airportJsonLd,
 } from "@/lib/airport-utils";
 import { getAirportGuideSummaryByIata } from "@/lib/airport-content";
 
@@ -18,15 +20,16 @@ interface AirportPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export function generateStaticParams() {
-  return getAirportSlugs().map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  const slugs = await getAirportSlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: AirportPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const airport = getAirportBySlug(slug);
+  const airport = await getAirportBySlug(slug);
 
   if (!airport) {
     return {
@@ -47,7 +50,7 @@ export async function generateMetadata({
 
 export default async function AirportPage({ params }: AirportPageProps) {
   const { slug } = await params;
-  const airport = getAirportBySlug(slug);
+  const airport = await getAirportBySlug(slug);
 
   if (!airport) {
     notFound();

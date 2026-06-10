@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/site-header";
-import { getAllHonestAirports } from "@/lib/airport-utils";
+import { getAllHonestAirports } from "@/lib/airport-catalog";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,7 +33,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const airports = getAllHonestAirports();
+  const airports = await getAllHonestAirports();
 
   return (
     <html

@@ -1,12 +1,12 @@
 {
-  "name": "TravelGuide — Generate major airport pages",
-  "description": "Weekly cloud agent that generates Markdown guide pages for the world's busiest airports not yet covered. Opens a PR when new pages are created.",
+  "name": "TravelGuide — Grok airport maintenance",
+  "description": "Daily cloud agent that uses Grok through Vercel AI Gateway to generate missing airport pages and refresh stale traveler tips.",
   "workflow": {
-    "prompt": "You maintain TravelGuide in this repository — one practical Markdown page per airport under content/airports/.\n\nEach run:\n1. Read lib/major-airports.ts for the ranked list of busiest airports (ACI 2024).\n2. List content/airports/*.md to see which IATA codes already have pages.\n3. Pick the next batch of missing airports starting from the highest rank (up to 10 per run).\n4. For each missing airport, run: pnpm generate:airport <IATA>\n   (AI_GATEWAY_API_KEY is available in the environment.)\n5. Skim each generated file for obvious placeholder URLs or empty sections; fix frontmatter country names to use full country names, not ISO codes.\n6. Do not overwrite existing pages unless they are clearly broken.\n\nQuality gate:\n- Preserve the heading structure from existing pages (see content/airports/lhr.md).\n- Use real official airport URLs in frontmatter sources.\n- Skip generation if AI_GATEWAY_API_KEY is missing — report that instead.\n\nIf you created new airport pages, open a pull request titled \"feat(airports): add guides for major hubs\" with a bullet per airport (rank, IATA, name).\nIf all top-100 major airports already have pages, reply with a short status note — do not open a PR.",
+    "prompt": "You maintain TravelGuide in this repository — one practical Markdown page per airport under content/airports/.\n\nEach run:\n1. Run: pnpm maintain:airports --generate-limit 3 --review-limit 5\n   (AI_GATEWAY_API_KEY is available in the environment.)\n2. Inspect generated or updated Markdown files for malformed YAML, placeholder URLs, empty sections, or invented-looking facts.\n3. Preserve the existing page heading structure and bentoTips frontmatter used by the app.\n4. Do not overwrite unrelated manual edits.\n\nQuality gate:\n- Grok must run through Vercel AI Gateway; the script also attaches Gateway web search for current online data.\n- Prefer official airport, transport authority, airline, and alliance URLs in sources.\n- Skip the run if AI_GATEWAY_API_KEY is missing — report that instead.\n\nIf new airport pages or material tip updates were created, open a pull request titled \"feat(airports): refresh Grok airport guides\" with a bullet per airport.\nIf nothing changed, reply with a short status note — do not open a PR.",
     "triggers": [
       {
         "type": "schedule",
-        "cron": "0 8 * * 3"
+        "cron": "0 8 * * *"
       }
     ],
     "actions": {

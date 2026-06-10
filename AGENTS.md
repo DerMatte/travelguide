@@ -18,7 +18,8 @@ TravelGuide is a Next.js 16 App Router site serving per-airport knowledge pages 
 
 ### AI scripts (optional, require API keys)
 - `pnpm generate:airport` — requires `AI_GATEWAY_API_KEY` in `.env.local`.
-- `pnpm review:airports` — requires `CURSOR_API_KEY` in `.env.local`.
+- `pnpm maintain:airports` — requires `AI_GATEWAY_API_KEY` in `.env.local`; uses Grok through Vercel AI Gateway with Gateway web search to generate missing airport pages and refresh stale tips.
+- `pnpm review:airports` — legacy Cursor SDK reviewer; requires `CURSOR_API_KEY` in `.env.local`.
 - These are not needed for the core web app.
 
 ### Key caveats

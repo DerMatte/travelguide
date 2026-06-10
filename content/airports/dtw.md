@@ -33,6 +33,21 @@ bentoTips:
     title: "Check terminal assignment night before"
     summary: "Delta sometimes shifts flights between terminals with little notice."
     detail: "Use the airport app or airline push alerts to catch changes."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "McNamara"
+    access:
+      - "Delta Sky Club membership"
+      - "Delta SkyMiles Elite status"
+      - "day passes"
+    amenities:
+      - "breakfast"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only if you have free access or a day pass, otherwise skip for ordinary travelers."
 ---
 
 # DTW Airport Guide
@@ -40,12 +55,17 @@ bentoTips:
 > Fast, no-fluff guide to moving through Detroit’s two-terminal hub with minimal stress.
 
 ## Quick Facts
-- Delta operates the McNamara Terminal; all other airlines use the North Terminal.
-- McNamara features moving walkways and an indoor tram serving A1–A78 gates.
-- 8–12 minute covered walkway connects McNamara to North Terminal.
-- Both terminals offer Clear and TSA PreCheck lanes.
-- Cell-phone lots are free and well-marked on both sides of the airport.
-- Winter weather can add 20–30 minutes to curb-to-gate time.
+- **Terminals:** **McNamara** (Delta hub; A concourses, indoor tram A1–A78) and **North Terminal** (all other carriers).
+- **MCT (same ticket, practical floor):**
+  - **McNamara → McNamara (Delta connection):** **45 min** floor, **60 min** comfortable — tram saves legs on A-gates.
+  - **McNamara ↔ North Terminal:** **75 min** floor — **8–12 min** indoor walkway plus re-security if changing terminals airside is not possible; most connections stay within one terminal.
+  - **International → domestic:** CBP at McNamara + potential terminal change — **2 h** minimum.
+  - **Separate tickets:** **2.5–3 h** minimum.
+- **Inter-terminal link:** Covered walkway **8–12 min**; follow purple **Terminal to Terminal** signs.
+- **Wi‑Fi:** Free **DTW Free WiFi** — registration required; adequate for gate waits, not streaming.
+- **Water:** Bottle-fill fountains post-security in McNamara near A38 and North Terminal gate clusters — limited density at far A-gates.
+- **Power:** USB outlets at McNamara A57–A78 end and North Terminal gate areas; grab seats early during IRROPS.
+- **Clear + PreCheck** at both terminals; winter weather adds **20–30 min** curb-to-gate.
 
 ## Security & Screening Tips
 - McNamara PreCheck lane is consistently faster than North Terminal.
@@ -63,9 +83,13 @@ bentoTips:
 - PreCheck + Clear combo at McNamara often gets you through in under 10 minutes even at peak.
 
 ## Terminals & Navigation
-- McNamara: A concourses connected by tram; allow 12 minutes between farthest gates.
-- North Terminal: Single-level layout; all gates reachable in 8 minutes or less.
+- McNamara: A concourses connected by tram; allow **12 min** between farthest gates.
+- North Terminal: Single-level layout; all gates reachable in **8 min** or less.
 - Inter-terminal walkway is fully indoors and signposted; follow purple “Terminal to Terminal” signs.
+- **Recommended connection buffers:**
+  - McNamara → McNamara (Delta): **60 min** floor
+  - McNamara ↔ North: **75 min** floor
+  - Int'l → domestic: **2 h**
 - Common mistake: assuming all Delta flights depart McNamara—double-check boarding pass.
 
 ## Lounges, Food & Amenities

@@ -34,6 +34,40 @@ bentoTips:
     title: "Check CATSA wait times"
     summary: "Use the airport app before leaving home."
     detail: "Lines can swing 15-60 minutes; NEXUS/CLEAR users skip the worst queues."
+lounges:
+  - name: "Air Canada Maple Leaf Lounge"
+    terminal: "Terminal 1"
+    zone: "domestic/international"
+    access:
+      - "Air Canada business class"
+      - "Star Alliance Gold"
+    amenities:
+      - "showers"
+      - "hot food"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only if you have qualifying Air Canada or Star Alliance status; otherwise skip."
+  - name: "Plaza Premium Lounge"
+    terminal: "Terminal 1"
+    zone: "domestic/international"
+    access:
+      - "Priority Pass"
+      - "day pass available"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "A solid fallback for Priority Pass holders when the Air Canada lounge is unavailable."
+  - name: "Plaza Premium Lounge"
+    terminal: "Terminal 3"
+    access:
+      - "Priority Pass"
+      - "day pass available"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "T3 food and seating options outside the lounge are limited, so this lounge rarely justifies the cost."
 ---
 
 # YYZ Airport Guide
@@ -42,10 +76,16 @@ bentoTips:
 
 ## Quick Facts
 - Two terminals (T1 and T3) connected by free Link Train every 4-6 minutes.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal, airside:** **60 min** domestic; **75 min** international with passport control.
+  - **T1 ↔ T3:** Link Train **5 min** + walk — budget **90 min** minimum; re-security usually not required on through-checked bags.
+  - **Separate tickets:** **2.5 h+** with baggage reclaim.
 - Air Canada operates the majority of flights from T1; most others use T3.
 - CATSA manages security; NEXUS and CLEAR lanes exist in both terminals.
 - UP Express train departs every 15 minutes and reaches Union Station in 25 minutes.
 - Free Wi-Fi is reliable; cell service is strong throughout.
+- **Power:** Quiet zones near gates A22 and F22 have charging ports — grab early during Air Canada banks.
+- **Water:** Refill fountains post-security in T1 Concourse F and T3 near C32.
 
 ## Security & Screening Tips
 - Check the CATSA app or airport site for live wait times before departing home.

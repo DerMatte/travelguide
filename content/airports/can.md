@@ -3,16 +3,18 @@ iata: "CAN"
 name: "Guangzhou Baiyun International Airport"
 city: "Guangzhou"
 country: "China"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.baiyunairport.com/"
   - "https://www.gbiac.net/en/"
 quickFacts:
-  - "Primary hub for China Southern Airlines"
+  - "China Southern hub; MCT 60 min marketed, 2 h sane for int'l–domestic"
   - "Two operational terminals: T1 (mostly domestic) and T2 (international + some domestic)"
   - "Over 70 million passengers per year; consistently among China's busiest"
   - "Metro Line 3 reaches downtown in 35-45 minutes"
   - "Rigorous security screening with full liquid and electronics checks"
+  - "Free Wi-Fi at T2; WeChat/Alipay at most food outlets"
+  - "No airside T1↔T2 link — free shuttle every 5-15 min landside"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +36,30 @@ bentoTips:
     title: "Check the Baiyun app before arrival"
     summary: "The app tracks shuttle and security waits for both terminals."
     detail: "It is most useful when choosing between T1 lanes and T2 gates 10-14."
+lounges:
+  - name: "China Southern Lounge"
+    terminal: "T2"
+    access:
+      - "membership"
+      - "paid day pass"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "depends"
+    summary: "Solid choice for hot food and showers only if you already have access or are willing to pay the day pass."
+  - name: "T2 Transit Hotel Showers"
+    terminal: "T2"
+    access:
+      - "free for transit passengers"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Free showers make this a practical stop for long layovers without needing a full lounge."
 ---
 
 # CAN Airport Guide
@@ -42,11 +68,16 @@ bentoTips:
 
 ## Quick Facts
 - T1 handles most domestic flights; T2 handles all international and many domestic China Southern flights.
+- **MCT (China Southern hub):**
+  - **Int'l → int'l, same terminal T2:** **60 min** marketed; plan **90 min** in peaks.
+  - **Int'l → domestic (T2→T2):** **2–2.5 h** floor (immigration + customs + re-check).
+  - **T1 ↔ T2:** **2.5–3.5 h** minimum — landside shuttle only, no airside link.
 - China Southern dominates; limited Star Alliance presence.
-- Free shuttle bus runs every 10 minutes between T1 and T2 (8-12 min ride).
+- Free shuttle bus runs every 5–15 minutes between T1 and T2 (8–12 min ride); metro Line 3 also links terminals in ~2 min landside.
 - No airside connection between terminals; re-clear security if switching.
 - Peak congestion 06:30-09:00 and 17:00-21:00; arrive 3 hours early for international.
-- WeChat Pay/Alipay required at most food and retail outlets.
+- **Wi‑Fi:** Free at T2 (browser login; can be slow — use Baiyun app for status). WeChat Pay/Alipay required at most food and retail outlets.
+- **Water/power:** T2 gates 50–60 have reliable USB outlets; refill stations near restrooms post-security — skip ¥10+ bottled water.
 
 ## Security & Screening Tips
 - Expect full liquids ban over 100 ml and separate laptop/power bank screening at both terminals.

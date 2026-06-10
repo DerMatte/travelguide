@@ -11,7 +11,8 @@ quickFacts:
   - "Single terminal with four concourses (A–D); all flights under one roof"
   - "Qatar Airways hub; 45+ million passengers in 2024"
   - "Security opens 3 h before departure; biometric gates available for eligible passengers"
-  - "Free 2-hour Wi-Fi; premium lounges in every concourse"
+  - "Qatar Airways hub; MCT 45 min int'l–int'l floor, 90 min comfortable"
+  - "Free 2-hour Wi-Fi; faster paid tier available"
   - "Metro Red Line connects directly to city center in 30 min"
 bentoTips:
   - category: "timing"
@@ -34,6 +35,25 @@ bentoTips:
     title: "Check FIDS before security"
     summary: "Verify gate on the big boards right after check-in; gates can shift 30+ min."
     detail: "Use the airport app only after you pass security—earlier updates are unreliable."
+lounges:
+  - name: "The Orchard"
+    terminal: "Concourse D"
+    amenities:
+      - "quiet seating"
+      - "international buffet"
+    bestFor:
+      - "Quiet"
+    verdict: "worth-it"
+    summary: "Head here for the best quiet seating and reliable buffet among ordinary-traveler options."
+  - name: "Al Mourjan Business Lounge"
+    terminal: "A"
+    amenities:
+      - "showers"
+      - "à-la-carte dining"
+    bestFor:
+      - "Relax"
+    verdict: "worth-it"
+    summary: "Worth seeking out if you can access it for the showers and proper dining."
 ---
 
 # DOH Airport Guide
@@ -42,11 +62,15 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal with concourses A–D; no bus gates.
+- **MCT (Qatar Airways hub):**
+  - **Int'l → int'l airside:** **45 min** marketed minimum; plan **90 min** in evening banks (18:00–22:00).
+  - **Connection security:** All transfers hit a **transit screening** — queue time beats walking distance here.
+  - **Separate tickets / landside entry:** **3 h+** minimum.
 - Qatar Airways operates >80 % of flights; oneworld priority lanes at security.
 - Free fast-track available via Qatar Airways app for eligible passengers.
+- **Wi‑Fi:** **2 h free** (re-auth as needed); paid faster tier for long layovers.
+- **Water:** Scarce airside — fill before the transit security checkpoint.
 - 30-minute metro ride to Msheireb or West Bay; trains every 5–10 min.
-- 2-hour free Wi-Fi; paid faster option available.
-- Prayer rooms, family rooms, and medical clinic on every concourse.
 
 ## Security & Screening Tips
 - Arrive at security 3 h before departure; the 18:00–22:00 bank creates the longest lines.
@@ -58,7 +82,7 @@ bentoTips:
 - Download the Doha Airport app for gate push notifications after security only.
 - Charge devices at The Orchard (Concourse D) or the quiet lounge near gate C12.
 - Buy a metro card at the station inside arrivals for seamless city transfer.
-- If your connection is under 60 min, stay airside and use the internal train instead of re-clearing security.
+- If your connection is under 60 min, stay airside and use the internal train — but **transit security** is still the bottleneck, not the people-mover.
 - Free luggage wrapping is available near check-in row 4—useful for onward connections.
 - The airport hotel (HIA Hotel) offers day rooms from 4 h if you have a long layover.
 - Water fountains are scarce after security; fill bottles before the checkpoint.
@@ -70,9 +94,9 @@ bentoTips:
 - Common mistake: following signs for “Departures” instead of your specific concourse letter.
 
 ## Lounges, Food & Amenities
-- The Orchard (Concourse D) offers the best quiet seating and solid international buffet.
-- Al Mourjan Business Lounge (near gate A) has excellent showers and à-la-carte dining.
-- Avoid the main food court between A and B during peak hours—overpriced and crowded.
+- The Orchard garden (Concourse D) offers quiet seating and decent food — not a lounge, but the best public calm spot.
+- Al Mourjan Business Lounge (near gate A) has excellent showers and à-la-carte dining for eligible QR/oneworld passengers.
+- **Overrated:** Main food court between A and B at peak — crowded and overpriced.
 - Free nap pods are located near gate C8; first-come, first-served.
 
 ## Ground Transport & Parking

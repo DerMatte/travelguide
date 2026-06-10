@@ -7,6 +7,7 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.gatwickairport.com/"
   - "https://www.gatwickairport.com/at-the-airport/security"
+  - "https://www.gatwickairport.com/at-the-airport/wifi"
 quickFacts:
   - "Two terminals (North & South) linked by free 5-minute shuttle"
   - "easyJet hub; also British Airways, Wizz Air, Norse Atlantic"
@@ -34,6 +35,30 @@ bentoTips:
     title: "Use the airport app"
     summary: "Check live security times in the Gatwick app before you leave."
     detail: "It updates every 15 minutes and shows which terminal is moving faster."
+lounges:
+  - name: "No.1 Lounge"
+    terminal: "North Terminal"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid day pass £35-45"
+    amenities:
+      - "hot food"
+      - "quiet seating"
+    bestFor:
+      - "Work"
+      - "Quiet"
+    verdict: "worth-it"
+    summary: "Best hot food and quiet seating among paid options at the £35-45 day rate."
+  - name: "The Grove"
+    terminal: "South Terminal"
+    zone: "international"
+    access:
+      - "paid"
+    bestFor:
+      - "Families"
+    verdict: "depends"
+    summary: "Only decent sit-down option after security when you cannot reach the North Terminal."
 ---
 
 # LGW Airport Guide
@@ -43,7 +68,10 @@ bentoTips:
 ## Quick Facts
 - North Terminal handles most long-haul; South Terminal is easyJet-heavy.
 - Free inter-terminal shuttle runs every 3-5 minutes, 24/7.
+- **MCT (separate tickets / terminal change):** no airside link — exit, shuttle, re-clear security; budget **2 h+** minimum between North and South.
 - No TSA PreCheck equivalent; standard security only.
+- **Wi‑Fi:** Free **Gatwick FREE WiFi** — email registration; sessions expire ([Gatwick Wi‑Fi](https://www.gatwickairport.com/at-the-airport/wifi)).
+- **Power:** Outlets at some gate-area seating; scarce at peak — charge in No.1 Lounge or landside mezzanine if you have time.
 - Gatwick Express, Thameslink and Southern all serve the same station.
 - Drop-off charge £5 for private cars; free for 10 min if using official pick-up zones.
 

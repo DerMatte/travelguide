@@ -3,13 +3,14 @@ iata: "ICN"
 name: "Incheon International Airport"
 city: "Seoul"
 country: "South Korea"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.airport.kr/ap/en/index.do"
   - "https://www.arex.co.kr/en/"
+  - "https://www.airport.kr/ap/en/transfer/generalTransfer/generalTransfer.do"
 quickFacts:
-  - "Two terminals linked by free shuttle (15 min)"
-  - "Primary hub for Korean Air and Asiana Airlines"
+  - "Two terminals linked by free shuttle (15 min); Asiana entirely at T2 from Jan 2026"
+  - "Primary hub for Korean Air (T2) and Asiana (T2); Star Alliance/LCCs mostly T1"
   - "AREX express train reaches Seoul Station in 43 min"
   - "Strong free Wi-Fi and abundant charging stations"
   - "24-hour transit hotel and capsule options available"
@@ -34,6 +35,30 @@ bentoTips:
     title: "Check shuttle and gate info early"
     summary: "The official airport app tracks shuttle and gate updates before landing."
     detail: "It is most useful when deciding between terminal shuttle, transit hotel, and AREX timing."
+lounges:
+  - name: "Korean Air Lounge"
+    terminal: "T2"
+    access:
+      - "Korean Air First/Business class"
+      - "SkyTeam Elite Plus"
+    amenities:
+      - "showers"
+      - "Korean food"
+      - "quiet zones"
+    bestFor:
+      - "Relaxation"
+      - "Food"
+    verdict: "worth-it"
+    summary: "The standout choice for eligible flyers thanks to quality Korean food, showers, and calm spaces."
+  - name: "The Lounge"
+    terminal: "T1"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "A practical paid fallback near gate 40 if you have Priority Pass access."
 ---
 
 # ICN Airport Guide
@@ -41,11 +66,15 @@ bentoTips:
 > Fast, no-nonsense reference for clearing ICN with minimal stress and wasted time.
 
 ## Quick Facts
-- Terminals 1 and 2 are separate; shuttle runs every 5–10 min.
-- Korean Air and SkyTeam use Terminal 2; Star Alliance and others use Terminal 1.
-- Security and immigration are efficient but slow during 06:00–09:00 and 18:00–22:00 peaks.
-- Free Wi-Fi is reliable; power outlets are plentiful at gates.
-- AREX, buses, and taxis all depart from the arrivals level of each terminal.
+- **Terminals:** **T1** (Star Alliance, LCCs, many int'l) and **T2** (Korean Air, Asiana, SkyTeam) — **not walkable**; free shuttle **12–15 min** including wait.
+- **MCT (same ticket, practical floor — post-Jan 2026 Asiana T2 move):**
+  - **T1 → T1 or T2 → T2:** **70 min** floor, **90 min** comfortable.
+  - **T1 ↔ T2 (interline, bags through):** **90 min** airline MCT, **2 h** practical — peak **09:00–11:00** adds queues.
+  - **Separate tickets:** **4 h** minimum — immigration, bags, re-check ([Incheon transfer guidance](https://www.airport.kr/ap/en/transfer/generalTransfer/generalTransfer.do)).
+- **Wi‑Fi:** Free, reliable; I‑Pass registration optional for faster reconnect.
+- **Water:** Refill fountains in T2 **4F** rest zone and T1 near gate **40**; bring an empty bottle.
+- **Power:** Plentiful at gates; T2 **4F** rest zone has the best layover seating + outlets.
+- **AREX:** Express to Seoul Station **43 min** (**₩9,500**); inter-terminal train landside only.
 
 ## Security & Screening Tips
 - Expect full liquids screening and shoe removal; 100 ml rule strictly enforced.

@@ -34,6 +34,29 @@ bentoTips:
     title: "Check ADR app first"
     summary: "Use the official ADR app for live gate and security wait times instead of airline apps."
     detail: "It updates every 5 minutes and shows which security lane is shortest."
+lounges:
+  - name: "ITA Lounge"
+    terminal: "T3"
+    access:
+      - "ITA Airways status"
+      - "€45 day pass"
+    amenities:
+      - "showers"
+      - "quiet zones"
+    bestFor:
+      - "Relaxation"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Pay the €45 for solid showers and quiet space if you have a long layover in T3."
+  - name: "All’Arrivo"
+    terminal: "Arrivals"
+    amenities:
+      - "coffee"
+      - "sandwiches"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "Convenient landside stop for good coffee and sandwiches before security, but not a full airside lounge."
 ---
 
 # FCO Airport Guide
@@ -41,11 +64,16 @@ bentoTips:
 > Practical, time-saving intel for the airport that handles most visitors to Rome.
 
 ## Quick Facts
-- Terminals 1 (domestic/low-cost), 3 (main international), 5 (US flights only).
-- ITA Airways and easyJet dominate; long-haul carriers use T3.
-- Leonardo Express train is fastest reliable link to central Rome (€14).
-- Free Wi-Fi is fast but requires captcha every 45 minutes.
-- T5 adds extra US-bound screening; arrive at T3 first then shuttle.
+- **Terminals:** **T1** (domestic/LCC), **T3** (main international), **T5** (US-only — shuttle from T3).
+- **MCT (same ticket, practical floor):**
+  - **T3 → T3, Schengen ↔ non-Schengen:** **60 min** floor, **90 min** comfortable — passport control at pier root.
+  - **T3 → T5 (US departures):** **90 min** floor — bus from T3 plus US secondary screening in T5.
+  - **T1 ↔ T3:** **75 min** floor via covered walkway.
+  - **Separate tickets:** **2.5–3 h** minimum.
+- **Rail:** **Leonardo Express** to Roma Termini every **15 min** (**32 min**, **€14**).
+- **Wi‑Fi:** Free but captcha every **~45 min** — annoying on long layovers.
+- **Water:** Refill fountains in T3 near train-station level and gates **D1–D10** / **E31–E40**; bring an empty bottle.
+- **Power:** Charging tables near gates **D1–D10** and **E31–E40** — bring your own cable.
 
 ## Security & Screening Tips
 - Non-Schengen and US flights share the same security area after check-in; expect 30-50 min at peak.

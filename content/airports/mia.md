@@ -3,9 +3,10 @@ iata: "MIA"
 name: "Miami International Airport"
 city: "Miami"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.miami-airport.com/"
+  - "https://www.miami-airport.com/wifi.asp"
   - "https://www.tsa.gov/airports/miami-international-airport"
 quickFacts:
   - "Major American Airlines hub with heavy Latin America traffic"
@@ -34,6 +35,27 @@ bentoTips:
     title: "Check waits before choosing a checkpoint"
     summary: "The MIA app and airport site show real-time checkpoint waits."
     detail: "Use them before defaulting to the central checkpoint during morning or late-afternoon peaks."
+lounges:
+  - name: "American Airlines Admirals Club"
+    terminal: "D"
+    access:
+      - "American Airlines status or oneworld Sapphire/Emerald"
+      - "paid day pass"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "Strong choice for AA flyers or those who can access it free; otherwise the paid entry is only worthwhile if you need a quiet spot before a long flight."
+  - name: "Centurion Lounge"
+    terminal: "E"
+    access:
+      - "Amex Platinum or Centurion card"
+      - "paid guest access"
+    bestFor:
+      - "Food"
+      - "Work"
+    verdict: "depends"
+    summary: "Excellent food and space if you hold an eligible Amex card; the day-pass price makes it a skip for most ordinary travelers."
 ---
 
 # MIA Airport Guide
@@ -42,10 +64,17 @@ bentoTips:
 
 ## Quick Facts
 - American Airlines dominates; most international flights use concourses D, E, and J.
+- **MCT (same ticket, practical floor):**
+  - **Same concourse:** **45–60 min** can work if inbound is on time — still risky during AA banks.
+  - **Cross-concourse** (e.g. D → J): budget **75–90 min** including MIA Mover and possible re-security.
+  - **International arrival → domestic connection:** customs + baggage + re-screen — **2 h** minimum; **2.5 h** safer in peaks.
+  - **Separate tickets:** treat as a new departure — **3 h+** with baggage reclaim.
 - One linear terminal; airside connections require the MIA Mover or long walks.
 - No airside train between all concourses—plan for 15-25 min walks.
 - Busiest periods: early morning departures to Europe and evening arrivals from Latin America.
-- Free Wi-Fi is reliable but login required every 2 hours.
+- **Wi‑Fi:** Free **MIA-WiFi** — browser login; sessions expire (~2 h); re-authenticate as needed ([MIA Wi‑Fi](https://www.miami-airport.com/wifi.asp)).
+- **Power:** USB outlets at many gate clusters; competition is fierce during delays — charge right after security, not at the gate.
+- **Water:** Refill fountains post-security in concourses D and E; bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the MIA app or airport website for real-time checkpoint wait times.
@@ -80,5 +109,6 @@ bentoTips:
 
 ## Official Sources
 - https://www.miami-airport.com/
+- https://www.miami-airport.com/wifi.asp
 - https://www.tsa.gov/airports/miami-international-airport
 - https://www.miamidade.gov/transit/

@@ -34,6 +34,25 @@ bentoTips:
     title: "Check the app first"
     summary: "MSP posts real-time gate and security wait times in the official app."
     detail: "Use it before leaving the car; lines can swing 20 minutes in either direction."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "Terminal 1"
+    amenities:
+      - "showers"
+      - "food"
+    bestFor:
+      - "Food"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "The best lounge option at MSP with excellent food and showers."
+  - name: "The Club MSP"
+    terminal: "Terminal 1"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "A standard Priority Pass lounge worth using only with free access."
 ---
 
 # MSP Airport Guide
@@ -42,10 +61,14 @@ bentoTips:
 
 ## Quick Facts
 - Delta operates the vast majority of flights from Terminal 1.
+- **MCT (same ticket):** **45 min** airline minimum on T1-only connections — treat **60 min** as floor; **75 min** if changing terminals via tram.
 - Terminal 2 serves Sun Country, JetBlue, Allegiant, and a few others.
 - Free tram runs every 3–5 minutes between terminals.
 - Light rail (Blue Line) stops at both terminals and reaches downtown in 25 minutes.
 - Short-term parking sits directly above Terminal 1; long-term lots require a shuttle.
+- **Wi‑Fi:** Free **MSP-WiFi** — browser login; reliable throughout.
+- **Power:** Outlets near C21 and G concourse upper level — charge early during Delta banks.
+- **Water:** Refill fountains post-security in Terminal 1 C and F concourses.
 
 ## Security & Screening Tips
 - PreCheck and CLEAR lanes sit at both terminals; CLEAR is usually faster at Terminal 1.

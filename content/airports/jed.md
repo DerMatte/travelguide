@@ -34,6 +34,27 @@ bentoTips:
     title: "Use the GACA app for live updates"
     summary: "Check gate and delay status here rather than airline apps during irregular operations."
     detail: "Wi-Fi drops in T2 and T3; download the app on cellular before entering the terminal."
+lounges:
+  - name: "Saudia Al Fursan Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Saudia status"
+      - "paid day pass"
+      - "Priority Pass"
+    amenities:
+      - "seating"
+      - "food"
+    bestFor:
+      - "Seating"
+    verdict: "worth-it"
+    summary: "The only worthwhile paid option with reliable seating despite average food."
+  - name: "Saudia Lounge"
+    terminal: "T3"
+    access:
+      - "Saudia status"
+    verdict: "depends"
+    summary: "Limited to elite Saudia passengers and otherwise skippable for ordinary travelers."
 ---
 
 # JED Airport Guide
@@ -41,12 +62,16 @@ bentoTips:
 > Practical, no-fluff guide to moving through Jeddah’s main airport with minimal stress and lost time.
 
 ## Quick Facts
-- Three passenger terminals (T1 Saudia, T2 LCCs, T3 international) plus separate Hajj terminal.
-- Saudia is the dominant carrier; expect tight connections on its metal.
-- Security is strict on liquids and electronics; prepare for manual bag searches.
-- Free Wi-Fi exists but is unreliable in T2 and T3 after 10 pm.
-- Currency exchange and SIM kiosks are only landside; handle both before security.
-- Taxi and ride-hail pickup is well organized but surges during late-night arrivals.
+- **Terminals:** **T1** (Saudia, most int'l), **T2** (LCCs), **T3** (int'l) plus separate Hajj terminal — free shuttle **~15 min**, **20–30 min** end-to-end in peaks.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal (Saudia T1):** **60 min** floor, **90 min** comfortable.
+  - **T1 ↔ T2/T3:** **2 h** floor — shuttle + re-security risk.
+  - **Hajj/Umrah peaks:** Add **60+ min** to any buffer.
+  - **Separate tickets:** **3 h** minimum.
+- **Wi‑Fi:** Free but spotty in **T2/T3** after **22:00** — download GACA app on cellular before entering.
+- **Water:** Limited refill airside; **Al Baik** landside T1/T2 is the move — stock up before security on late flights.
+- **Power:** T1 upper level near international gates has the most reliable outlets; T2/T3 are hit-or-miss.
+- **Security:** Manual bag searches common — electronics and liquids out early.
 
 ## Security & Screening Tips
 - Remove all electronics and liquids; agents frequently open every bag.

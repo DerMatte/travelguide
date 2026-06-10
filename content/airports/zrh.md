@@ -34,6 +34,40 @@ bentoTips:
     title: "Check dock assignment on zurich.com the night before"
     summary: "Gates can shift between A/B and E with little notice."
     detail: "SWISS long-haul almost always uses E; set a phone alert for gate changes."
+lounges:
+  - name: "SWISS First Lounge"
+    terminal: "E"
+    zone: "non-Schengen"
+    access:
+      - "Star Alliance Gold"
+      - "paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The top lounge at ZRH if you can access it via status or a day pass."
+  - name: "SWISS Business Lounge"
+    terminal: "E"
+    zone: "non-Schengen"
+    access:
+      - "Star Alliance Gold"
+      - "paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Work"
+      - "Relaxation"
+    verdict: "depends"
+    summary: "Solid choice with Star Gold or paid access but less exclusive than the First lounge."
+  - name: "The Market"
+    terminal: "Main"
+    amenities:
+      - "seating"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "Landside option with decent Swiss and international food if you need a meal before security."
 ---
 
 # ZRH Airport Guide
@@ -42,10 +76,12 @@ bentoTips:
 
 ## Quick Facts
 - One terminal building with three docks (A, B, E); E is reached by free Skymetro train.
+- **MCT (same ticket, SWISS-published):** **40 min** official Schengen–Schengen — experienced floor **50–60 min**; **65–75 min** with E-dock passport control.
 - SWISS is the dominant carrier; Star Alliance members share lounges.
 - Zurich HB train station is 10-12 minutes away; trains run every 10 minutes.
 - Schengen flights use docks A/B; non-Schengen and most long-haul use E.
 - Free Wi-Fi everywhere; power outlets plentiful in gate areas.
+- **Water:** Refill fountains post-security in docks A and E — bring an empty bottle; Swiss retail pricing on bottled water is steep.
 
 ## Security & Screening Tips
 - Standard security is fast outside 06:30-09:00 peaks; use the dedicated crew lane if eligible.

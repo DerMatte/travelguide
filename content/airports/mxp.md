@@ -34,6 +34,18 @@ bentoTips:
     title: "Check boards before shuttle"
     summary: "Confirm terminal on FIDS before boarding the inter-terminal bus."
     detail: "Ryanair and Wizz occasionally shift gates between T1 and T2 with little notice."
+lounges:
+  - name: "Star Alliance Lounge"
+    terminal: "T1"
+    zone: "international"
+    verdict: "skip"
+    summary: "No paid lounge here justifies the cost for ordinary travelers given the mediocre Priority Pass alternatives noted."
+  - name: "Priority Pass Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+    verdict: "skip"
+    summary: "Generic grab-and-go food scene makes any lounge visit here a low-value choice; eat landside instead."
 ---
 
 # MXP Airport Guide
@@ -46,6 +58,8 @@ bentoTips:
 - Malpensa Express (Terminal 1) is fastest rail link; €13 one-way.
 - Currency exchange rates airside are poor; withdraw euros landside.
 - Free Wi-Fi is reliable but requires captcha every 45 min.
+- **Power:** Outlets at T1 gates A1–A10; T2 has almost none — charge landside or in lounge.
+- **Water:** Limited refill fountains airside — buy landside or bring filled bottle through security (empty through, fill after).
 - Baggage storage available only in T1 arrivals, €6-12 per bag.
 
 ## Security & Screening Tips

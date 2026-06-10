@@ -34,6 +34,17 @@ bentoTips:
     title: "Check RDU app first"
     summary: "Real-time security wait times and gate changes update faster than airline apps."
     detail: "Open it before you leave the cell phone lot."
+lounges:
+  - name: "The Club at RDU"
+    terminal: "Terminal 2"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only with free Priority Pass access; day passes are pricey and the lounge is frequently full."
 ---
 
 # RDU Airport Guide
@@ -46,6 +57,9 @@ bentoTips:
 - TSA PreCheck lanes at both terminals; CLEAR only at Terminal 2.
 - Free cell phone lot sits 2 minutes from both terminals with live flight displays.
 - No airside connection between terminals—re-clear security if you switch.
+- **Wi‑Fi:** Free **RDU Free WiFi** — no login required; reliable.
+- **Power:** Walkway between T1/T2 has uncrowded outlets; gate areas are sparser.
+- **Water:** Refill fountains post-security in both terminals.
 
 ## Security & Screening Tips
 - Use the RDU app or website for live wait times before leaving the cell phone lot.

@@ -7,6 +7,9 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.finavia.fi/en/helsinki-airport"
   - "https://www.finavia.fi/en/helsinki-airport/security"
+  - "https://www.finnair.com/us-en/smooth-travelling-at-helsinki-airport/connecting-flights"
+  - "https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/wi-fi-helsinki-airport"
+  - "https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/hot-and-cold-drinking-water"
 quickFacts:
   - "Single terminal complex split into Schengen and non-Schengen zones"
   - "Finnair hub with strong connections to Asia and Europe"
@@ -34,6 +37,30 @@ bentoTips:
     title: "Use Finavia app"
     summary: "Live gate and security queue data updates every 60 seconds."
     detail: "Works offline for boarding passes and terminal maps."
+lounges:
+  - name: "Finnair Lounge"
+    terminal: "2"
+    zone: "non-Schengen"
+    access:
+      - "oneworld Sapphire and above"
+      - "Finnair business class"
+    amenities:
+      - "buffet"
+    bestFor:
+      - "Dining"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "Solid choice for eligible oneworld members with a frequently replenished buffet."
+  - name: "Finnair Business Lounge"
+    terminal: "2"
+    zone: "Schengen"
+    access:
+      - "oneworld Sapphire and above"
+      - "Finnair business class"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Convenient for status holders but otherwise skip in favor of airside dining options."
 ---
 
 # HEL Airport Guide
@@ -41,11 +68,17 @@ bentoTips:
 > One terminal, fast rail link, and predictable security make HEL one of Europe's least stressful major airports when you know the patterns.
 
 ## Quick Facts
-- Single terminal with clear Schengen/non-Schengen split after security.
-- Finnair operates the majority of long-haul flights; codeshares dominate gates 30-55.
-- Ring Rail Line (I and P trains) runs every 10 minutes to Helsinki Central Station.
-- Free Wi-Fi is fast and stable throughout the building.
-- Showers, nap pods, and a small sauna are available airside near gate 28.
+- **Single terminal** — Schengen gates **5–36**, non-Schengen **37–55**; moving walkways cut walks to **12–14 min** end-to-end.
+- **MCT (same ticket — Finnair published mins; pad for EES delays):**
+  - **Schengen ↔ Schengen:** **35 min** airline min, **50 min** practical.
+  - **Non-Schengen ↔ Schengen:** **40–45 min** airline min, **60–75 min** practical.
+  - **Charter connections:** **75 min** minimum.
+  - **Separate tickets:** **2+ h** minimum ([Finnair connecting flights](https://www.finnair.com/us-en/smooth-travelling-at-helsinki-airport/connecting-flights)).
+- **Rail:** Ring Rail Line (**I/P**) every **10 min** to Helsinki Central (**27 min**, **€5.50**).
+- **Wi‑Fi:** Free unlimited **Helsinki Airport Free Wi-Fi** — **100 Mb/s**, no credentials ([Finavia Wi-Fi](https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/wi-fi-helsinki-airport)).
+- **Water:** Free refill stations landside, near security, and at gates **20–21**; hot + cold dispensers in gates **37–60** ([Finavia water](https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/hot-and-cold-drinking-water)).
+- **Power:** Charging tables near gates **20–25**; quiet zone at gate **22** has outlets and dim lighting.
+- **Showers:** Free airside near gate **28**; bring a towel.
 
 ## Security & Screening Tips
 - Use the dedicated fast track if you hold Finnair Plus Platinum or oneworld Emerald.
@@ -78,6 +111,9 @@ bentoTips:
 - Short-term parking P1/P2 is expensive; use P3 or P4 for stays over four hours and take the free shuttle.
 
 ## Official Sources
-- https://www.finavia.fi/en/helsinki-airport
-- https://www.finavia.fi/en/helsinki-airport/security
-- https://www.vr.fi/en (Ring Rail Line schedules)
+- [Finavia Helsinki Airport](https://www.finavia.fi/en/helsinki-airport)
+- [Security](https://www.finavia.fi/en/helsinki-airport/security)
+- [Finnair connecting flights & MCT](https://www.finnair.com/us-en/smooth-travelling-at-helsinki-airport/connecting-flights)
+- [Wi-Fi](https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/wi-fi-helsinki-airport)
+- [Drinking water stations](https://www.finavia.fi/en/airports/helsinki-airport/airport/services-facilities/hot-and-cold-drinking-water)
+- [VR Ring Rail Line](https://www.vr.fi/en)

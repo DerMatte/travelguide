@@ -34,6 +34,40 @@ bentoTips:
     title: "Use the KIX app"
     summary: "Real-time gate and delay info beats airline apps for T1/T2 switches."
     detail: "Typhoon season (Aug-Sep) triggers frequent last-minute terminal changes."
+lounges:
+  - name: "Kansai Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Priority Pass"
+    amenities:
+      - "ramen"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Shower"
+    verdict: "depends"
+    summary: "Worth a visit with Priority Pass for the ramen and shower, but skip if paying out of pocket."
+  - name: "ANA Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Star Alliance Gold"
+      - "ANA business class"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Standard option only if you have status or a business-class ticket."
+  - name: "JAL Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "JAL Sapphire"
+      - "oneworld Sapphire"
+    bestFor:
+      - "Relax"
+    verdict: "depends"
+    summary: "Reliable for eligible JAL or oneworld passengers but nothing special for ordinary travelers."
 ---
 
 # KIX Airport Guide
@@ -41,11 +75,16 @@ bentoTips:
 > Fastest route through Kansai’s island airport with zero wasted steps.
 
 ## Quick Facts
-- Terminal 1 handles ANA, JAL, and most international carriers; Terminal 2 is Peach and Jetstar only.
-- JR Haruka reaches Osaka Station in 50 minutes; Nankai Limited Express reaches Namba in 38 minutes.
-- Free Terminal Shuttle runs every 3–5 minutes between T1 and T2.
-- Immigration uses automated gates for many passports; lines move fastest 6–9 a.m.
-- Currency exchange rates at airport ATMs beat downtown banks.
+- **Terminals:** **T1** (ANA/JAL/full-service int'l), **T2** (Peach/Jetstar LCC only) — free shuttle **3–5 min**.
+- **MCT (same ticket, practical floor):**
+  - **T1 → T1 int'l:** **60 min** floor, **90 min** comfortable.
+  - **T1 ↔ T2:** **90 min** floor — shuttle plus separate security in T2.
+  - **Separate tickets:** **2.5 h** minimum.
+- **Rail:** JR **Haruka** **50 min** to Osaka Station; Nankai **38 min** to Namba.
+- **Wi‑Fi:** Free **KIX Wi-Fi** — solid in T1; T2 weaker.
+- **Water:** Konbini (**Lawson/FamilyMart**) landside beats airside pricing; limited refill fountains post-security.
+- **Power:** Plentiful T1 gates; **T1 4F observation deck** has outlets and free seating.
+- **Typhoon season (Aug–Sep):** Monitor [@KIX_official](https://x.com/KIX_official) for terminal/gate shifts.
 
 ## Security & Screening Tips
 - Remove laptops and liquids only at the X-ray belt; staff rarely ask for extra bins.

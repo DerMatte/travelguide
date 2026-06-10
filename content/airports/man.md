@@ -34,6 +34,27 @@ bentoTips:
     title: "Check security live"
     summary: "Use the airport app or website for real-time security wait times."
     detail: "Times update every few minutes; avoid if the board shows over 30 minutes and you lack priority access."
+lounges:
+  - name: "No1 Lounge"
+    terminal: "T1"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Food"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth considering in T1 for ordinary travelers with Priority Pass or day-pass access."
+  - name: "No1 Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Food"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth considering in T2, especially given better nearby airside food options."
 ---
 
 # MAN Airport Guide
@@ -46,6 +67,10 @@ bentoTips:
 - Metrolink tram reaches Manchester city centre in 25 minutes
 - Security queues often peak 05:00-08:00 and 16:00-19:00
 - No airside connection between Terminal 1 and Terminals 2/3
+- **MCT (T1 ↔ T2/T3):** no airside link — shuttle + re-clear; budget **2 h+** minimum.
+- **Wi‑Fi:** Free **_FreeWiFi-MAN** — browser login; sessions expire.
+- **Power:** Outlets after security in T2 far gates; T1/T3 are sparse — charge in No1 Lounge if you have access.
+- **Water:** Free fountains after security in every terminal — bring a bottle.
 
 ## Security & Screening Tips
 - Use the airport website or app for live security wait times before arriving.

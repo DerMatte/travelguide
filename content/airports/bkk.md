@@ -3,7 +3,7 @@ iata: "BKK"
 name: "Suvarnabhumi Airport (Bangkok)"
 city: "Bangkok"
 country: "Thailand"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-10"
 sources:
   - "https://suvarnabhumi.airportthai.co.th/"
   - "https://suvarnabhumi.airportthai.co.th/service/airport-guide/detail/Transportation_BKK"
@@ -43,6 +43,42 @@ bentoTips:
     title: "Submit TDAC before landing"
     summary: "Entering Thailand requires the digital arrival card unless you stay pure airside transit."
     detail: "Screenshot the QR code; airport kiosks add avoidable delay before immigration."
+lounges:
+  - name: "Miracle Lounge"
+    terminal: "SAT-1"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    amenities:
+      - "Wi-Fi"
+      - "showers"
+    bestFor:
+      - "Work"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Smart pick for S-gates with Priority Pass, offering faster Wi-Fi and showers over gate seating."
+  - name: "Thai Airways Royal Silk Lounge"
+    terminal: "MTB"
+    access:
+      - "Star Alliance Gold"
+      - "Thai Airways business/first"
+    amenities:
+      - "buffet"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "depends"
+    summary: "Solid buffet and showers for eligible Star Alliance flyers but frequently overcrowded during evening banks."
+  - name: "Coral Lounge"
+    terminal: "MTB"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Reliable paid or Priority Pass option in the main terminal when your flight is not on SAT-1."
 ---
 
 # BKK Airport Guide
@@ -128,4 +164,4 @@ bentoTips:
 - [Airport Rail Link timetable](https://bangkokairporttrain.com/timetable/)
 - [BKK ↔ DMK free shuttle](https://thailand.go.th/issue-focus-detail/001_01_090)
 - [Thai Airways lounge access](https://www.thaiairways.com/en-ch/content/ground-services/lounges/)
-- Re-check gate terminal (**S###** = SAT-1), TDAC rules, and ARL last train before every trip — immigration policy and F/C priority lanes change without much notice.
+- Re-check gate terminal (**S###** = SAT-1), TDAC rules, ARL last train, and peak-season MCT before every trip — immigration policy and F/C priority lanes change without much notice.

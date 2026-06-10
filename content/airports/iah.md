@@ -6,6 +6,7 @@ country: "United States"
 lastUpdated: "2026-06-10"
 sources:
   - "https://www.fly2houston.com/"
+  - "https://www.fly2houston.com/iah/related-content/is-houston-a-good-airport-to-connect-through/"
   - "https://www.tsa.gov/airports/george-bush-intercontinental-airport"
 quickFacts:
   - "Five terminals (A–E); United hub with most flights in A, B, C, E"
@@ -34,6 +35,27 @@ bentoTips:
     title: "Check United app gate first, then Fly2Houston"
     summary: "Gates change often; confirm 45 min before departure."
     detail: "Terminal D arrivals can shift to E without notice—watch the app."
+lounges:
+  - name: "United Club"
+    terminal: "E"
+    access:
+      - "United Club membership"
+      - "Star Alliance Gold"
+      - "day pass"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The largest and least crowded United Club at IAH, so visit if you have access."
+  - name: "The Club"
+    terminal: "D"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "A solid Priority Pass option in D if you need a quiet spot before your flight."
 ---
 
 # IAH Airport Guide
@@ -41,11 +63,17 @@ bentoTips:
 > One concise page of the exact moves that cut wait times and navigation errors at Houston’s main airport.
 
 ## Quick Facts
-- Five terminals (A–E); United operates the majority of flights from A, B, C, and E.
-- Terminal D is the primary international arrivals facility.
-- Free inter-terminal train runs continuously; walking between non-adjacent terminals takes 15–25 min.
-- TSA PreCheck and CLEAR available in all terminals; CLEAR only at A and E.
-- METRO bus 102 and rideshares pick up at Terminal C lower level.
+- **Terminals:** **A–E** — United hub (**A, B, C, E**); **D** primary international arrivals.
+- **MCT (same ticket, practical floor — [Fly2Houston](https://www.fly2houston.com/iah/related-content/is-houston-a-good-airport-to-connect-through/)):**
+  - **Domestic → domestic (Skyway airside):** **45–60 min** floor, **75 min** comfortable.
+  - **Domestic → international:** **55–75 min** floor.
+  - **International → domestic:** CBP at **D/E** — **90 min–2 h** minimum.
+  - **Separate tickets:** **2.5–3 h** minimum.
+- **Skyway:** Airside train every **~2 min**, **A → D/E ~4 min** — no re-screen when staying airside.
+- **Wi‑Fi:** Free **IAH Free WiFi** — registration required; fine for gate tracking.
+- **Water:** Bottle-fill fountains in **E** near **The Grove** and **D** gate clusters — sparse elsewhere.
+- **Power:** Terminal **E** far end (**E24**) and **D6** yoga room area — quieter than central **C**.
+- **PreCheck** all terminals; **CLEAR** only **A** and **E**.
 
 ## Security & Screening Tips
 - PreCheck lanes open in every terminal; use the United app to see real-time wait times.

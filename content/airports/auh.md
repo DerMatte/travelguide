@@ -7,9 +7,11 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.abudhabiairport.ae/en/"
   - "https://www.darb.ae/"
+  - "https://www.etihadhub.com/en-ae/news/update-on-minimum-connection-times-at-auh"
 quickFacts:
   - "Single Terminal A opened 2023; all flights under one roof"
   - "Etihad Airways main hub with 30+ million passengers/year capacity"
+  - "Etihad hub; Etihad-to-Etihad MCT 45 min (90 min for US-bound with preclearance)"
   - "Biometric e-gates for UAE residents and GCC nationals"
   - "Strong food hall pre-security plus multiple Etihad lounges"
   - "30-minute taxi to city center; no direct metro link"
@@ -34,6 +36,38 @@ bentoTips:
     title: "Check Etihad app first"
     summary: "Gate and delay updates are faster than airport screens."
     detail: "Especially reliable for same-terminal connections under 90 minutes."
+lounges:
+  - name: "Etihad First Lounge"
+    terminal: "A"
+    zone: "international"
+    access:
+      - "Etihad First Class passengers"
+      - "Day pass via Etihad app when space permits"
+    bestFor:
+      - "Luxury"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The standout lounge at AUH with day passes available via the app when space allows."
+  - name: "Etihad Business Lounge"
+    terminal: "A"
+    zone: "international"
+    access:
+      - "Etihad Business Class passengers"
+      - "Day pass via Etihad app when space permits"
+    bestFor:
+      - "Work"
+      - "Relaxation"
+    verdict: "depends"
+    summary: "Solid option for Etihad flyers or app day passes, but less exclusive than the First lounge."
+  - name: "The Lounge"
+    terminal: "A"
+    zone: "international"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "A basic Priority Pass option that most ordinary travelers can safely skip in favor of airside dining."
 ---
 
 # AUH Airport Guide
@@ -43,6 +77,7 @@ bentoTips:
 ## Quick Facts
 - Single Terminal A (opened 2023) handles every airline and route.
 - Etihad Airways operates the majority of long-haul flights.
+- **Connections:** Etihad-to-Etihad minimum is 45 minutes since March 2025; US-bound flights require 90 minutes and US preclearance closes 60 minutes before departure—traveler consensus says treat sub-75-minute US connections as reckless.
 - Biometric immigration e-gates clear eligible passengers in under 60 seconds.
 - Pre-security food hall and multiple paid lounges are the strongest amenities.
 - Taxi to Abu Dhabi city center costs AED 80-120 and takes 25-35 minutes.
@@ -60,7 +95,8 @@ bentoTips:
 - Free Wi-Fi requires a quick mobile number verification but stays stable throughout the terminal.
 - Taxis from the official rank accept card; avoid touts inside arrivals.
 - For early flights, the 24-hour Costa and grab-and-go counters near check-in rows 1-4 are reliable.
-- Power outlets are plentiful at gates A20-A30; avoid the older A1-A10 zone.
+- Power outlets are plentiful at gates A20-A30; avoid the older A1-A10 zone where outlets are worn out.
+- Free water dispensers are inconsistent; landside food hall has reliable taps if you have time before security.
 - If you have a long layover, the paid lounges allow day passes even without a same-day boarding pass.
 
 ## Terminals & Navigation
@@ -82,3 +118,4 @@ bentoTips:
 - https://www.abudhabiairport.ae/en/
 - https://www.darb.ae/ (public transport)
 - https://www.etihad.com/ (main carrier)
+- https://www.etihad.com/en-ae/help/faq/plan-your-trip

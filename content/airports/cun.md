@@ -12,7 +12,8 @@ quickFacts:
   - "Major US carriers plus Aeromexico, VivaAerobus, and Volaris dominate"
   - "Immigration and customs often back up 45-90 minutes on US-bound flights"
   - "No airside connection between terminals; landside bus or taxi required"
-  - "Peak congestion December-April and US spring break weeks"
+  - "T3/T4 e-gates for eligible 18+ passports; peak immigration still 30-55 min"
+  - "Free Wi-Fi (CUN Free); slow during afternoon US departure banks"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +35,25 @@ bentoTips:
     title: "Check flight status on ASUR app"
     summary: "Gate changes and delays are frequent; the app updates faster than airline sites."
     detail: "Use it when Wi-Fi is spotty; official screens lag during peak waves."
+lounges:
+  - name: "The Lounge"
+    terminal: "T4"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Relaxation"
+    verdict: "depends"
+    summary: "The cleanest paid or Priority Pass option at the airport if you already have access."
+  - name: "Aeromexico Salon Premier"
+    terminal: "T3"
+    access:
+      - "Aeromexico elite status"
+      - "SkyTeam premium cabin"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "Only worth it with elite status or business class; otherwise skip for ordinary travelers."
 ---
 
 # CUN Airport Guide
@@ -43,9 +63,9 @@ bentoTips:
 ## Quick Facts
 - Terminals 2 (main), 3, and 4; no airside connections between them.
 - Primary US gateways plus Aeromexico, Viva, and Volaris.
-- Immigration routinely 45-90 minutes on afternoon US departures.
+- Immigration routinely 45-90 minutes on afternoon US departures; **T3/T4 e-gates** (18+, non-Mexican) can cut arrival processing to **2–8 min** when working — have passport ready.
 - Official taxi booths only; avoid all street hawkers.
-- Free Wi-Fi is usable but slow during rush periods.
+- **Wi‑Fi:** Free **CUN Free** network; usable but slow during 10 a.m.–6 p.m. rush. **Water:** Buy landside T2 arrivals; post-security options are weak and overpriced.
 
 ## Security & Screening Tips
 - Remove liquids and electronics early; bins are scarce and agents move slowly.
@@ -58,7 +78,7 @@ bentoTips:
 - Use T2 arrivals hall restaurants if you have a long layover; post-security food is weak.
 - Book the official ADO bus to downtown the day before; lines form fast after 3 p.m.
 - Keep a printed terminal map—cell service vanishes near gates.
-- T4 has the shortest security line most days; request it if your airline allows.
+- T4 has the shortest security line most days; immigration e-gates there are the fastest arrival path when operational.
 - Carry small-denomination pesos for restroom tips and luggage assistance.
 - Skip the first taxi booth at arrivals; walk to the second for identical rates and shorter wait.
 

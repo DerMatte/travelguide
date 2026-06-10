@@ -34,6 +34,26 @@ bentoTips:
     title: "Check Sky Harbor app first"
     summary: "Open the official app for real-time security wait times before leaving the car."
     detail: "Terminal 4 usually moves fastest; Terminal 2 can lag when only two lanes are open."
+lounges:
+  - name: "The Club at PHX"
+    terminal: "4"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Work"
+      - "Rest"
+    verdict: "depends"
+    summary: "Worth a visit only if you have Priority Pass or buy the day pass; otherwise skip."
+  - name: "American Airlines Admirals Club"
+    terminal: "4"
+    access:
+      - "AA elite status"
+      - "oneworld status"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "Ordinary travelers without status should skip this members-only lounge."
 ---
 
 # PHX Airport Guide
@@ -46,6 +66,9 @@ bentoTips:
 - No airside connection between terminals; re-clear security if changing.
 - Cell phone lot is free and usually has space.
 - Ride-share pickup is on the lower level of Terminal 4 only.
+- **Wi‑Fi:** Free **PHX WiFi** — browser login; fast and reliable.
+- **Power:** USB ports at Gate B15 and B25 — plentiful; charge before summer heat delays.
+- **Water:** Free fountains near Gate B15 in Terminal 4 — bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the TSA app or Sky Harbor app to check live wait times before you park.

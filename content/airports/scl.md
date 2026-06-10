@@ -34,6 +34,25 @@ bentoTips:
     title: "Monitor the airport app for gate changes"
     summary: "Gates shift frequently; check 45 minutes before boarding."
     detail: "Especially critical during December-February high season."
+lounges:
+  - name: "LATAM Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "LATAM premium passengers"
+      - "day pass at door"
+    amenities:
+      - "showers"
+      - "food"
+    bestFor:
+      - "Relaxation"
+    verdict: "depends"
+    summary: "Solid showers and food make the day pass worth considering if you have time before your flight."
+  - name: "LATAM Lounge"
+    terminal: "T2"
+    zone: "domestic"
+    verdict: "skip"
+    summary: "No reliable details available so skip unless you already have access."
 ---
 
 # SCL Airport Guide
@@ -42,6 +61,7 @@ bentoTips:
 
 ## Quick Facts
 - T1 serves all international flights; T2 is domestic only.
+- **MCT (T1 ↔ T2):** free shuttle — budget **90 min** minimum; **2 h** with immigration on international legs.
 - LATAM operates the majority of flights and uses T1 exclusively.
 - Free shuttle runs every 10-15 minutes between T1 and T2.
 - No TSA PreCheck or equivalent; all passengers go through standard screening.
@@ -75,6 +95,8 @@ bentoTips:
 - T1 departures food court has solid empanadas at Donde la Cuca and strong coffee at Juan Valdez.
 - Quiet seating clusters near gates 20-30 and the far end of T2.
 - Free Wi-Fi is fast but requires captcha every 45 minutes.
+- **Power:** Gate clusters 20–30 in T1; charge early during peak banks.
+- **Water:** Refill fountains near gate 15 in T1 — bring an empty bottle.
 
 ## Ground Transport & Parking
 - Centropuerto bus to Los Héroes metro station runs every 10-20 minutes, 24/7.

@@ -7,12 +7,14 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.brusselsairport.be/"
   - "https://www.brusselsairport.be/en/passengers/departures/security"
+  - "https://www.brusselsairport.be/en/passengers/at-the-airport/services/overview/keep-in-touch-services"
 quickFacts:
   - "Single terminal with A/B/C piers; 25 min walk end-to-end"
   - "Brussels Airlines hub; easy connections to most European cities"
   - "No US-style TSA PreCheck; liquids in 100 ml bags only"
   - "Train station directly below terminal; 15 min to Brussels Midi"
-  - "Security opens 2.5 hours before first departure"
+  - "Schengen MCT same pier: 40 min floor; non-Schengen adds passport + re-screen time"
+  - "Free unlimited Wi-Fi (Brussels Airport Free Wi-Fi); BRUce shows live security waits"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +36,19 @@ bentoTips:
     title: "Use the airport app for live gates"
     summary: "Download Brussels Airport app for real-time gate changes."
     detail: "Screens lag during irregular operations; app updates faster."
+lounges:
+  - name: "Brussels Airlines Lounge"
+    terminal: "Pier B"
+    access:
+      - "€45 day pass"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The best paid option at €45 with hot food and showers, worth considering for ordinary travelers needing those features."
 ---
 
 # BRU Airport Guide
@@ -44,8 +59,10 @@ bentoTips:
 - Single terminal building with three piers (A/B/C) connected airside
 - Main carriers: Brussels Airlines, TUI fly, Ryanair, easyJet
 - Security lines split by Schengen/non-Schengen; non-Schengen usually longer
+- **MCT (practical):** Same pier, Schengen–Schengen on one ticket — **40 min** floor, **60 min** comfortable. Pier change or non-Schengen adds **30–45 min** for passport control and possible re-screen.
 - Direct train to Brussels city centre every 10-15 min, €9.80 one-way
-- Free showers and quiet zones available in both airside and landside areas
+- **Wi‑Fi:** Free unlimited — select **Brussels Airport Free Wi-Fi**, accept terms. **BRUce** (app/site) shows live security waits.
+- **Water:** Fountains landside level 0 and airside pier B past gate B30; skip €3+ bottled water at pier A shops.
 - Baggage claim is fast; most flights clear in under 20 minutes
 
 ## Security & Screening Tips
@@ -59,7 +76,7 @@ bentoTips:
 - If your flight shows pier C, enter security at the far right entrance to shorten the walk.
 - Level 0 landside has cheaper coffee and sandwiches than any airside outlet.
 - Free luggage wrapping is available near check-in row 4; useful for fragile items.
-- Quiet seating with power outlets is on the upper level of pier B, past gate B30.
+- Quiet seating with power outlets is on the upper level of pier B, past gate B30 — best charging spot before a C-pier hike.
 - Train tickets can be bought with contactless card at the platform machines to skip queues.
 - During long delays, the Sheraton hotel lobby (connected by covered walkway) offers free Wi-Fi and seating.
 
@@ -74,6 +91,7 @@ bentoTips:
 - Decent quick meals: Belgian fries and waffles at "Frites Atelier" on level 0 before security.
 - Quietest airside spot is the seating area above the B-pier shops with dim lighting.
 - Avoid the main food court after 9 pm; most outlets close and only vending remains.
+- **Overrated:** Pier A grab-and-go after 8 pm; **worth it:** Frites Atelier landside level 0 before security.
 
 ## Ground Transport & Parking
 - Direct train to Brussels Midi is fastest and cheapest for city access; runs 5:00 am-11:30 pm.
@@ -84,4 +102,5 @@ bentoTips:
 ## Official Sources
 - https://www.brusselsairport.be/
 - https://www.brusselsairport.be/en/passengers/departures/security
+- https://www.brusselsairport.be/en/passengers/at-the-airport/services/overview/keep-in-touch-services
 - https://www.belgiantrain.be/en (train schedules)

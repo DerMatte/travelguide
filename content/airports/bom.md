@@ -7,12 +7,15 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.csia.in/"
   - "https://www.csia.in/passenger-guide"
+  - "https://csmia-mumbai.adaniairports.com/en/airport-facilities/wifi-service"
 quickFacts:
   - "T1 handles domestic flights; T2 handles all international plus some domestic"
   - "Major hubs for Air India, IndiGo, Vistara, and Akasa Air"
   - "T1 and T2 are 4 km apart; free shuttle buses run every 15 minutes"
   - "Peak congestion 6-10 AM and 6-10 PM; allow extra buffer"
   - "Strict liquid rules enforced; 100 ml limit with no exceptions at security"
+  - "Free unlimited Wi-Fi (#MumbaiAirportWiFi); passport kiosks if you lack an Indian SIM"
+  - "T1↔T2 connections need 90+ min; no airside link between terminals"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -33,7 +36,42 @@ bentoTips:
     label: "Status"
     title: "Check CSIA app or website"
     summary: "Live gate and delay updates beat airline apps here."
-    detail: "Wi-Fi is free but slow; download the app on cellular before entering the terminal."
+    detail: "Wi-Fi is free but OTP/kiosk login can stall at peak; download the app on cellular before entering the terminal."
+lounges:
+  - name: "Plaza Premium Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+      - "quiet space"
+    bestFor:
+      - "Rest"
+      - "Showers"
+    verdict: "depends"
+    summary: "Decent showers and quiet space make it usable with free access, but it fills fast in the evenings so arrive early."
+  - name: "Air India Maharaja Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Air India status"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Work"
+      - "Food"
+    verdict: "depends"
+    summary: "Best reserved for eligible Air India or Star Alliance passengers; ordinary travelers should skip unless they have access."
+  - name: "Travel Club Lounge"
+    terminal: "T1"
+    zone: "domestic"
+    access:
+      - "day pass"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Limited information available on quality or access, so ordinary travelers are better off eating airside or using T2 facilities instead."
 ---
 
 # BOM Airport Guide
@@ -45,7 +83,9 @@ bentoTips:
 - Air India, IndiGo, Vistara, and Akasa dominate; most international carriers use T2.
 - Security is strict on liquids and electronics; expect bag checks even with PreCheck equivalents.
 - Peak hours 6-10 AM and 6-10 PM create long lines; monsoon season adds traffic delays.
-- Free Wi-Fi available but unreliable; download boarding passes and maps offline.
+- **MCT:** Same ticket, T3-style int'l–int'l through T2 only — **90 min** floor if bags are through-checked; **T1↔T2** or separate tickets need **2.5–4 h** (shuttle + re-screen).
+- **Wi‑Fi:** Free unlimited on **#MumbaiAirportWiFi** — OTP via mobile or passport/boarding-pass voucher at kiosks (T2 gates 48/67/74, level 4 info desks). Speed drops at evening peaks; carry a power bank anyway.
+- **Water:** Refill stations post-security in T2; landside level 4 food court before security beats airside bottled prices.
 
 ## Security & Screening Tips
 - Remove all liquids, electronics, and belts before reaching the scanner—officers will make you repack if missed.
@@ -72,7 +112,8 @@ bentoTips:
 - T2 has the better food selection; try the Maharashtrian outlets on departures level 4 before security.
 - Post-security dining is limited to chains; bring snacks if you have dietary restrictions.
 - The T2 Plaza Premium Lounge offers decent showers and quiet space but fills quickly during evening peaks.
-- Free charging points are scarce near gates; carry a power bank.
+- USB outlets exist near select T2 gates (40s, 50s) but are unreliable during banks — charge at Plaza Premium or carry a power bank.
+- **Overrated:** Generic airside chains at duty-free prices; **worth it:** Maharashtrian thali landside level 4 pre-security.
 
 ## Ground Transport & Parking
 - Prepaid taxis from the arrivals hall are the most reliable; avoid touts outside.
@@ -84,3 +125,4 @@ bentoTips:
 - https://www.csia.in/
 - https://www.csia.in/passenger-guide
 - https://www.csia.in/flight-status
+- https://csmia-mumbai.adaniairports.com/en/airport-facilities/wifi-service

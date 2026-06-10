@@ -34,6 +34,27 @@ bentoTips:
     title: "Use WeChat mini-program"
     summary: "Check real-time gate and delay info via the official airport WeChat account."
     detail: "English flight boards lag; the mini-program updates faster than the website."
+lounges:
+  - name: "Priority Pass Lounge (Gate 35)"
+    terminal: "T3"
+    access:
+      - "Priority Pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Average but least-crowded Priority Pass lounge in T3 if you already have access and need a shower."
+  - name: "T3 Paid Lounge"
+    terminal: "T3"
+    access:
+      - "Paid entry"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Only consider if you specifically need a shower and have no free alternatives."
 ---
 
 # SZX Airport Guide
@@ -46,6 +67,9 @@ bentoTips:
 - Direct Metro Line 11 to Futian and Luohu; 30-40 minutes to downtown.
 - No airside transfer between international and domestic without exiting security.
 - High-speed rail station inside the airport complex for Hong Kong and Guangzhou.
+- **Wi‑Fi:** Free airport Wi‑Fi — Chinese phone verification; English boards lag.
+- **Power:** Charging room past gate 35 on the right; central hall tables near info desks.
+- **Water:** Refill stations near restroom clusters on 4F — bring an empty bottle.
 
 ## Security & Screening Tips
 - Expect full bag X-ray plus explosive trace detection on all liquids and electronics.

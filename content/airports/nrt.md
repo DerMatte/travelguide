@@ -6,6 +6,7 @@ country: "Japan"
 lastUpdated: "2026-06-10"
 sources:
   - "https://www.narita-airport.jp/en/"
+  - "https://www.narita-airport.jp/en/transit/"
   - "https://www.narita-airport.jp/en/security/"
 quickFacts:
   - "Two terminals; Terminal 1 handles ANA, Terminal 2 handles JAL and most international carriers"
@@ -34,6 +35,25 @@ bentoTips:
     title: "Check flight status on the official app"
     summary: "Download Narita Airport app for real-time gate and delay alerts."
     detail: "Website updates lag during weather events; app pushes notifications 15-20 minutes faster."
+lounges:
+  - name: "ANA Lounge"
+    terminal: "Terminal 1"
+    access:
+      - "Star Alliance Gold"
+      - "ANA business class"
+      - "paid"
+    bestFor:
+      - "Work"
+    verdict: "worth-it"
+    summary: "Strongest paid option at NRT with good access for eligible passengers."
+  - name: "Plaza Premium Lounge"
+    terminal: "Terminal 2"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Solid Priority Pass option but only worth it with free access."
 ---
 
 # NRT Airport Guide
@@ -42,10 +62,17 @@ bentoTips:
 
 ## Quick Facts
 - Two terminals connected by free shuttle bus every 15 minutes (10-minute ride).
+- **MCT (same ticket, practical floor):**
+  - **Same terminal** (T1↔T1 or T2↔T2): **60 min** floor — **75 min** if gates are far apart.
+  - **T1 ↔ T2:** landside shuttle only — no airside link; budget **2 h+** including re-security and immigration if required.
+  - **International arrival → domestic connection:** immigration + baggage — **2.5 h** minimum ([NRT transit](https://www.narita-airport.jp/en/transit/)).
 - Terminal 1: ANA and Star Alliance; Terminal 2: JAL, oneworld, and most U.S. carriers.
 - Narita Express and Keisei Skyliner both depart from basement levels of each terminal.
 - Currency exchange rates inside are 3-5% worse than in Tokyo; withdraw cash at 7-Eleven ATMs.
 - No airside transit between terminals without clearing immigration.
+- **Wi‑Fi:** Free **FreeWiFi-NARITA** — browser registration; re-authenticate every ~2 hours.
+- **Power:** Charging banks near gates 50–60 in T1; outlets scarce at peak — charge landside if you have time.
+- **Water:** Refill fountains post-security in both terminals; bring an empty bottle.
 
 ## Security & Screening Tips
 - Remove all liquids and laptops; bins are scarce and staff do not provide trays.
@@ -82,4 +109,5 @@ bentoTips:
 ## Official Sources
 - https://www.narita-airport.jp/en/
 - https://www.narita-airport.jp/en/security/
+- [NRT transit connections](https://www.narita-airport.jp/en/transit/)
 - https://www.jreast.co.jp/e/nex/

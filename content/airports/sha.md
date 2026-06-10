@@ -34,6 +34,16 @@ bentoTips:
     title: "Use airport WeChat mini-program"
     summary: "Scan QR at entrance for real-time gate, delay and security wait times."
     detail: "Works better than the English site during weather disruptions common in summer."
+lounges:
+  - name: "China Eastern Airlines Lounge"
+    terminal: "T2"
+    access:
+      - "Business class passengers"
+      - "SkyTeam Elite Plus"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Only for business class or SkyTeam elites; ordinary travelers should skip entirely."
 ---
 
 # SHA Airport Guide
@@ -46,6 +56,9 @@ bentoTips:
 - Metro Lines 2 and 10 reach People's Square in 25-35 minutes
 - Free shuttle runs every 10 minutes between T1 and T2
 - High-speed rail to PVG (Pudong) departs every 20 minutes from T2
+- **Wi‑Fi:** Free airport Wi‑Fi — Chinese phone verification; bring VPN for foreign sites.
+- **Power:** T2 Level 4 observation deck area; scarce at gates — charge landside if you have time.
+- **Water:** Refill fountains in T2 post-security; limited in T1.
 
 ## Security & Screening Tips
 - Domestic security opens 2.5 hours pre-departure; arrive at least 2 hours early during weekday mornings.

@@ -34,6 +34,20 @@ bentoTips:
     title: "Check WeChat first"
     summary: "Flight status and gate changes appear on the airport WeChat mini-program 30-45 minutes before airline apps."
     detail: "English boards lag; use the mini-program even if you only read pinyin."
+lounges:
+  - name: "China Southern Lounge"
+    terminal: "T3"
+    access:
+      - "Business class"
+      - "SkyTeam Elite+"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Showers"
+    verdict: "depends"
+    summary: "Worth visiting only with free access via business class or SkyTeam status; otherwise skip."
 ---
 
 # WUH Airport Guide
@@ -46,6 +60,8 @@ bentoTips:
 - Metro Line 2 connects directly to Hankou and Wuchang in under an hour for ¥6-8.
 - No airside transit between international and domestic without clearing immigration.
 - Free Wi-Fi requires Chinese phone number verification; bring a VPN.
+- **Power:** Quiet charging room past gate 35 on the right; scarce at other gates.
+- **Water:** Refill fountains in west-wing international gates — bring an empty bottle.
 
 ## Security & Screening Tips
 - Arrive 3 hours early for all international departures; domestic flights need 2.5 hours during peaks.

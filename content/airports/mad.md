@@ -34,6 +34,24 @@ bentoTips:
     title: "Check AENA app for gate changes"
     summary: "T4 gates can shift between main building and T4S with little notice."
     detail: "The app pushes updates faster than airline apps during irregular operations."
+lounges:
+  - name: "Iberia Velázquez Lounge"
+    terminal: "T4"
+    access:
+      - "paid access"
+    bestFor:
+      - "Work"
+    verdict: "worth-it"
+    summary: "The best paid lounge option at MAD with solid facilities for ordinary travelers who want to pay."
+  - name: "Plaza Premium Lounge"
+    terminal: "T4"
+    access:
+      - "Priority Pass"
+      - "paid access"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Smaller but adequate backup if you already have free Priority Pass entry."
 ---
 
 # MAD Airport Guide
@@ -42,10 +60,17 @@ bentoTips:
 
 ## Quick Facts
 - Four passenger terminals; T4/T4S handle ~70 % of long-haul traffic.
+- **MCT (same ticket, practical floor):**
+  - **T4 ↔ T4S (Iberia):** **60 min** floor — PTS train adds **12 min**; **75 min** safer.
+  - **T1–T3 ↔ T4:** free AENA bus — budget **90 min** minimum, **2 h** in peaks.
+  - **Separate tickets:** **3 h+** landside with baggage reclaim.
 - Iberia hub; oneworld members use T4, most low-cost carriers use T1–T3.
 - Free AENA shuttle bus runs 24/7 between all terminals every 10–15 min.
 - Metro Line 8 and Renfe cercanías both reach central Madrid in under 35 min.
 - Security fast-track lanes exist at T4 (Iberia) and T1 (paid).
+- **Wi‑Fi:** Free **AENA WiFi** — registration required; reliable throughout.
+- **Power:** Outlets at T4 upper deck near Iberia lounge; scarce in T1–T3 — charge early.
+- **Water:** Refill fountains post-security in T4 and T4S — bring an empty bottle.
 
 ## Security & Screening Tips
 - T4 security is slowest 6–9 a.m. and 4–7 p.m.; use the Iberia fast-track lane if eligible or pay €12–15 at the dedicated desk.

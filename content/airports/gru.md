@@ -7,6 +7,7 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.gru.com.br/"
   - "https://www.gru.com.br/en/security"
+  - "https://www.gru.com.br/en/passenger/to-from-gru-airport/transfer"
 quickFacts:
   - "3 terminals; T3 handles nearly all international flights"
   - "LATAM hub; major connections to Europe, US, and South America"
@@ -34,6 +35,27 @@ bentoTips:
     title: "Check flight status before leaving hotel"
     summary: "GRU posts gate changes 90 min pre-departure."
     detail: "Use the official GRU app or site; airline apps lag during thunderstorms."
+lounges:
+  - name: "Star Alliance Lounge"
+    terminal: "T3"
+    zone: "international"
+    access:
+      - "Star Alliance Gold"
+      - "paid day pass ~US$60"
+    bestFor:
+      - "Quiet"
+    verdict: "worth-it"
+    summary: "The only reliably quiet paid option at GRU for a day pass around US$60."
+  - name: "LATAM VIP Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "LATAM status"
+      - "Priority Pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Convenient for LATAM flyers or Priority Pass holders but expect crowds."
 ---
 
 # GRU Airport Guide
@@ -41,11 +63,16 @@ bentoTips:
 > Use this page to cut wait times and avoid the most common GRU pain points.
 
 ## Quick Facts
-- Three terminals; T3 is the international hub for LATAM and most foreign carriers.
-- Free 30-minute Wi-Fi; buy 24-hour passes at kiosks for R$25.
-- Immigration and customs are single-file bottlenecks on evening arrivals.
-- T1 domestic only; T2 mixed; T3 international departures and arrivals.
-- Covered walkway links T2 and T3; free shuttle runs every 10 minutes otherwise.
+- **Terminals:** **T1** (domestic), **T2** (mixed), **T3** (international hub — LATAM and most foreign carriers).
+- **MCT (same ticket, practical floor — airline mins are optimistic):**
+  - **Same terminal, T3 int'l → T3 int'l:** **90 min** floor, **2 h** comfortable — evening immigration can eat **45+ min**.
+  - **T2 ↔ T3 (walkway or shuttle):** **2 h 15 min** floor — walkway **8–12 min**; shuttle every **10 min**, **04:00–00:00** ([GRU transfer](https://www.gru.com.br/en/passenger/to-from-gru-airport/transfer)).
+  - **Domestic → international (checked bags):** **2.5 h** minimum.
+  - **Separate tickets:** **3–4 h** minimum (immigration, bags, re-check).
+- **Wi‑Fi:** Free **30 min**, then paid passes (~**R$25**/24 h) — buy if you need reliable Uber/driver coordination.
+- **Water:** Landside T3 food court has fountains; airside refill points sparse near gates **300–330** — stock up landside.
+- **Power:** T3 far gates **300–330** have the quietest seating and usable outlets after **23:00**.
+- **Official arrival guidance:** **2 h** domestic, **3 h** international before boarding ([GRU](https://www.gru.com.br/)).
 
 ## Security & Screening Tips
 - Remove liquids and electronics before the X-ray; agents are strict.
@@ -65,7 +92,7 @@ bentoTips:
 ## Terminals & Navigation
 - T3 departures: follow purple signs from check-in; security is one floor up.
 - T2–T3 walkway takes 8–12 minutes; shuttle takes 10–15 minutes including wait.
-- Minimum connection time posted at 1 h 30 min; allow 2 h 15 min on LATAM codeshares.
+- Minimum connection time posted at **1 h 30 min** — treat as marketing; **2 h 15 min** same-ticket T2↔T3, **3+ h** separate tickets.
 
 ## Lounges, Food & Amenities
 - Star Alliance Lounge in T3 airside is the only reliably quiet paid option (day pass ~US$60).

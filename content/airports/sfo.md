@@ -34,6 +34,39 @@ bentoTips:
     title: "Use MySFO app for gate changes"
     summary: "United gates shift often; app updates faster than boards."
     detail: "Check 45 minutes before departure on busy United days."
+lounges:
+  - name: "United Club"
+    terminal: "International Terminal"
+    zone: "international"
+    access:
+      - "United Club membership"
+      - "Star Alliance Gold"
+    amenities:
+      - "solid food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Showers"
+    verdict: "depends"
+    summary: "Worth it only with free access; otherwise skip due to crowds during peak bank departures."
+  - name: "United Club"
+    terminal: "Terminal 3"
+    access:
+      - "United Club membership"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Standard United Club option for domestic departures if you already have access."
+  - name: "The Club SFO"
+    terminal: "International Terminal"
+    zone: "international"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Rest"
+    verdict: "worth-it"
+    summary: "Solid Priority Pass choice for international travelers seeking a quiet paid lounge option."
 ---
 
 # SFO Airport Guide
@@ -42,11 +75,16 @@ bentoTips:
 
 ## Quick Facts
 - Four terminals (A, B, C, G) connected airside and by frequent AirTrain.
+- **MCT (same ticket, practical floor):**
+  - **Adjacent terminals** (G↔A): **60 min** floor — walk is **8–10 min** airside.
+  - **Cross-terminal** (G→International): **75–90 min** including possible re-security.
+  - **International arrival → domestic:** full re-screen — **2 h** minimum.
 - United operates the majority of flights from Terminal G and parts of A/B.
 - BART station sits directly beneath the International Terminal for seamless regional access.
 - TSA PreCheck lanes exist in every terminal; CLEAR is also widespread.
 - International arrivals require full re-screening for most domestic connections.
 - Free Wi-Fi and plentiful power outlets throughout all terminals.
+- **Water:** Refill stations post-security in Terminal 2 and International Terminal — bring an empty bottle.
 
 ## Security & Screening Tips
 - PreCheck and CLEAR cut wait times to under 10 minutes at all terminals.

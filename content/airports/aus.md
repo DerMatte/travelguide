@@ -34,6 +34,20 @@ bentoTips:
     title: "Use the AUS app"
     summary: "Real-time gate and delay updates beat airline apps."
     detail: "Free reliable WiFi covers the entire terminal and curbside."
+lounges:
+  - name: "Centurion Lounge"
+    terminal: "Main Terminal (near Gate 14)"
+    access:
+      - "American Express Platinum Card"
+      - "American Express Centurion Card"
+    amenities:
+      - "solid food"
+      - "showers"
+    bestFor:
+      - "Relax"
+      - "Work"
+    verdict: "worth-it"
+    summary: "Worth visiting if you have eligible Amex status for the reliable food and shower facilities."
 ---
 
 # AUS Airport Guide
@@ -45,7 +59,8 @@ bentoTips:
 - Main airlines: Southwest (largest), Delta, United, American.
 - No train; expect 8-15 minute walks between farthest gates.
 - TSA PreCheck and CLEAR available at the single checkpoint.
-- Strong local food post-security; free WiFi throughout.
+- Strong local food post-security; free WiFi throughout; USB outlets at most gate clusters but quality varies by concourse half.
+- Water bottle fill stations post-security near the yoga room and Gate 12 area—one of the better free options in a US airport this size.
 
 ## Security & Screening Tips
 - Main checkpoint opens at 4:30am; lines stay under 20 minutes most days.

@@ -34,6 +34,30 @@ bentoTips:
     title: "Bookmark gva.ch/flights"
     summary: "Gate and delay info updates faster on the airport site than airline apps."
     detail: "Use it when weather or French ATC strikes are forecast."
+lounges:
+  - name: "Swiss Lounge"
+    terminal: "Main Terminal"
+    zone: "non-Schengen"
+    access:
+      - "Priority Pass"
+      - "business class"
+    amenities:
+      - "showers"
+      - "quiet seating"
+    bestFor:
+      - "Quiet"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Worth a visit for the showers and calm vibe if you have Priority Pass or business-class access."
+  - name: "Swiss Lounge"
+    terminal: "Main Terminal"
+    zone: "Schengen"
+    access:
+      - "business class"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Only consider if you already have free access; otherwise skip in favor of the non-Schengen version."
 ---
 
 # GVA Airport Guide
@@ -41,11 +65,13 @@ bentoTips:
 > GVA rewards travelers who treat it like a small, efficient station rather than a major hub.
 
 ## Quick Facts
-- One terminal building; Schengen and non-Schengen split only after security.
-- Main carriers: Swiss (Star Alliance), easyJet, British Airways, Air France, Turkish.
-- Direct rail link to Geneva city center every 10-15 minutes; 7-minute journey.
-- Free Wi-Fi, clean facilities, and short walking distances throughout.
-- Ski and golf equipment accepted at oversized baggage without extra fees on most airlines.
+- **Single terminal** — Schengen and non-Schengen split only after security; max walk **~12 min** gate-to-gate.
+- **MCT (same ticket):** **40 min** Schengen–Schengen floor; **60 min** crossing Schengen boundary — workable because walks are short; pad Monday/Friday peaks.
+- **Carriers:** Swiss, easyJet, British Airways, Air France, Turkish — few long-hauls.
+- **Rail:** Direct link to **Genève-Cornavin** every **10–15 min** (**7 min** ride).
+- **Wi‑Fi:** Free unlimited — among the better airport networks in Europe.
+- **Water:** Refill fountains landside in main hall and airside near gate **D** windows — bring an empty bottle; airside café count drops after **21:00**.
+- **Power:** Gate area **D** (runway views) has quiet seating and outlets.
 
 ## Security & Screening Tips
 - Standard EU 100 ml liquids rule; no PreCheck equivalent.

@@ -34,6 +34,30 @@ bentoTips:
     title: "Check app before leaving hotel"
     summary: "Sydney Airport app shows live security wait times and gate changes."
     detail: "Train delays after 10 pm are common; have Uber backup ready."
+lounges:
+  - name: "Plaza Premium Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    amenities:
+      - "showers"
+      - "quiet zones"
+    bestFor:
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "Best paid lounge option with showers and quiet zones when you lack airline access."
+  - name: "Qantas Business Lounge"
+    terminal: "T3"
+    zone: "domestic"
+    access:
+      - "Qantas status"
+      - "oneworld tiers"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Solid for Qantas flyers but skip if you must pay."
 ---
 
 # SYD Airport Guide
@@ -42,10 +66,14 @@ bentoTips:
 
 ## Quick Facts
 - Three terminals: T1 international, T2 domestic (Virgin, Jetstar, Rex), T3 domestic (Qantas)
+- **MCT (same ticket):** **60 min** T2/T3 domestic; **90 min** domestic→T1 international including re-security and immigration.
 - International arrivals require 45-60 min for immigration and baggage on busy days
 - T2-T3 connected by free 10-min shuttle; T1 is 1.5 km walk or short bus ride
 - Train station under T2/T3; 13 min to Central, $19.50 peak single fare
 - No TSA PreCheck equivalent; SmartGate for eligible e-passport holders
+- **Wi‑Fi:** Free **Sydney Airport WiFi** — registration required; reliable.
+- **Power:** Scarce airside at T1 gates 8–20 — charge landside level 3 before security.
+- **Water:** Refill fountains post-security in T2/T3; limited in T1 — bring empty bottle.
 
 ## Security & Screening Tips
 - International security at T1 is fastest 5-7 am and after 9 pm; expect 25-40 min midday.

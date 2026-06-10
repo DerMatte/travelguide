@@ -34,6 +34,28 @@ bentoTips:
     title: "Use the official app"
     summary: "Gate changes appear here first."
     detail: "Free Wi-Fi works reliably for live updates."
+lounges:
+  - name: "LOT Business Lounge"
+    terminal: "A"
+    zone: "Schengen"
+    access:
+      - "LOT Business class"
+      - "Star Alliance Gold"
+      - "day pass ~120 PLN"
+    bestFor:
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The only worthwhile paid lounge option with a day pass around 120 PLN."
+  - name: "LOT Premium Lounge"
+    terminal: "A"
+    zone: "non-Schengen"
+    access:
+      - "LOT Business class"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Relax"
+    verdict: "depends"
+    summary: "Solid for eligible Star Alliance passengers but skip the paid route if the Business Lounge is an option."
 ---
 
 # WAW Airport Guide
@@ -42,10 +64,14 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal with Piers A (Schengen) and B (non-Schengen)
+- **MCT (same ticket):** **45 min** Schengen–Schengen; **60 min** A↔B with passport control and possible re-screen.
 - LOT Polish Airlines hub with Star Alliance priority
 - SKM rail reaches city center in 20 min for 4.40 PLN
 - All non-Schengen flights require passport control after security
 - Security opens 2.5 hours before first flights; closes at last departure
+- **Wi‑Fi:** Free airport Wi‑Fi — reliable; use official app for gate alerts.
+- **Power:** Benches near gate A1 have outlets; elsewhere sparse.
+- **Water:** Refill fountains post-security in Pier A — bring an empty bottle.
 
 ## Security & Screening Tips
 - Remove liquids and electronics only at the X-ray; trays are provided.

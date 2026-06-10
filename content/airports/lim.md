@@ -35,6 +35,12 @@ bentoTips:
     title: "Check flight status on the app"
     summary: "Use the official LIM app or website for real-time gate and delay updates."
     detail: "Screens inside the terminal lag; Wi-Fi is free but slow after 20:00."
+lounges:
+  - name: "LATAM Lounge"
+    terminal: "Main Terminal"
+    zone: "international"
+    verdict: "depends"
+    summary: "Average and often crowded, so only worth it with free access via status or premium ticket."
 ---
 
 # LIM Airport Guide
@@ -43,9 +49,12 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal with domestic (A-B) and international (C-D) piers connected airside.
+- **MCT (same ticket):** **60 min** domestic–international floor; **75 min** in peaks — immigration is the bottleneck, not walking.
 - LATAM, Sky Airline, and Avianca dominate; major U.S. carriers use Terminal C gates.
 - New 2024 terminal features faster immigration with e-gates for many nationalities.
 - Free Wi-Fi works but slows during evening peaks; download boarding passes offline.
+- **Power:** Charging ports near gate C12 and D-area windows — scarce elsewhere; charge early.
+- **Water:** Free fountains near gates C8 and D22 — bring an empty bottle.
 - No airside hotel; nearest sleep options require exiting and re-clearing security.
 - Currency exchange rates inside are poor—use ATMs before security.
 

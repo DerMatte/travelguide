@@ -34,6 +34,17 @@ bentoTips:
     title: "Check security wait times first"
     summary: "Use the airport app or website for real-time lane data."
     detail: "Lines drop sharply before 7am and after 8pm."
+lounges:
+  - name: "The Club at MCO"
+    terminal: "B"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Work"
+      - "Rest"
+    verdict: "depends"
+    summary: "The only decent lounge at MCO but skip if you are in basic economy and must pay for entry."
 ---
 
 # MCO Airport Guide
@@ -46,6 +57,10 @@ bentoTips:
 - TSA PreCheck and CLEAR lanes at both terminals
 - No airside train; all connections require re-clearing security
 - Peak crowds 7-10am and 4-7pm; summer weekends worst
+- **MCT (A ↔ B):** landside walk + re-security — budget **90 min** minimum on separate tickets.
+- **Wi‑Fi:** Free **MCO WiFi** — browser login; sessions expire.
+- **Power:** Outlets near Gate 100 (A) and central B gates; charge before peak banks.
+- **Water:** Refill fountains post-security in both terminals — bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the airport app to view live wait times before leaving the car.

@@ -3,10 +3,12 @@ iata: "HND"
 name: "Tokyo International Airport (Haneda)"
 city: "Tokyo"
 country: "Japan"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.tokyo-airport-bldg.co.jp/en/"
   - "https://www.haneda-airport.jp/en/"
+  - "https://www.ana.co.jp/en/jp/guide/prepare/airport-guide/international/hnd-transit/"
+  - "https://www.jal.co.jp/jp/en/dom/boarding/onto/"
 quickFacts:
   - "Terminals 1 (JAL domestic), 2 (ANA domestic), 3 (international + some LCCs)"
   - "20-30 min to central Tokyo via monorail or Keikyu line"
@@ -34,6 +36,43 @@ bentoTips:
     title: "Double-check the international terminal"
     summary: "Not every international flight uses Terminal 3."
     detail: "Use the Haneda app for real-time gate and security waits before taking the shuttle."
+lounges:
+  - name: "ANA Lounge"
+    terminal: "2"
+    zone: "domestic"
+    access:
+      - "ANA status"
+      - "Star Alliance Gold"
+    amenities:
+      - "showers"
+      - "food"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Worth it only with free access via status; otherwise skip."
+  - name: "JAL Lounge"
+    terminal: "1"
+    zone: "domestic"
+    access:
+      - "JAL status"
+      - "oneworld Sapphire"
+    amenities:
+      - "showers"
+      - "food"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Solid showers and food if you qualify, but irrelevant for most ordinary travelers."
+  - name: "T3 Lounge"
+    terminal: "3"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "Avoid unless you have free Priority Pass entry; better to use gate seating with outlets."
 ---
 
 # HND Airport Guide
@@ -41,11 +80,17 @@ bentoTips:
 > Fast, reliable access to Tokyo with minimal hassle when you know the terminal layout and transport options.
 
 ## Quick Facts
-- Terminal 1 (JAL group), Terminal 2 (ANA group), Terminal 3 (international and Peach, Jetstar, Spring).
-- Domestic flights rarely need more than 90 minutes; international requires 2 hours minimum.
-- Free shuttle buses run every 5-10 minutes between all terminals.
-- Excellent on-time performance; delays are rare outside typhoon season.
-- Clear English signage and helpful staff; English is widely understood at information desks.
+- **Terminals:** **T1** (JAL domestic), **T2** (ANA domestic), **T3** (international + Peach/Jetstar/Spring).
+- **MCT (same ticket, practical floor — JAL/ANA published mins):**
+  - **International → international (T3):** **60 min** floor, **75 min** comfortable.
+  - **International → domestic (T3 → T1/T2):** **80–90 min** airline min ([JAL HND transit](https://www.jal.co.jp/content/www/wwwjalcojp/jp/en/inter/airport/hnd/transit/)); **2 h** safer with checked bags.
+  - **Domestic → international:** **70 min** (JAL same-group), **2 h+** other carriers.
+  - **Separate tickets:** **3 h** minimum — collect bags, customs, re-check.
+- **T3 domestic transfer checkpoint (Feb 2026):** Open **05:30–11:00** and **13:30–19:45** — **closed 11:00–13:30**; use free shuttle between terminals midday ([ANA HND transit](https://www.ana.co.jp/en/jp/guide/prepare/airport-guide/international/hnd-transit/)).
+- **Shuttle:** Free buses every **5–10 min** between all terminals — do not walk T1/T2 ↔ T3 with bags.
+- **Wi‑Fi:** Free throughout; registration light.
+- **Power:** Plentiful at gates; avoid central food courts during delays — outlets get camped.
+- **On-time performance:** Excellent except typhoon season (Jul–Oct).
 
 ## Security & Screening Tips
 - Liquids must be in 100 ml containers inside a clear zip bag; enforcement is consistent.
@@ -60,7 +105,7 @@ bentoTips:
 - Free shower rooms in Terminal 3 (paid but clean) are rarely crowded before 10 a.m.
 - Buy a Suica or Pasmo card at the station inside the terminal for seamless train/monorail rides.
 - Avoid the paid observation deck; free viewing areas on Terminal 3's 5th floor are better.
-- If connecting from domestic to international, use the free shuttle rather than walking the long corridor.
+- **T3 domestic transfer trap (2026):** The airside domestic connection desk closes **60 min** before departure; midday **11:00–13:30** checkpoint closure forces terminal shuttle — pad **30 min** if connecting int'l→domestic over lunch.
 - Early-morning Keikyu line trains to Shinagawa have seats; monorail fills faster.
 
 ## Terminals & Navigation

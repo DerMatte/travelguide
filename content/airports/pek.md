@@ -34,6 +34,25 @@ bentoTips:
     title: "Refresh flight status on WeChat"
     summary: "Airport app and WeChat mini-program update faster than boards."
     detail: "Gate changes are common; check every 30 minutes after check-in."
+lounges:
+  - name: "Air China Lounge"
+    terminal: "T3"
+    access:
+      - "Paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The best paid lounge option at PEK with reliable showers."
+  - name: "Air China Lounge"
+    terminal: "T2"
+    access:
+      - "Air China status"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Accessible mainly via status so only worthwhile if you qualify for free entry."
 ---
 
 # PEK Airport Guide
@@ -42,11 +61,15 @@ bentoTips:
 
 ## Quick Facts
 - Three terminals connected by free shuttle buses every 10 minutes.
+- **MCT (same ticket):** **90 min** T2↔T3 minimum including shuttle; **2 h** safer — all passengers re-clear security on connections.
 - T3 handles most international and SkyTeam flights; T2 serves Star Alliance.
 - All passengers face full security screening regardless of connection.
 - High-speed Airport Express reaches Dongzhimen in 30 minutes for ¥25.
 - No TSA PreCheck equivalent; arrive early for manual checks.
 - English signage is adequate but WeChat is required for many services.
+- **Wi‑Fi:** Free airport Wi‑Fi — Chinese phone verification often required for full speed.
+- **Power:** Charging area behind T3 gate 35; scarce elsewhere — charge landside if you have time.
+- **Water:** Refill fountains in T3 post-security; limited in T1/T2.
 
 ## Security & Screening Tips
 - Expect 60-90 minutes at peak; remove all electronics and liquids.

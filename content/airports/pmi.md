@@ -34,6 +34,19 @@ bentoTips:
     title: "Check boards, not apps"
     summary: "Gate info appears on screens 40–50 min before departure; apps often lag."
     detail: "Last-minute gate changes are common—stay near your module’s main screen."
+lounges:
+  - name: "Sala VIP"
+    terminal: "Main"
+    access:
+      - "Priority Pass"
+      - "€35 day pass"
+    amenities:
+      - "basic food"
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Pay the €35 only if you specifically need a shower or have free Priority Pass access; otherwise skip."
 ---
 
 # PMI Airport Guide
@@ -47,6 +60,8 @@ bentoTips:
 - No train or people-mover between modules; all transfers are walking.
 - Peak season (Jun–Sep) sees frequent 45–60 min security waits.
 - Free Wi-Fi is reliable but requires captcha every 45 min.
+- **Power:** Window area near Gate B10 has outlets and sea views — best free charging spot.
+- **Water:** OpenCor supermarket landside for bottles; limited airside refill — fill before security in summer.
 
 ## Security & Screening Tips
 - Arrive at least 2.5 hours before departure May–September; 2 hours suffices off-season.

@@ -3,86 +3,142 @@ iata: "AMS"
 name: "Amsterdam Airport Schiphol"
 city: "Amsterdam"
 country: "Netherlands"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.schiphol.nl/"
   - "https://www.schiphol.nl/en/security/"
+  - "https://www.schiphol.nl/en/innovation/blog/short-connection-pass/"
+  - "https://www.klm.com/information/airport/transfers"
+  - "https://www.ns.nl/en"
 quickFacts:
-  - "Single terminal complex with piers A–G"
-  - "KLM hub; also serves Delta, easyJet, Transavia"
-  - "Train to Amsterdam Centraal: 15–20 min"
-  - "Security opens 2.5 h before departure for Schengen"
-  - "Free showers and quiet zones available airside"
-  - "Busiest 06:00–09:00 and 16:00–19:00"
+  - "Single terminal with piers A–G; all connected airside after security"
+  - "KLM/Delta hub; official MCT 40 min Schengen–Schengen, 50 min with non-Schengen"
+  - "Most transfers skip re-security; passport control at Schengen boundary only"
+  - "NS train to Amsterdam Centraal 15–20 min (~€6); every 10 min off-peak"
+  - "Security peaks 06:30–08:30 and 17:00–19:00; Short Connection Pass for tight transfers"
+  - "Free quiet room with recliners between piers E and F"
 bentoTips:
   - category: "timing"
     label: "Timing"
-    title: "Pad the morning and evening banks"
-    summary: "Arrive 2 hours early for Schengen and 2.5 hours for non-Schengen."
-    detail: "Security peaks around 06:30-08:30 and 17:00-19:00, so fast-track rarely saves much unless you also have bags."
+    title: "Trust 60–75 min, not 40"
+    summary: "Official 40-min MCT works on paper; late inbound + pier walk kills it."
+    detail: "Experienced travelers treat 60 min Schengen–Schengen and 75 min with passport control as sane floors."
   - category: "terminal"
     label: "Piers"
-    title: "It is one building, but signs matter"
-    summary: "All piers connect airside, and most gate walks stay under 12 minutes."
-    detail: "Do not follow generic Gates signs too early; stay aligned with your pier letter to avoid backtracking."
+    title: "Follow your pier letter, not generic Gates"
+    summary: "D to G can be a 15-min walk; backtracking is the common mistake."
+    detail: "Moving walkways help but don't run the full length — check Schiphol app for gate changes."
   - category: "food"
     label: "Food & rest"
-    title: "Use E/F for quiet and D for food"
-    summary: "The lower-level quiet zone between E and F has power and fewer crowds."
-    detail: "For a quick bite, Bar Bouche in pier D and La Place in Departure Hall 2 beat the pricier gate-area traps."
+    title: "E/F quiet zone beats gate traps"
+    summary: "Lower level between E and F has free recliners and power."
+    detail: "Bar Bouche (pier D) and La Place (Departure Hall 2) beat overpriced gate-area chains."
   - category: "status"
-    label: "Live checks"
-    title: "Use the airport app for gate changes"
-    summary: "Official screens can lag during peaks, so check the Schiphol app before committing to a pier."
-    detail: "It is especially useful when KLM or transfer banks are changing gates quickly."
+    label: "Short Connection"
+    title: "Scan for Short Connection Pass"
+    summary: "If inbound is late, scan boarding pass at Short Connection Units for fast lanes."
+    detail: "Available at busy piers — prints pass for priority security/passport when connection is tight."
+lounges:
+  - name: "KLM Crown Lounge"
+    terminal: "Main"
+    zone: "non-Schengen"
+    access:
+      - "KLM status"
+      - "paid day pass (~€50)"
+    amenities:
+      - "showers"
+      - "quiet seating"
+    bestFor:
+      - "Sleep"
+      - "Work"
+    verdict: "worth-it"
+    summary: "Best showers and quiet seating if you have status or pay — verify current day-pass rules."
+  - name: "Aspire Lounge"
+    terminal: "Main"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Decent PP backup when Crown is full or you lack KLM status."
+  - name: "Quiet Room"
+    terminal: "Main"
+    zone: "non-Schengen"
+    access:
+      - "Free"
+    amenities:
+      - "recliners"
+    bestFor:
+      - "Sleep"
+    verdict: "worth-it"
+    summary: "Free recliners between piers E and F — rarely crowded, beats paying for a nap room."
 ---
 
 # AMS Airport Guide
 
-> One-page reference for moving through Schiphol fast, skipping lines, and using its actual best facilities.
+> One building, many piers — Schiphol rewards knowing Schengen vs non-Schengen and not trusting the 40-minute MCT marketing.
 
 ## Quick Facts
-- One terminal with piers A–G; all connected airside after security.
-- Dominant airline is KLM; Star Alliance and SkyTeam use piers B, C, D, G.
-- Direct NS train to Amsterdam Centraal every 10 min; €5.80 one-way.
-- No TSA PreCheck equivalent; EU citizens can use automated gates when available.
-- Free Wi-Fi is reliable; power outlets plentiful in piers B and D.
-- Schiphol is compact—most gate walks are under 12 min once airside.
+- **Layout:** Single terminal, piers **A–G**; all connected **airside** after initial security. KLM/Delta dominate; Star Alliance uses B/C/D/G.
+- **MCT (same ticket, KLM-published):**
+  - **Schengen → Schengen:** **40 min** official — experienced floor **50–60 min**.
+  - **Schengen ↔ non-Schengen:** **50 min** official — practical floor **65–75 min** (passport control).
+  - **US/UK/SG/CY inbound → Schengen:** No re-security, but **passport control** required — **50 min** can work, **60–75 min** safer ([KLM transfers](https://www.klm.com/information/airport/transfers)).
+  - **Separate tickets:** **2 h** minimum with online check-in; **3 h+** with checked bags.
+- **Re-security on connections:** Usually **not** required if arriving from US, UK, Schengen, etc. ([KLM](https://www.klm.com/information/airport/transfers)) — major AMS advantage vs. LHR/CDG.
+- **Wi‑Fi:** Free and reliable; power outlets plentiful in piers B and D.
+- **Water:** Refill stations airside in piers B, D, and F — bring an empty bottle.
+- **Liquids:** EU **100 ml** rule at departure security; connection passengers from trusted origins often keep compliant liquids in bag.
 
 ## Security & Screening Tips
-- Arrive 2 h early for Schengen, 2.5 h for non-Schengen; lines peak 06:30–08:30 and 17:00–19:00.
-- Use the “Fast Track” (€35–50) only if you have bags and are flying non-Schengen; otherwise it rarely saves time.
-- Liquids in 100 ml rule strictly enforced; no exceptions at this airport.
-- Keep passport and boarding pass ready—multiple ID checks before security.
+- **Peak pain:** **06:30–08:30** and **17:00–19:00** — add **15–20 min** for initial departure screening.
+- **Fast Track (paid):** **€35–50** — only worth it with bags + non-Schengen departure; often marginal savings for carry-on Schengen flights.
+- **Short Connection Pass:** Scan boarding pass at **Short Connection Units** on busy piers when inbound is delayed — prints pass for **priority security/passport lanes** ([Schiphol](https://www.schiphol.nl/en/innovation/blog/short-connection-pass/)).
+- **Passport control:** Automated gates when eligible — saves minutes vs. manual booths at peak banks.
+- **Families:** Priority lanes available — ask staff at checkpoint entry.
 
 ## Best Airport Tricks & Hacks
-- Check in online, then drop bags at the far-left “Bag Drop Only” counters in Departure Hall 3 to skip the main queues.
-- After security, take the escalator down to the quiet zone between piers E and F for power outlets and fewer people.
-- Free showers are in the basement level near the meditation room—bring your own towel or buy one at the HEMA.
-- Buy an NS train ticket from the machines on the arrivals level before you clear customs to avoid platform queues.
-- If you have a long layover, exit airside to the landside library (free, open 24 h) then re-enter through a less crowded security lane.
-- Use the “Schiphol Valet” parking only if your flight is before 07:00; otherwise the P3 garage is faster and cheaper.
-- Download the Schiphol app for real-time gate changes—official screens lag by 2–3 min during peaks.
+- **Bag drop hack:** Online check-in then use far-left **"Bag Drop Only"** counters in Departure Hall 3 — shorter than full-service queues.
+- **Quiet zone:** Escalator down to **lower level between piers E and F** — free recliners, power, fewer crowds. Free **showers** nearby (bring towel or buy at HEMA).
+- **Pier discipline:** Follow **your pier letter** (e.g., "Pier D") — generic "Gates" signs cause backtracking. **D → G** can be **~15 min** at brisk pace.
+- **NS train tickets:** Buy at blue machines on **arrivals level before customs** to skip platform queues — **€5.80–6** to Centraal, **15–20 min** ([NS](https://www.ns.nl/en)).
+- **Long layover landside:** Airport library (free, **24 h**) — exit airside, visit, re-enter via quieter security lane if you have **2+ hours**.
+- **Schiphol app:** Gate changes can lag on overhead screens by **2–3 min** during peaks — app is faster.
+- **Water:** Refill stations airside — bring empty bottle; bottled water is airport-markup priced.
+- **Avoid:** Booking **40-min** connections on separate tickets; following duty-free into wrong pier; assuming Fast Track saves time for simple Schengen carry-on trips.
 
 ## Terminals & Navigation
-- Everything is one building; follow yellow overhead signs for piers.
-- Minimum connection time is 40 min for Schengen–Schengen, 50 min for non-Schengen.
-- Moving walkways run the length of piers B–G; walking end-to-end takes 15 min at normal pace.
-- Common mistake: following “Gates” signs too early and missing the direct route to your pier.
+- **Walking times:**
+  - Same pier: **5–10 min**
+  - Adjacent piers: **10–15 min**
+  - End-to-end (A area → G): **~15–25 min** at normal pace with walkways
+- **Moving walkways:** Cover much of piers B–G but not all — don't sprint-assume.
+- **Recommended buffers (practical):**
+  - Schengen–Schengen, one ticket: **60 min** floor, **75 min** comfortable
+  - With passport control: **75 min** floor, **90 min** comfortable
+  - Separate tickets: **2–3 h**
+- **Common mistakes:** Missing passport control when entering/leaving Schengen zone; wrong pier after shopping detour.
 
 ## Lounges, Food & Amenities
-- KLM Crown Lounge (non-Schengen) has the best showers and quiet seating; access via KLM status or paid day pass (€50).
-- For food, choose “La Place” in Departure Hall 2 for fresh sandwiches or “Bar Bouche” in pier D for quick Dutch bitterballen.
-- Free quiet room with recliners is on the lower level between piers E and F—rarely crowded.
-- Avoid the overpriced “Dutch Kitchen” near gate G; better value is the Albert Heijn To Go in the main terminal.
+- **KLM Crown Lounge (non-Schengen):** Best showers and quiet seating — **€50 day pass** or status. **Overcrowded** during KLM long-haul banks.
+- **Aspire / other PP lounges:** Decent backup — verify location vs. your pier before backtracking.
+- **Food — actually good:** **La Place** (Departure Hall 2) for fresh sandwiches; **Bar Bouche** (pier D) for Dutch bitterballen; **Albert Heijn To Go** in main hall for cheap snacks.
+- **Overrated:** "Dutch Kitchen" near gate G — overpriced for what you get.
+- **Free quiet room:** Lower E/F — beats paying for lounge on long layover without status.
+- **Power:** Pier B and D have good outlet density — charge after security, not at gate during delays.
 
 ## Ground Transport & Parking
-- NS Intercity train is fastest and cheapest to Amsterdam; buy at the blue machines on arrivals.
-- Taxi to city center costs €45–55 and takes 25–40 min depending on traffic; use the official taxi rank only.
-- P1 parking is closest but €4.50/h; P3 is €3/h and connected by free shuttle every 5 min.
-- For early flights, park in P3 the night before—shuttle starts at 04:30.
+- **Best value:** **NS Intercity** to Amsterdam Centraal — **every 10 min**, **15–20 min**, ~**€6**.
+- **Taxi:** **€45–55**, **25–40 min** depending on traffic — official rank only.
+- **Parking:** **P1** closest (**€4.50/h**); **P3** cheaper (**€3/h**) with free shuttle every **5 min** — shuttle from **04:30**.
+- **Night arrivals:** Trains run late but less frequently — check NS app; taxi after last train.
+- **Rush hour:** A4/A10 clog **07:00–09:30** and **16:30–19:00** — train beats road to Centraal.
 
 ## Official Sources
-- https://www.schiphol.nl/
-- https://www.schiphol.nl/en/security/
-- https://www.ns.nl/en (train schedules)
+- [Schiphol](https://www.schiphol.nl/)
+- [Security](https://www.schiphol.nl/en/security/)
+- [Short Connection Pass](https://www.schiphol.nl/en/innovation/blog/short-connection-pass/)
+- [KLM transfers at AMS](https://www.klm.com/information/airport/transfers)
+- [NS trains](https://www.ns.nl/en)
+- Re-check pier assignment day-of — KLM gate changes are frequent during bank departures.

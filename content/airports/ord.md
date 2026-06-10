@@ -3,9 +3,10 @@ iata: "ORD"
 name: "Chicago O'Hare International Airport"
 city: "Chicago"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.flychicago.com/ohare/home.page"
+  - "https://www.flychicago.com/ohare/en/At-the-Airport/connecting-flights"
   - "https://www.tsa.gov/airports/chicago-ohare-international-airport"
 quickFacts:
   - "Four terminals: 1, 2, 3, and 5"
@@ -35,6 +36,30 @@ bentoTips:
     title: "Check ATS and security waits"
     summary: "The Fly Chicago app updates ATS and security waits every few minutes."
     detail: "Use it before choosing a tunnel walk, ATS ride, or alternate checkpoint."
+lounges:
+  - name: "United Polaris Lounge"
+    terminal: "1"
+    access:
+      - "United Polaris business class"
+      - "Star Alliance Gold"
+      - "paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Quiet"
+      - "Sleep"
+    verdict: "depends"
+    summary: "The only genuinely quiet paid lounge option at ORD if you qualify or pay, thanks to good showers and calm atmosphere."
+  - name: "American Airlines Admirals Club"
+    terminal: "3"
+    access:
+      - "American AAdvantage elite"
+      - "oneworld Sapphire"
+      - "day pass"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "Standard crowded airline lounge that ordinary travelers should skip unless free access is included."
 ---
 
 # ORD Airport Guide
@@ -43,10 +68,17 @@ bentoTips:
 
 ## Quick Facts
 - United dominates Terminals 1 and 2; American uses Terminal 3; Terminal 5 is international.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal** (T1↔T2 United, T3 AA): **60 min** floor — **75–90 min** in peaks.
+  - **T5 international → T1/T2/T3:** no airside link — ATS + security; budget **90 min** minimum, **2 h** safer ([ORD connections](https://www.flychicago.com/ohare/en/At-the-Airport/connecting-flights)).
+  - **Separate tickets:** collect bags, change terminals landside — **3 h+** minimum.
 - The free Airport Transit System (ATS) runs 24/7 between terminals and the rental car center.
 - Security lines in Terminal 1 are longest before 8 a.m. and 4–7 p.m.
 - Terminal 5 customs can exceed 90 minutes on heavy European arrival banks.
 - No airside connection exists between Terminal 5 and the other terminals.
+- **Wi‑Fi:** Free **_Free_ORD_Wi-Fi** — select network and accept terms; sessions expire.
+- **Power:** Outlets at gate clusters in T1/T3; grab one right after security during delay season.
+- **Water:** Bottle-filling stations post-security in T1 (B/C) and T3 — bring an empty bottle.
 
 ## Security & Screening Tips
 - Enroll in CLEAR + TSA PreCheck; the combined lane at Terminal 1 is usually the fastest.
@@ -82,5 +114,6 @@ bentoTips:
 
 ## Official Sources
 - https://www.flychicago.com/ohare/home.page
+- https://www.flychicago.com/ohare/en/At-the-Airport/connecting-flights
 - https://www.tsa.gov/airports/chicago-ohare-international-airport
 - https://www.flychicago.com/ohare/flights/terminals.page

@@ -7,11 +7,13 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.birminghamairport.co.uk/"
   - "https://www.birminghamairport.co.uk/security/"
+  - "https://www.birminghamairport.co.uk/at-the-airport/express-lane/"
 quickFacts:
   - "Single terminal serving all flights"
   - "Major base for easyJet, Ryanair and TUI"
   - "Direct trains to Birmingham New Street (10 min)"
   - "Security often busiest 05:00-08:00 and 16:00-19:00"
+  - "CT scanners in both Zone A and B; 2 L liquids and electronics stay in bag"
   - "Free Wi-Fi throughout; premium paid option available"
 bentoTips:
   - category: "timing"
@@ -34,6 +36,20 @@ bentoTips:
     title: "Check boards after security"
     summary: "Gate numbers appear only 40-60 minutes pre-departure."
     detail: "Refresh the app or boards once airside; earlier checks are often inaccurate."
+lounges:
+  - name: "No1 Lounge"
+    terminal: "Main Terminal"
+    access:
+      - "Priority Pass"
+      - "Paid entry £28"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Work"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth the £28 fee with hot food and showers."
 ---
 
 # BHX Airport Guide
@@ -46,10 +62,13 @@ bentoTips:
 - Direct trains to Birmingham New Street every 10 minutes (10 min journey).
 - Free cell-phone waiting lot with 45-minute limit.
 - Shortest security queues usually 09:30-15:30 and after 20:00.
+- Both security zones use CT scanners—liquids up to 2 L and laptops can stay in your bag; still pack sensibly for random manual checks.
+- Free Wi-Fi works airside; power sockets behind seats in the central atrium are underused.
+- Water fountains near main restrooms; landside The Village is cheaper for bottles.
 
 ## Security & Screening Tips
-- Use the fast-track lane (£6-£8) if your queue exceeds 20 people; it is rarely worth it outside peak hours.
-- Remove liquids and laptops only when asked; most lanes now use CT scanners.
+- Express Lane (£6 pre-booked online, £8.50 at airport) only valid at Zone B–C entrance—worth it when the main queue exceeds ~20 people at peak; skip it off-peak.
+- CT scanners mean you usually keep liquids and laptops in your bag; staff may still pull bags for secondary screening.
 - Families and passengers with assistance can use the priority lane at the far left—arrive 15 minutes earlier than standard.
 
 ## Best Airport Tricks & Hacks

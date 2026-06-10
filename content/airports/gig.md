@@ -35,6 +35,29 @@ bentoTips:
     title: "Use the RioGaleão app for real-time gates"
     summary: "Gate changes are common; the app updates faster than boards."
     detail: "Check 45 min before departure—last-minute bus gates appear often."
+lounges:
+  - name: "Star Alliance Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Star Alliance Gold"
+      - "paid access"
+    amenities:
+      - "food"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "Solid food but often crowded, so only worth visiting with free access or if seats are truly needed."
+  - name: "GIG Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "A basic paid option that rarely justifies the cost compared to airside seating and casual food options."
 ---
 
 # GIG Airport Guide
@@ -42,12 +65,17 @@ bentoTips:
 > Practical, no-fluff guide to moving through Galeão quickly and avoiding the most common pain points.
 
 ## Quick Facts
-- T1 domestic, T2 international + select domestic; connected by covered walkway.
-- Gol and LATAM dominate; Azul has growing presence.
-- 20 km from Copacabana; traffic on Linha Vermelha can double travel time.
-- Security and immigration are the main bottlenecks, especially 5–10 a.m.
-- BRT line runs every 10–20 min and costs R$7.50 to downtown.
-- Currency exchange and ATMs are concentrated in T2 arrivals.
+- **Terminals:** **T1** (most domestic), **T2** (international + select domestic) — **8–10 min** covered walkway.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal, domestic → domestic:** **60 min** floor.
+  - **T1 ↔ T2 (one ticket):** **90 min** floor — walkway plus potential re-security.
+  - **International → domestic:** Immigration dominates — **2 h** minimum.
+  - **Separate tickets:** **3 h** minimum (bags, re-check, immigration).
+- **Distance:** **20 km** north of Copacabana; **Linha Vermelha** traffic can double drive time.
+- **Wi‑Fi:** Free throughout both terminals — slow during morning peaks; buy a local SIM at T2 arrivals for Uber.
+- **Water:** Airside fountains sparse — T2 gates **30–40** have the most reliable outlets; carry water after security.
+- **Power:** T2 gates **30–40** and **50–60** end — charge before the food-court crush after **20:00**.
+- **BRT Expresso Aeroporto:** Every **10–20 min**, **R$7.50** to downtown/Barra.
 
 ## Security & Screening Tips
 - Expect 40–60 min at peak; use the priority lane if flying business or holding Star Alliance Gold.

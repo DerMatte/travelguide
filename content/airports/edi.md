@@ -7,6 +7,7 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.edinburghairport.com/"
   - "https://www.edinburghairport.com/at-the-airport/security"
+  - "https://www.edinburghairport.com/at-the-airport/facilities"
 quickFacts:
   - "Single terminal for all flights"
   - "Main airlines: easyJet, Ryanair, British Airways, Loganair"
@@ -34,6 +35,18 @@ bentoTips:
     title: "Check live security wait"
     summary: "Use the airport app or website for current queue times."
     detail: "Updates every 15 minutes and often beats generic advice during disruptions."
+lounges:
+  - name: "Escape Lounge"
+    terminal: "Main"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Escape Lounge is small and often crowded so skip paying for access and eat landside instead."
 ---
 
 # EDI Airport Guide
@@ -41,12 +54,14 @@ bentoTips:
 > Edinburgh’s single-terminal layout keeps walking times short, but security queues and early closures reward precise timing.
 
 ## Quick Facts
-- One terminal handles all domestic and international flights.
-- Primary carriers: easyJet (biggest base), Ryanair, British Airways, Loganair.
-- Tram line runs every 7–10 minutes to Edinburgh city centre (£7.50).
-- Taxi rank and short-stay car park sit directly outside arrivals.
-- Free Wi-Fi throughout; power sockets plentiful airside.
-- No US-style TSA PreCheck; standard UK security applies.
+- **Single terminal** for all domestic and international flights — no inter-terminal transfers.
+- **MCT (same ticket):** **45 min** floor for domestic/Schengen-style connections; **60 min** if crossing passport zones — still tight if inbound is late.
+- **Carriers:** easyJet (biggest base), Ryanair, British Airways, Loganair.
+- **Tram:** Every **7–10 min** to Edinburgh city centre (**£7.50**, ~**30 min**).
+- **Wi‑Fi:** Free throughout; captive portal login — stable enough for boarding passes.
+- **Water:** Refill points landside and airside near main concourse toilets — density drops toward gates 15–20.
+- **Power:** Plentiful airside near gates 15–18; landside food court has fewer outlets.
+- **No TSA PreCheck** — standard UK security; liquids **100 ml** rule strictly enforced.
 
 ## Security & Screening Tips
 - Arrive at least 2 hours before departure; queues regularly exceed 30 minutes 5–8am and 4–7pm.

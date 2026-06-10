@@ -34,6 +34,28 @@ bentoTips:
     title: "Use the airport app for live queues"
     summary: "Check real-time immigration wait times before leaving the MRT."
     detail: "The app updates every 10 minutes and shows both terminals."
+lounges:
+  - name: "Plaza Premium Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    bestFor:
+      - "Rest"
+      - "Work"
+    verdict: "worth-it"
+    summary: "The best paid lounge option at TPE; visit the T2 location near gate C3 for a solid experience."
+  - name: "Plaza Premium Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Skip this crowded T1 version in favor of the superior T2 lounge."
 ---
 
 # TPE Airport Guide
@@ -42,9 +64,12 @@ bentoTips:
 
 ## Quick Facts
 - Two terminals linked by free shuttle buses running every 5-10 minutes.
+- **MCT (same ticket, T1↔T2):** shuttle **8–12 min** — budget **75 min** minimum including immigration peaks; **90 min** safer.
 - EVA Air, Starlux, and China Airlines dominate; most U.S. flights depart from T2.
 - Direct MRT to Taipei Main Station costs NT$160 and takes 35-40 minutes.
 - Free, fast Wi-Fi available everywhere; no login required.
+- **Power:** 4th-floor observation deck in T1; gate C6 shower area in T2 — charge early.
+- **Water:** Free drinking water stations near every gate cluster — bring an empty bottle.
 - Currency exchange desks close at 11 PM; ATMs remain open 24/7.
 
 ## Security & Screening Tips

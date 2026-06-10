@@ -34,6 +34,20 @@ bentoTips:
     title: "Use ANA app for gate changes"
     summary: "LIS frequently moves Schengen flights last-minute."
     detail: "Check 45 minutes before departure rather than relying on screens."
+lounges:
+  - name: "TAP Lounge"
+    terminal: "1"
+    access:
+      - "paid access available"
+      - "TAP passengers"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The TAP Lounge is worth visiting for its decent hot food and showers, especially if you have paid access."
 ---
 
 # LIS Airport Guide
@@ -42,10 +56,12 @@ bentoTips:
 
 ## Quick Facts
 - One primary terminal (T1) for almost all flights; T2 serves only Ryanair and a few others.
+- **MCT (same ticket):** **45 min** Schengen–Schengen official; **60–75 min** with passport control or T2 involvement — don't cut it close.
 - TAP Air Portugal operates the majority of long-haul and Schengen connections.
 - Red-line metro to downtown in 20 minutes (€1.65); Aerobus is slower and more expensive.
 - Security and immigration are combined; no separate PreCheck equivalent.
 - Free unlimited Wi-Fi; limited power outlets near most gates.
+- **Water:** Refill fountains post-security near gates 20 and 46 — bring an empty bottle.
 
 ## Security & Screening Tips
 - Arrive at least 2.5 hours before departure; lines regularly hit 40 minutes during morning and evening peaks.

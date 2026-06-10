@@ -3,9 +3,10 @@ iata: "LHR"
 name: "London Heathrow Airport"
 city: "London"
 country: "United Kingdom"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.heathrow.com/"
+  - "https://www.heathrow.com/airport-guide/wifi-and-internet"
   - "https://www.heathrow.com/connecting-flights"
   - "https://www.heathrow.com/airport-guide/security"
   - "https://www.heathrow.com/transport-and-directions"
@@ -39,6 +40,39 @@ bentoTips:
     title: "Verify liquid rules and OSS eligibility"
     summary: "T2, T3, and T5 connection security rules differ from T4 upgrades."
     detail: "The One Stop Security pilot is narrow; confirm with your airline instead of assuming you skip re-screening."
+lounges:
+  - name: "No.1 Lounge"
+    terminal: "T3"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+      - "quiet zones"
+    bestFor:
+      - "Quiet"
+    verdict: "worth-it"
+    summary: "Solid paid option for ordinary travelers lacking status, thanks to showers and calm spaces."
+  - name: "British Airways Club Lounge"
+    terminal: "T5"
+    access:
+      - "BA status"
+      - "oneworld Sapphire or above"
+    bestFor:
+      - "Food"
+      - "Work"
+    verdict: "depends"
+    summary: "Only worth it with free access via status; otherwise skip in favor of paid independents."
+  - name: "British Airways First Lounge"
+    terminal: "T5"
+    access:
+      - "BA Gold"
+      - "oneworld Emerald"
+    bestFor:
+      - "Food"
+      - "Sleep"
+    verdict: "skip"
+    summary: "Elite-only access makes it irrelevant for most ordinary travelers."
 ---
 
 # LHR Airport Guide
@@ -49,7 +83,8 @@ bentoTips:
 - **Terminals:** 2 (Star Alliance hub), 3 (many long-haul/oneworld), 4 (SkyTeam-heavy), 5 (British Airways hub with A/B/C satellites).
 - **MCT (same ticket):** BA/Heathrow guidance is often 60–90 minutes on one ticket, but experienced travelers treat **90 minutes as the floor** and **2–2.5 hours** as sane for terminal changes.
 - **Separate tickets:** BA recommends **at least 4 hours** — you must collect bags, change terminals landside, and check in again.
-- **Wi‑Fi:** Free `_Heathrow Wi-Fi`; registration required, sessions expire (re-login periodically).
+- **Wi‑Fi:** Free `_Heathrow Wi-Fi`; registration required, sessions expire (re-login periodically) ([Heathrow Wi‑Fi](https://www.heathrow.com/airport-guide/wifi-and-internet)).
+- **Water:** Refill stations airside in T2, T3, and T5 — bring an empty bottle; Heathrow retail pricing on bottled water is steep.
 - **Liquids on connections:** In **Terminals 2, 3, and 5**, connecting passengers may keep **liquids up to 2 litres** and large electronics **inside** cabin baggage at connection security ([Heathrow connecting flights](https://www.heathrow.com/connecting-flights)). **Terminal 4** upgrades are ongoing — you may still need liquids in **100 ml** containers and electronics out; follow staff directions.
 
 ## Security & Screening Tips
@@ -103,4 +138,5 @@ bentoTips:
 - [BA Flight Connections at LHR](https://www.britishairways.com/information/airport-information/flight-connections)
 - [UK hand luggage liquids (GOV.UK)](https://www.gov.uk/hand-luggage-restrictions/liquids)
 - [Elizabeth line at Heathrow (TfL)](https://tfl.gov.uk/modes/elizabeth-line/getting-to-and-from-heathrow-on-the-elizabeth-line)
+- [Heathrow Wi‑Fi](https://www.heathrow.com/airport-guide/wifi-and-internet)
 - Always re-check terminal assignments and construction notices the day before travel.

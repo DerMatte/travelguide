@@ -12,7 +12,8 @@ quickFacts:
   - "Hub for Sichuan Airlines, Air China, and Chengdu Airlines"
   - "Metro Line 1 reaches city center in 40 minutes; high-speed rail at T2"
   - "Strict multi-stage security with liquid and electronics checks"
-  - "Peak congestion 07:00-09:00 and 17:00-20:00"
+  - "Free Wi-Fi requires Chinese mobile OTP or passport at kiosk; VPN helps foreign SIMs"
+  - "Water fountains post-security; power banks over 100 Wh must be checked"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +35,33 @@ bentoTips:
     title: "Check WeChat first"
     summary: "Airport WeChat mini-program shows real-time security wait times."
     detail: "Use before leaving hotel; ignore outdated display boards."
+lounges:
+  - name: "DragonPass Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+      - "DragonPass"
+    amenities:
+      - "food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Shower"
+    verdict: "depends"
+    summary: "Worth using only with free DragonPass or Priority Pass access for the food and showers; otherwise skip."
+  - name: "DragonPass Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+      - "DragonPass"
+    amenities:
+      - "food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Shower"
+    verdict: "depends"
+    summary: "A second similar option in T2 for eligible cardholders seeking basic refreshment before flights."
 ---
 
 # CTU Airport Guide
@@ -44,8 +72,9 @@ bentoTips:
 - T2 is the main terminal for both domestic and international; T1 is domestic-only and smaller.
 - Sichuan Airlines and Air China dominate; Star Alliance and oneworld use T2.
 - Metro Line 1 and Chengdu–Mianyang high-speed rail both serve T2 directly.
+- **Wi‑Fi:** Free but requires Chinese mobile OTP or passport verification at a kiosk — foreign numbers often fail without VPN/roaming.
+- **Water:** Fountains post-security near domestic gates; fill before the long walk to international gates.
 - All passengers pass two security layers; liquids must be under 100 ml in clear bag.
-- Free Wi-Fi requires Chinese phone number; VPN recommended for foreign SIMs.
 
 ## Security & Screening Tips
 - Expect separate ID, ticket, and X-ray checks; remove laptops and liquids early.
@@ -59,6 +88,7 @@ bentoTips:
 - If connecting from T1 to T2, take the free shuttle from Gate 1 rather than walking the long corridor.
 - High-speed rail tickets can be bought at T2 machines with passport; cheaper than taxi to city.
 - Power banks over 100 Wh are confiscated—leave them at home or check luggage.
+- **Note:** Chengdu Tianfu (TFU) handles much new traffic, but Shuangliu (CTU) still runs domestic and some international — confirm your airport code on the ticket.
 - Quiet seating is on T2 departures Level 4 near gates 35-40 after security.
 - Use Didi app for rides; airport taxi queue is slower and more expensive at night.
 - Currency exchange at T2 arrivals has poor rates—use airport ATMs instead.

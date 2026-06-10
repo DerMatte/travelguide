@@ -34,6 +34,18 @@ bentoTips:
     title: "Refresh gate info at 30 minutes"
     summary: "SAN app or screens update gate changes faster than airline apps."
     detail: "Check again after security because short taxi times cause frequent flips."
+lounges:
+  - name: "The Club at SAN"
+    terminal: "Terminal 2"
+    access:
+      - "day passes"
+      - "Priority Pass"
+    amenities:
+      - "Wi-Fi"
+    bestFor:
+      - "Quiet"
+    verdict: "worth-it"
+    summary: "The best quiet lounge option with day pass access and reliable Wi-Fi."
 ---
 
 # SAN Airport Guide
@@ -46,6 +58,9 @@ bentoTips:
 - 3 miles from downtown; Uber/Lyft pickup on lower arrivals level.
 - TSA PreCheck lanes at both terminals; CLEAR at Terminal 2.
 - Cell phone lot on the north side offers free 30-minute wait with flight monitors.
+- **Wi‑Fi:** Free **SAN-WiFi** — browser login; reliable.
+- **Power:** T2 observation deck upper level and Gate A25 area — charge before Southwest banks.
+- **Water:** Refill fountains post-security in both terminals — bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the SAN app or airport website for live wait times; PreCheck lines stay under 15 minutes most days.

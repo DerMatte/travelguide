@@ -3,7 +3,7 @@ iata: "JFK"
 name: "John F. Kennedy International Airport"
 city: "New York"
 country: "United States"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.jfkairport.com/"
   - "https://www.jfkairport.com/flights/connections-guide"
@@ -41,6 +41,43 @@ bentoTips:
     title: "Watch AirTrain and construction alerts"
     summary: "Central Terminal Area work can change AirTrain wait times and curb access."
     detail: "Check JFK advisories before leaving for the airport and again before any terminal hop."
+lounges:
+  - name: "Roam Lounge"
+    terminal: "Terminal 5"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "JetBlue connections"
+    verdict: "depends"
+    summary: "Solid paid or Priority Pass option for JetBlue flyers in T5; skip if you lack access."
+  - name: "Delta Sky Club"
+    terminal: "Terminal 4"
+    access:
+      - "Delta SkyTeam elite"
+      - "paid day pass"
+    bestFor:
+      - "Long layovers"
+    verdict: "depends"
+    summary: "Best default lounge in T4 only if you already have access or a same-terminal layover."
+  - name: "American Admirals Club"
+    terminal: "Terminal 8"
+    access:
+      - "oneworld elite"
+      - "paid day pass"
+    bestFor:
+      - "oneworld connections"
+    verdict: "depends"
+    summary: "Worth it for oneworld passengers already in T8; otherwise avoid terminal changes."
+  - name: "Virgin Atlantic Clubhouse"
+    terminal: "Terminal 4"
+    access:
+      - "Virgin Atlantic or Delta elite"
+      - "paid day pass"
+    bestFor:
+      - "Premium long-haul"
+    verdict: "skip"
+    summary: "Premium experience but limited access makes it irrelevant for most ordinary travelers."
 ---
 
 # JFK Airport Guide
@@ -56,7 +93,8 @@ bentoTips:
   - **Separate tickets:** full arrival procedure — **3–4 h** minimum.
 - **AirTrain:** **Free** between passenger terminals; **$8.75** one-way to **Jamaica** (LIRR/subway) or **Howard Beach** (A train); children **under 5** free; runs **24/7** every **5–15 min** ([JFK AirTrain](https://www.jfkairport.com/to-from-airport/air-train)).
 - **Construction alert:** From **26 May 2026**, AirTrain service modifications affect the **Central Terminal Area** inner loop — expect longer waits and crowding; allow extra connection time.
-- **Wi‑Fi:** Free airport Wi‑Fi — registration required; sessions may time out.
+- **Wi‑Fi:** Free airport Wi-Fi — registration required; sessions time out during long T4 layovers — re-login before gate changes.
+- **Water:** Refill fountains in **T4** near **B23/B37** and **T5** clusters; coverage uneven — bring an empty bottle.
 - **Liquids:** US **3-1-1** rule strictly enforced — quart-sized bag, **100 ml (3.4 oz)** containers.
 
 ## Security & Screening Tips

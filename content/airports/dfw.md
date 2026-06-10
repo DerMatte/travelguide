@@ -3,16 +3,18 @@ iata: "DFW"
 name: "Dallas/Fort Worth International Airport"
 city: "Dallas"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.dfwairport.com/"
   - "https://www.tsa.gov/airports/dallas-fort-worth-international-airport"
+  - "https://www.dfwairport.com/dfwnewsroom/traveltips/"
 quickFacts:
-  - "5 terminals (A-E) linked by free Skylink train"
-  - "Primary hub for American Airlines"
+  - "AA hub MCT: 40 min domestic floor; int'l–domestic 90 min; separate tickets 3+ h"
+  - "5 terminals (A-E) linked by free Skylink train every ~2 min"
+  - "Primary hub for American Airlines; Terminal D for most int'l"
   - "Serves ~80 million passengers annually"
   - "TSA PreCheck and CLEAR available at all terminals"
-  - "Skylink runs every 2 minutes, 24/7"
+  - "Free Wi-Fi; water refill post-security in B, C, D only"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +36,24 @@ bentoTips:
     title: "Use DFW and AA apps together"
     summary: "The DFW app tracks Skylink and security waits, while AA gate changes can move fast."
     detail: "Airport FIDS boards can lag by a few minutes during busy American Airlines banks."
+lounges:
+  - name: "Admirals Club"
+    terminal: "D"
+    zone: "international"
+    access:
+      - "American Airlines status or day pass"
+    bestFor:
+      - "Work"
+    verdict: "worth-it"
+    summary: "Largest and least crowded Admirals Club option with day-pass access for ordinary travelers."
+  - name: "Admirals Club"
+    terminal: "A"
+    access:
+      - "American Airlines status or day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Standard Admirals Club that works if you already have access but not worth a paid visit."
 ---
 
 # DFW Airport Guide
@@ -42,10 +62,15 @@ bentoTips:
 
 ## Quick Facts
 - Five terminals (A–E) connected airside by Skylink; no need to exit security for connections.
+- **MCT (AA hub, one ticket):**
+  - **Domestic → domestic:** **40 min** floor (AA sells these); **60 min** sane in peaks.
+  - **Domestic → international:** **60 min** floor — same security zone once airside.
+  - **International → domestic:** **90 min** floor; experienced flyers want **2–3 h** for immigration/customs.
+  - **Separate tickets:** **3–4 h** minimum.
 - American Airlines dominates; most international flights use Terminal D.
-- Skylink train reaches any terminal in under 10 minutes.
+- Skylink train reaches any terminal in under 10 minutes (avg ~5 min per DFW).
 - Terminal E handles many regional jets and some international arrivals.
-- Free inter-terminal shuttle runs outside security if Skylink is down.
+- **Wi‑Fi:** Free airport-wide. **Water:** Refill stations post-security in **B, C, D only** — fill before long E-gate waits.
 
 ## Security & Screening Tips
 - PreCheck lanes at every terminal; CLEAR is fastest at A and D during morning peaks.
@@ -83,4 +108,5 @@ bentoTips:
 ## Official Sources
 - https://www.dfwairport.com/
 - https://www.tsa.gov/airports/dallas-fort-worth-international-airport
+- https://www.dfwairport.com/dfwnewsroom/traveltips/
 - https://www.dfwairport.com/flights/terminals/

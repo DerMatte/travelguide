@@ -34,6 +34,27 @@ bentoTips:
     title: "Use the TPA app for gate and security updates"
     summary: "Real-time monorail and checkpoint wait times beat airline apps."
     detail: "Refresh on the tram if your airside changes; gates can shift without notice."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "Airside E"
+    access:
+      - "Delta premium cabins"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Only worth it if you have Delta premium access; otherwise skip due to restricted entry."
+  - name: "Columbia"
+    terminal: "Airside C"
+    bestFor:
+      - "Food"
+    verdict: "worth-it"
+    summary: "A standout local restaurant option that serves as a solid lounge alternative for ordinary travelers."
+  - name: "Cigar City"
+    terminal: "Airside F"
+    bestFor:
+      - "Relax"
+    verdict: "worth-it"
+    summary: "One of the better local lounge-style spots at TPA for a relaxed pre-flight experience."
 ---
 
 # TPA Airport Guide
@@ -46,6 +67,7 @@ bentoTips:
 - Standard security rarely exceeds 20 minutes; PreCheck and CLEAR lanes move even faster.
 - On-site parking garage connects directly to the terminal via short walk or moving walkways.
 - Tampa Bay area traffic is light outside weekday rush hours.
+- **Water:** Refill fountains post-security in Airside C near Columbia Restaurant area — bring empty bottle.
 
 ## Security & Screening Tips
 - Use the main terminal checkpoint; it is the only one and splits into PreCheck/CLEAR on the left.

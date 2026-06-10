@@ -7,6 +7,8 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.dublinairport.com/"
   - "https://www.dublinairport.com/security"
+  - "https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services"
+  - "https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations"
 quickFacts:
   - "Two terminals (T1 domestic/short-haul, T2 long-haul) connected by covered walkway"
   - "Aer Lingus hub; Ryanair primary base"
@@ -34,6 +36,29 @@ bentoTips:
     title: "Check security live"
     summary: "Use the airport app or website for current security wait times."
     detail: "Refresh before leaving the hotel; queues move fastest at the far-left lanes."
+lounges:
+  - name: "The Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+      - "Paid entry €35-45"
+    amenities:
+      - "food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth considering with decent food and showers."
+  - name: "Aer Lingus Lounge"
+    terminal: "T2"
+    access:
+      - "Aer Lingus business class"
+      - "Aer Lingus Gold status"
+    bestFor:
+      - "Business travelers"
+    verdict: "depends"
+    summary: "Only useful with airline status or business class ticket; otherwise skip."
 ---
 
 # DUB Airport Guide
@@ -41,11 +66,16 @@ bentoTips:
 > Dublin Airport is compact but security and US-bound screening create predictable bottlenecks; this guide shows exactly where to save time.
 
 ## Quick Facts
-- Terminals 1 and 2 linked by 8-minute covered walkway; both have security before departures.
-- Aer Lingus and Ryanair dominate; few other long-haul carriers.
-- Free Wi-Fi everywhere; power sockets plentiful in T2.
-- No airside transit between T1 and T2 without clearing security again.
-- Currency exchange rates poor; use ATMs or card payments.
+- **Terminals:** T1 (Ryanair, easyJet, most short-haul) and T2 (Aer Lingus, long-haul, all US flights) linked by **8-min** covered walkway — both require separate security if you switch terminals airside.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal, Schengen/UK short-haul:** **60 min** floor, **75 min** comfortable.
+  - **T1 ↔ T2 connection (one ticket):** **90 min** floor — exit/re-enter security; walkway is fast, queues are not.
+  - **US-bound departures (T2):** Add **20–30 min** for secondary screening after main security.
+  - **Separate tickets:** **2.5–3 h** minimum (immigration, bags, re-check).
+- **Wi‑Fi:** Free unlimited **Dublin Airport Wi-Fi** — no registration ([DAA Wi-Fi](https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services)); can slow during morning banks.
+- **Water:** **27** free refill stations landside and airside in both terminals ([DAA water stations](https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations)) — bring an empty bottle.
+- **Power:** T2 has the better outlet density post-security; T1 gates 1–10 are sparse — charge at mezzanine level.
+- **Currency exchange:** Airport rates are poor; use ATMs or card payments.
 
 ## Security & Screening Tips
 - Online check-in and bag drop 24 h ahead; arrive with boarding pass on phone.
@@ -58,7 +88,7 @@ bentoTips:
 - If connecting from T1 to T2, exit landside and re-enter T2; often faster than the walkway during peaks.
 - The 747 bus stops at both terminals and runs every 10-15 min; buy ticket on phone to skip queue.
 - T2 has a quiet seating area on the mezzanine level above the main concourse after security.
-- Bring a refillable bottle; water fountains are located just past security in both terminals.
+- Bring a refillable bottle — **27** automatic refill stations marked on the airport map (both terminals, pre- and post-security).
 - Avoid the short-stay car park; use Express Park & Ride for stays over 3 h.
 
 ## Terminals & Navigation
@@ -80,6 +110,8 @@ bentoTips:
 - Short-stay parking fills fast; book online in advance for Terminal 2 drop-off.
 
 ## Official Sources
-- https://www.dublinairport.com/
-- https://www.dublinairport.com/security
-- https://www.dublinairport.com/to-from-the-airport
+- [Dublin Airport](https://www.dublinairport.com/)
+- [Security wait times](https://www.dublinairport.com/security)
+- [Free Wi-Fi](https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services)
+- [Drinking water stations](https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations)
+- [Ground transport](https://www.dublinairport.com/to-from-the-airport)

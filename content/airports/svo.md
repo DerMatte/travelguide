@@ -34,6 +34,31 @@ bentoTips:
     title: "Check Aeroexpress first"
     summary: "Confirm train times on the Aeroexpress app."
     detail: "Road traffic to the city is unpredictable; train is reliable except during strikes."
+lounges:
+  - name: "Business Lounge C"
+    terminal: "C"
+    access:
+      - "Priority Pass"
+      - "paid"
+    amenities:
+      - "showers"
+    bestFor:
+      - "rest"
+    verdict: "worth-it"
+    summary: "The best paid option at SVO with Priority Pass access and free showers near the quiet zone; bring your own towel."
+  - name: "Lounge B"
+    terminal: "B"
+    verdict: "skip"
+    summary: "Small and frequently overcrowded, so ordinary travelers should avoid it."
+  - name: "Aeroflot Lounge"
+    terminal: "C"
+    access:
+      - "Aeroflot status"
+      - "paid"
+    bestFor:
+      - "rest"
+    verdict: "depends"
+    summary: "Only worthwhile with free elite access; otherwise the paid C lounge near gate 15 is the stronger choice."
 ---
 
 # SVO Airport Guide
@@ -42,10 +67,12 @@ bentoTips:
 
 ## Quick Facts
 - Aeroflot’s primary base; Terminal B handles most domestic flights, C the majority of international.
+- **MCT (same ticket, airside B↔C):** free shuttle **15 min** — budget **75 min** minimum including walking; **90 min** in peaks.
 - Terminals B–C–D/E/F are linked airside by free shuttle buses every 15 minutes.
 - Aeroexpress rail reaches Belorussky Station in 35–50 minutes; taxis cost 2–3× more in traffic.
 - No TSA PreCheck equivalent; all passengers go through standard Russian security.
 - Free Wi-Fi needs phone verification; power outlets are scarce in B and older sections of D.
+- **Water:** Limited airside refill in B — buy landside in Terminal C before security.
 
 ## Security & Screening Tips
 - Arrive 2.5 hours early for flights from C or D; lines exceed 45 minutes 05:00–08:00 and 18:00–22:00.

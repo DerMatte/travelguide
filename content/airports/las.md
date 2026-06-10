@@ -6,6 +6,7 @@ country: "United States"
 lastUpdated: "2026-06-10"
 sources:
   - "https://www.harryreidairport.com/"
+  - "https://www.harryreidairport.com/AirportServices/WiFi"
   - "https://www.tsa.gov/airports/harry-reid-international-airport"
 quickFacts:
   - "Two terminals (T1 domestic-heavy, T3 international + some domestic)"
@@ -34,6 +35,25 @@ bentoTips:
     title: "Refresh gate info often"
     summary: "Gates flip frequently due to high volume; use the airport app."
     detail: "Monitors lag during peaks; confirm 30 minutes before boarding."
+lounges:
+  - name: "Centurion Lounge"
+    terminal: "T3"
+    access:
+      - "American Express Platinum"
+      - "American Express Centurion"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The best paid option at LAS if you have Amex Platinum or Centurion access."
+  - name: "Delta Sky Club"
+    terminal: "T1"
+    access:
+      - "Delta Sky Club access"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Standard Sky Club experience only worthwhile with free elite or card access."
 ---
 
 # LAS Airport Guide
@@ -46,6 +66,9 @@ bentoTips:
 - Free tram runs continuously between terminals
 - Heavy 24/7 traffic with slot machines throughout
 - 15-25 minutes to Las Vegas Strip
+- **Wi‑Fi:** Free airport Wi‑Fi — select network and accept terms ([Harry Reid Wi‑Fi](https://www.harryreidairport.com/AirportServices/WiFi)).
+- **Power:** Outlets at T3 gates and T1 yoga room; grab one before peak banks.
+- **Water:** Refill fountains post-security in T3; T1 has fewer — buy landside or bring empty bottle.
 
 ## Security & Screening Tips
 - T1 security backs up badly 5-9 AM and 3-8 PM; use CLEAR or PreCheck when available.

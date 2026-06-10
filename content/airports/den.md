@@ -3,17 +3,18 @@ iata: "DEN"
 name: "Denver International Airport"
 city: "Denver"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.flydenver.com/"
   - "https://www.flydenver.com/security"
+  - "https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den"
 quickFacts:
-  - "Hub for United and Frontier Airlines"
+  - "United/Frontier hub; MCT 40 min domestic floor, 60 min int'l on one ticket"
   - "Single Jeppesen Terminal with Concourses A, B, C linked by train"
-  - "Largest US airport by land area"
-  - "Serves 60+ million passengers yearly"
-  - "PreCheck and CLEAR available at all checkpoints"
-  - "Direct flights to Europe and Asia"
+  - "Level 6 East + West checkpoints (34 CT lanes); laptops/liquids stay in bags"
+  - "Great Hall renovation through 2027 — check construction alerts"
+  - "PreCheck and CLEAR available at both checkpoints"
+  - "Free Wi-Fi reliable; cell signal strong throughout"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -35,6 +36,27 @@ bentoTips:
     title: "Check train, security, and winter backups"
     summary: "The flydenver app tracks train and checkpoint waits."
     detail: "In winter, have a backup rideshare plan because snow delays can hit the A Line."
+lounges:
+  - name: "United Club"
+    terminal: "B"
+    access:
+      - "United status"
+      - "Star Alliance Gold"
+      - "day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "The largest United Club and least crowded after 8 p.m., so worth it only with free access via status."
+  - name: "United Club"
+    terminal: "B"
+    access:
+      - "United status"
+      - "Star Alliance Gold"
+      - "day pass"
+    bestFor:
+      - "Relax"
+    verdict: "skip"
+    summary: "A second United Club location in B exists but offers little advantage over the main one for most travelers."
 ---
 
 # DEN Airport Guide
@@ -43,20 +65,26 @@ bentoTips:
 
 ## Quick Facts
 - One main terminal feeds three concourses via underground train (5–8 min rides).
+- **MCT (United hub, one ticket):**
+  - **Domestic → domestic:** **40 min** floor, **60 min** comfortable (train ride included).
+  - **Domestic → international:** **60 min** floor.
+  - **International → domestic:** **90 min+** — customs adds time; pad **2 h** in peaks.
 - United dominates Concourse B; Frontier and Southwest split A and C.
-- Security lines peak 5–8 a.m. and 4–7 p.m.; PreCheck/CLEAR lanes are usually short.
-- Free airport Wi-Fi is reliable; cell signal is strong throughout.
+- **Security (2025–2026):** Two **Level 6** checkpoints — **East** (opened Aug 2025) and **West** (Feb 2024), **17 lanes each** with **CT scanners** — leave laptops and liquids in bags ([TSA](https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den)). Old Level 5 lanes are closed.
+- **Great Hall Program** runs through **2027** — eight more lanes on Level 5 north open late summer 2026; expect wayfinding changes.
+- **Wi‑Fi:** Free and reliable. **Water:** Refill stations post-security on concourses; fill before boarding the train for long gate walks.
 - The automated train runs 24/7 with no security re-screening between concourses.
-- Long walks are common; moving walkways help but still budget 20–30 min between gates.
+- Long walks are common; moving walkways help but still budget 20–30 min between distant gates.
 
 ## Security & Screening Tips
-- Use the main terminal checkpoints; avoid the smaller east checkpoint after 8 p.m.
+- Use **Level 6 West** near United counters for Concourse B; **Level 6 East** near Southwest for A/C — both open **3 a.m.–1 a.m.**
 - CLEAR + PreCheck combo is fastest; CLEAR alone still beats standard lines during rushes.
-- Liquids and laptops must come out—DEN does not have the newest CT scanners yet.
-- Arrive 90 min early for domestic, 2.5 hours for international; add 30 min during snow.
+- **CT lanes:** Electronics and compliant liquids stay in bags — don't unpack out of habit.
+- Arrive 90 min early for domestic, 2.5 hours for international; add 30 min during snow or construction.
 
 ## Best Airport Tricks & Hacks
 - Board the train at the far end of the terminal to grab a seat before crowds pile on.
+- **Checkpoint pick:** United → West Level 6; Southwest/Frontier → East Level 6 — saves backtracking to the wrong side.
 - If connecting from B to C, ride one stop to A then transfer—often faster than direct during peak.
 - Grab a window seat on the train for the best view of the airfield and mountains.
 - Use the free hotel shuttle loop to escape the terminal for 20 min of fresh air when delayed.
@@ -85,5 +113,7 @@ bentoTips:
 ## Official Sources
 - https://www.flydenver.com/
 - https://www.flydenver.com/security
+- https://www.flydenver.com/about-den/projects-and-infrastructure/great-hall-program/
+- https://www.tsa.gov/news/press/releases/2025/08/04/tsa-begin-operations-new-east-security-checkpoint-den
 - https://www.flydenver.com/parking
 - https://www.rtd-denver.com/airport/

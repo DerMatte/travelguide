@@ -34,6 +34,38 @@ bentoTips:
     title: "Check the Port app"
     summary: "Use the official Port of Seattle app for real-time security wait times."
     detail: "Refresh before you leave home; ignore if you already have PreCheck."
+lounges:
+  - name: "The Club at SEA"
+    terminal: "C"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    amenities:
+      - "Wi-Fi"
+      - "showers"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Worth a visit with free Priority Pass access but expect crowds by mid-morning."
+  - name: "Alaska Airlines Lounge"
+    terminal: "A"
+    access:
+      - "Alaska Airlines status"
+      - "paid access"
+    bestFor:
+      - "Work"
+      - "Families"
+    verdict: "worth-it"
+    summary: "Best choice for eligible Alaska flyers seeking reliable seating and food."
+  - name: "Delta Sky Club"
+    terminal: "B"
+    access:
+      - "Delta status"
+      - "paid access"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Only worthwhile with complimentary access; otherwise skip for ordinary travelers."
 ---
 
 # SEA Airport Guide
@@ -42,10 +74,14 @@ bentoTips:
 
 ## Quick Facts
 - Alaska Airlines dominates with most gates in Concourses C and D.
+- **MCT (same ticket, airside):** **45 min** floor on same concourse — **60 min** if changing C↔D via tram; international arrivals need re-security.
 - Delta uses Concourses A and B; international arrivals land at Concourse A.
 - Link light rail station sits directly under the main terminal.
 - No airside connection between international arrivals and domestic gates.
 - Free tram runs every 5-8 minutes between main terminal and D.
+- **Wi‑Fi:** Free **SEA WiFi** — browser login; reliable.
+- **Power:** Window alcoves past Gate A9 — plentiful outlets; charge before delay season.
+- **Water:** Refill fountains post-security in C and D concourses.
 
 ## Security & Screening Tips
 - PreCheck and CLEAR lanes sit on the far left after the main escalators; they rarely exceed 10 minutes.

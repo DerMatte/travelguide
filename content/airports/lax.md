@@ -3,9 +3,10 @@ iata: "LAX"
 name: "Los Angeles International Airport"
 city: "Los Angeles"
 country: "United States"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.flylax.com/"
+  - "https://www.flylax.com/wifi"
   - "https://www.flylax.com/inter-terminal-connections"
   - "https://www.flylax.com/lax-it"
   - "https://www.flylax.com/flyaway-bus/fares-tickets"
@@ -41,6 +42,33 @@ bentoTips:
     title: "Re-check weather and construction before leaving"
     summary: "Marine layer delays and detours can change the best plan fast."
     detail: "Confirm your gate, checkpoint, and LAX-it route with official airport and airline updates."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "Terminal 3"
+    bestFor:
+      - "SkyTeam connections"
+    verdict: "depends"
+    summary: "Reliable option for SkyTeam connections near the north cluster and Shake Shack."
+  - name: "Admirals Club"
+    terminal: "Terminal 4"
+    bestFor:
+      - "American/oneworld connections"
+    verdict: "depends"
+    summary: "Solid for AA and oneworld flyers but less useful if connecting from TBIT."
+  - name: "Star Alliance Lounge"
+    terminal: "TBIT"
+    zone: "international"
+    bestFor:
+      - "International connections"
+    verdict: "depends"
+    summary: "Worth the walk from West Gates with 90+ minutes if you have Star Alliance access."
+  - name: "oneworld Lounge"
+    terminal: "TBIT"
+    zone: "international"
+    bestFor:
+      - "International connections"
+    verdict: "depends"
+    summary: "Strong TBIT option for oneworld passengers on long international layovers."
 ---
 
 # LAX Airport Guide
@@ -54,7 +82,8 @@ bentoTips:
   - **Cross-terminal airside walk** (e.g. T1 → T4): budget **90 min+**; the full horseshoe is ~**2 miles** post-security per LAWA.
   - **Separate tickets / self-transfer:** collect bags, exit security, change terminals landside — **3+ hours** minimum; you re-clear TSA at the departure terminal.
 - **Airside connections:** Since **2023**, ticketed passengers can walk between **all** terminals without exiting security ([LAWA inter-terminal connections](https://www.flylax.com/inter-terminal-connections)). TBIT connects to **T3** and **T4** via skybridges; **T4–T6** use underground tunnels; **T6–T8** use upper-level walkways.
-- **Wi‑Fi:** Free **LAX-Free-WiFi** — browser login; sessions can expire (re-authenticate as needed).
+- **Wi‑Fi:** Free **LAX-Free-WiFi** — browser login; sessions can expire (re-authenticate as needed) ([LAWA Wi‑Fi](https://www.flylax.com/wifi)).
+- **Water:** Bottle-filling stations airside in newer concourses (TBIT, T3, T4+) — bring an empty bottle; bottled water is typical airport markup.
 - **Liquids:** Standard US **3-1-1** rule — **100 ml (3.4 oz)** containers in one quart-sized bag; laptops and liquids out unless your lane uses CT screening.
 
 ## Security & Screening Tips
@@ -119,4 +148,5 @@ bentoTips:
 - [FlyAway bus fares](https://www.flylax.com/flyaway-bus/fares-tickets)
 - [LAX FlyAway bus](https://www.flylax.com/flyaway)
 - [TSA What Can I Bring?](https://www.tsa.gov/travel/security-screening/whatcanibring)
+- [LAWA Wi‑Fi](https://www.flylax.com/wifi)
 - Re-check terminal, gate area (**West Gates** vs main TBIT), and construction notices before every trip — airline terminal assignments shift during LAX's ongoing modernization.

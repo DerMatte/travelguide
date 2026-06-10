@@ -34,6 +34,16 @@ bentoTips:
     title: "Check the app for gate changes"
     summary: "Gates are announced late and can flip between A and B sides."
     detail: "The airport app updates 10-15 minutes before the screens; use it when two flights share a gate."
+lounges:
+  - name: "Escape Lounge"
+    terminal: "Main Terminal"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Small and often crowded, skip unless you have a long delay."
 ---
 
 # GLA Airport Guide
@@ -41,11 +51,14 @@ bentoTips:
 > One compact reference for the single-terminal airport that saves time on every trip through Glasgow.
 
 ## Quick Facts
-- One terminal serves all domestic and international flights.
-- Main airlines: easyJet, British Airways, Ryanair, Loganair.
-- Security operates 04:00-21:00; last international departures usually 22:30.
-- Free Wi-Fi throughout; paid lounges are small and often full.
-- No rail station; nearest train is Paisley Gilmour Street (bus link).
+- **Single terminal** — all domestic and international flights under one roof.
+- **MCT (same ticket):** **45 min** floor for same-zone connections; **60 min** if changing passport areas — walks are short but morning peaks kill queues.
+- **Carriers:** easyJet, British Airways, Ryanair, Loganair.
+- **Security hours:** **04:00–21:00**; last international departures usually **~22:30**.
+- **Wi‑Fi:** Free with captive portal — adequate for gate alerts.
+- **Water:** Refill points landside near departures mezzanine; airside fountains limited and close with shops after **21:00**.
+- **Power:** Upper-level seating between gates **C–D** has the best outlet density.
+- **No rail at airport** — **First Bus 500** or taxi to city; Paisley Gilmour Street via bus link.
 
 ## Security & Screening Tips
 - Liquids in 100 ml containers only; no fast-track lane exists.

@@ -34,6 +34,18 @@ bentoTips:
     title: "Check flight status on the airport app"
     summary: "Gate changes happen often; the app updates faster than screens."
     detail: "Use it before security so you know which terminal to enter."
+lounges:
+  - name: "Nice Côte d'Azur Lounge"
+    terminal: "T2"
+    access:
+      - "Priority Pass"
+      - "day pass €45"
+    amenities:
+      - "sit-down meal with local specialties"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "Worth visiting only if you have Priority Pass or are happy to pay €45 for the meal."
 ---
 
 # NCE Airport Guide
@@ -47,6 +59,8 @@ bentoTips:
 - Tram line 2 from Terminal 1 to Nice center in ~20 minutes.
 - Currency: euros; ATMs available in both terminals but limited in T1.
 - Free Wi-Fi works well throughout; no login required.
+- **Power:** Plentiful at T2 gates A60–A70; T1 is sparser — charge in T2 if you have time.
+- **Water:** Refill fountains post-security in both terminals — bring an empty bottle.
 
 ## Security & Screening Tips
 - Arrive at least 2 hours early for T1 departures; lines often exceed 30 minutes during morning and evening peaks.

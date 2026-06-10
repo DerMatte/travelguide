@@ -34,6 +34,27 @@ bentoTips:
     title: "Check PKX app or WeChat mini-program"
     summary: "Real-time gate and security wait times update every 5 minutes."
     detail: "Official sources beat airline apps when weather or slot restrictions hit."
+lounges:
+  - name: "Air China Lounge"
+    terminal: "Main Terminal"
+    zone: "domestic/international"
+    access:
+      - "day pass"
+      - "membership"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Paid day-pass option near gates 1-20 suits Air China flyers but offers limited upside for ordinary travelers."
+  - name: "China Eastern Lounge"
+    terminal: "Main Terminal"
+    zone: "domestic/international"
+    access:
+      - "day pass"
+      - "membership"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Airside paid lounge near gates 1-20 works only if you already hold membership or need quick paid access."
 ---
 
 # PKX Airport Guide
@@ -46,6 +67,9 @@ bentoTips:
 - China Eastern and Beijing Capital base most operations here; Air China uses PEK.
 - Free Wi-Fi requires Chinese phone number verification; VPN recommended for foreign SIMs.
 - Taxis and ride-hailing only from designated Level 1 curb; no street hails.
+- **Wi‑Fi:** Free airport Wi‑Fi — Chinese phone number verification required; VPN recommended for foreign SIMs.
+- **Power:** Charging tables in central hall near information desks; scarce at outer gates.
+- **Water:** Refill stations near every restroom cluster — bring an empty bottle.
 
 ## Security & Screening Tips
 - Expect full liquid screening in clear bags; no PreCheck equivalent exists.

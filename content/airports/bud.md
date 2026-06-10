@@ -12,7 +12,8 @@ quickFacts:
   - "Primary base for Wizz Air and Ryanair"
   - "Bus 100E reaches Deák Ferenc tér in 35 minutes for €2.50"
   - "Security averages 20 minutes; morning peaks hit 45+"
-  - "Free fast WiFi and power outlets at most gates"
+  - "Schengen MCT after shared security: 30 min floor; 2A↔2B adds 5 min walk"
+  - "Free Wi-Fi (BUD Free); power tables between security and gates"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +35,40 @@ bentoTips:
     title: "Watch the FIDS boards"
     summary: "Gates flip frequently due to apron works; check every 20 minutes."
     detail: "The official app and boards update faster than airline push notifications."
+lounges:
+  - name: "Skycourt Lounge"
+    terminal: "2"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Average pay-per-use lounge worth visiting only if you specifically need a shower."
+  - name: "Terminal 2A Lounge"
+    terminal: "2A"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Skip this average pay-per-use lounge unless showers are essential."
+  - name: "Terminal 2B Lounge"
+    terminal: "2B"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Skip this average pay-per-use lounge unless showers are essential."
 ---
 
 # BUD Airport Guide
@@ -44,8 +79,10 @@ bentoTips:
 - Terminals 2A (Schengen) and 2B (non-Schengen) connected by indoor walkway.
 - Wizz Air and Ryanair dominate; Lufthansa and Turkish also operate daily.
 - Single security checkpoint serves both terminals.
+- **MCT:** Same ticket, Schengen–Schengen after the shared checkpoint — **30 min** floor (SAS publishes this for European routes). Non-Schengen in 2B adds passport control time.
 - 100E airport bus is fastest public option to central Budapest.
-- Currency exchange and ATMs available pre- and post-security; avoid first row of machines.
+- **Wi‑Fi:** Free **BUD Free** network; login via browser. Power tables line the windows between security and gates.
+- **Water:** Reliable fountains post-security near gate B12 — fill before boarding.
 
 ## Security & Screening Tips
 - Online check-in and bag drop cut wait times dramatically for Wizz and Ryanair.

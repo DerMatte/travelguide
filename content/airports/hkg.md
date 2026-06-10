@@ -34,6 +34,31 @@ bentoTips:
     title: "Check Flight Status in the app first"
     summary: "Use the official HKG app or website for gate and delay updates before trusting airline apps."
     detail: "Gates can change 30-60 min prior; the airport site updates faster than most carrier feeds."
+lounges:
+  - name: "The Wing"
+    terminal: "1"
+    access:
+      - "Cathay Pacific First/Business"
+      - "paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Consistent high-quality food and free showers make the paid day pass here a strong option for most travelers."
+  - name: "Plaza Premium Lounge"
+    terminal: "1"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    amenities:
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "Reliable paid access with solid food and showers; best when you can use Priority Pass or a reasonable day rate."
 ---
 
 # HKG Airport Guide
@@ -41,11 +66,17 @@ bentoTips:
 > Fast, no-fluff reference for clearing HKG with minimal stress and wasted time.
 
 ## Quick Facts
-- One integrated terminal; Midfield Concourse reached by 5-minute automated people mover.
-- Cathay Pacific dominates; secondary bases for HK Express and Greater Bay Airlines.
-- Combined immigration + security; e-Channel available after online enrollment for frequent visitors.
-- Free, fast Wi-Fi everywhere; Octopus card covers Airport Express, buses, and MTR.
-- Lounges are limited after 10 p.m.; only The Wing and Plaza Premium stay open late.
+- **Layout:** Single integrated terminal + **Midfield Concourse** via **5-min** automated people mover (APM).
+- **MCT (same ticket, practical floor — Cathay hub):**
+  - **Same concourse, int'l → int'l:** **60 min** floor, **75 min** comfortable.
+  - **Main terminal ↔ Midfield:** Add **10–15 min** for APM plus walk.
+  - **Separate tickets:** **2.5 h** minimum — re-clear immigration and security.
+- **Carriers:** Cathay Pacific hub; HK Express, Greater Bay Airlines, dense Asian network.
+- **Immigration + security:** Combined flow; **e-Channel** after enrollment for repeat visitors.
+- **Wi‑Fi:** Free, fast, stable — no data cap for normal use.
+- **Water:** Refill fountains in departures near gates **1–20** and Midfield — still patchy at far Midfield gates; buy bottled if tight on time.
+- **Power:** Under-seat outlets in Satellite/Midfield seating rows; charge before meal peaks **07:00–10:00**.
+- **Lounges after 22:00:** Only **The Wing** and **Plaza Premium** reliably open late.
 
 ## Security & Screening Tips
 - Expect 25-40 minutes at peak (07:00-10:00 and 18:00-21:00); liquids in 100 ml rule strictly enforced.

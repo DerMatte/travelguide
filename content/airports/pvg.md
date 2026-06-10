@@ -34,6 +34,38 @@ bentoTips:
     title: "Check WeChat or Alipay mini-programs first"
     summary: "Real-time security wait times and gate changes appear faster than boards."
     detail: "Use when your airline app shows delays; airport Wi-Fi requires Chinese number login."
+lounges:
+  - name: "Dragonair Lounge"
+    terminal: "T2"
+    zone: "Star Alliance / international"
+    access:
+      - "Star Alliance Gold"
+      - "paid day pass"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "Strongest paid option for Star Alliance passengers in T2."
+  - name: "The Lounge"
+    terminal: "T2"
+    zone: "non-Schengen"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Solid Priority Pass fallback in T2 when Dragonair is full."
+  - name: "Air China Lounge"
+    terminal: "T1"
+    zone: "international"
+    access:
+      - "Air China status"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Sleep"
+    verdict: "skip"
+    summary: "Skip unless you have free access; T2 options are stronger for most travelers."
 ---
 
 # PVG Airport Guide
@@ -42,10 +74,14 @@ bentoTips:
 
 ## Quick Facts
 - Terminals 1 (mostly domestic) and 2 (international + some domestic) linked by free shuttle.
+- **MCT (same ticket, T1↔T2):** shuttle + re-security — budget **90 min** minimum; **2 h** in peaks.
 - China Eastern, Spring, and Juneyao base here; Star Alliance uses T2.
 - Maglev and Metro Line 2 both start from T2; T1 requires shuttle first.
 - Peak immigration waits hit 60-90 minutes on arrival; departure security similar.
 - No airside connection between terminals—re-clear security if switching.
+- **Wi‑Fi:** Free airport Wi‑Fi — Chinese phone login often required; slow at peak.
+- **Power:** Scarce at T1 gates; T2 gates 60–70 area has better outlet density.
+- **Water:** Buy before immigration in T2; limited refill airside — bring empty bottle.
 
 ## Security & Screening Tips
 - Remove all electronics and liquids; 3-1-1 rule is enforced strictly.

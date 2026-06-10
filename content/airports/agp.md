@@ -11,6 +11,7 @@ quickFacts:
   - "Primary terminal is T3; T2 used for select flights and connected by walkway"
   - "Major base for Ryanair, easyJet, Vueling and Norwegian"
   - "Summer peaks create long security queues 05:00-09:00 and 16:00-20:00"
+  - "Cercanías C1 from T3 to María Zambrano: 8 min, ~€1.80; trains every ~20 min"
   - "No airside train; all movement is on foot or short bus between terminals"
   - "EU liquids rule strictly enforced; no local PreCheck equivalent"
 bentoTips:
@@ -34,6 +35,16 @@ bentoTips:
     title: "Check AENA app for gate changes"
     summary: "Gates flip between T3 and T2 without much notice during peak hours."
     detail: "Enable push notifications; the airport rarely uses screens for last-minute swaps."
+lounges:
+  - name: "Sala VIP"
+    terminal: "T3"
+    zone: "Schengen"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "Small and often full, only consider if you already have Priority Pass access."
 ---
 
 # AGP Airport Guide
@@ -46,7 +57,8 @@ bentoTips:
 - Security is the main bottleneck; no Clear or local fast-track program.
 - Summer charter and low-cost surge creates 30-60 min security waits most mornings.
 - Currency exchange and SIM cards are cheaper landside than airside.
-- Free Wi-Fi is reliable but requires repeated captcha entry.
+- Free Wi-Fi is reliable but requires repeated captcha entry; power outlets cluster near gates 40–60 and thin out at the T2 junction.
+- Water fountains sit near most T3 restrooms airside; landside Carrefour Express is still the cheapest refill before security.
 
 ## Security & Screening Tips
 - Liquids must be in 100 ml containers in a single transparent bag; staff are strict.
@@ -78,7 +90,7 @@ bentoTips:
 - Free charging points are plentiful along the windows but disappear quickly during delays.
 
 ## Ground Transport & Parking
-- Train to Málaga María Zambrano station takes 8 minutes and runs every 20 minutes; buy tickets at machines.
+- Cercanías C1 from the T3 underground station reaches María Zambrano in 8 minutes (~€1.80 zones 1–2 per AENA/Renfe); trains run about every 20 minutes—buy at station machines, not airside kiosks.
 - Taxi to city center costs €20-25 with fixed rate; avoid unofficial drivers outside arrivals.
 - Short-term parking P1 fills by 09:00 in summer; use P2 or P4 and take the free shuttle.
 - Rental cars are located in a separate building; allow 15 extra minutes for the bus transfer.
@@ -86,4 +98,5 @@ bentoTips:
 ## Official Sources
 - https://www.aena.es/en/malaga-costa-del-sol.html
 - https://www.aena.es/en/passengers/security.html
+- https://www.aena.es/es/malaga-costa-del-sol/como-llegar/tren.html
 - https://www.renfe.com (for train schedules)

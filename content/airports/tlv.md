@@ -34,6 +34,21 @@ bentoTips:
     title: "Check IAA app first"
     summary: "Open the IAA app for live security wait times."
     detail: "Avoid peak windows shown in red; status updates every 15 minutes."
+lounges:
+  - name: "Dan Lounge"
+    terminal: "Terminal 3"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "Day pass $45"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Shower"
+    verdict: "depends"
+    summary: "Worth a visit only if you have Priority Pass or are willing to pay the $45 day pass for the hot food and showers."
 ---
 
 # TLV Airport Guide
@@ -46,6 +61,8 @@ bentoTips:
 - High-speed rail to Tel Aviv HaHagana station costs 15 ₪ and runs 5 a.m.–11 p.m.
 - No TSA PreCheck or equivalent; every passenger receives the same process.
 - Free Wi-Fi is reliable throughout both terminals.
+- **Power:** Charge in public hall before first checkpoint — outlets scarce after security.
+- **Water:** Free fountains near every restroom; paid bottles 12 ₪ post-security — fill before security.
 - Currency exchange and ATMs sit only in the public area before security.
 
 ## Security & Screening Tips

@@ -34,6 +34,29 @@ bentoTips:
     title: "Use the Avinor app"
     summary: "Check real-time security wait times before leaving the train."
     detail: "Gate info updates faster here than on the main boards."
+lounges:
+  - name: "SAS Lounge"
+    terminal: "Main Terminal"
+    zone: "non-Schengen"
+    access:
+      - "eligible passengers"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only if you have eligibility, thanks to the solid hot food and shower option near gate 34."
+  - name: "SAS Lounge"
+    terminal: "Main Terminal"
+    zone: "Schengen"
+    access:
+      - "eligible passengers"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "A reasonable fallback for eligible Star Alliance flyers when the non-Schengen option is unavailable."
 ---
 
 # OSL Airport Guide
@@ -42,9 +65,12 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal with all check-in, security, and gates in one building.
+- **MCT (same ticket):** **40 min** Schengen–Schengen floor; **60 min** with non-Schengen passport control — OSL is efficient but peaks bite.
 - Airport Express train reaches Oslo Central Station in 20 minutes.
 - Dominant carriers are SAS and Norwegian; most European flights are Schengen.
 - Free Wi-Fi is fast and reliable throughout the terminal.
+- **Power:** Long rows of seats opposite gates 40–50 — usually empty outlets.
+- **Water:** Refill fountains post-security near gates 20 and 40 — bring an empty bottle.
 - Baggage storage and shower facilities available landside near arrivals.
 
 ## Security & Screening Tips

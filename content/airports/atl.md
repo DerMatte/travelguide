@@ -3,10 +3,11 @@ iata: "ATL"
 name: "Hartsfield-Jackson Atlanta International Airport"
 city: "Atlanta"
 country: "United States"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.atl.com/"
   - "https://www.tsa.gov/airports/hartsfield-jackson-atlanta-international-airport"
+  - "https://www.flyertalk.com/forum/delta-air-lines-skymiles/579051-minimum-connection-transfer-time-atlanta-atl-definitive-thread.html"
 quickFacts:
   - "Busiest passenger airport in the world"
   - "Primary Delta Air Lines hub with ~1,000 daily flights"
@@ -14,6 +15,7 @@ quickFacts:
   - "Seven concourses (A–F, T) served by underground train"
   - "TSA PreCheck and CLEAR widely available"
   - "High volume of connections; tight layovers common"
+  - "Delta MCT (bookable floor): 35 min dom-dom, 40 min dom-intl, 85 min intl-dom/intl-intl; add buffer in practice"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -35,6 +37,34 @@ bentoTips:
     title: "Check gates and checkpoint waits"
     summary: "The ATL app can update gate changes and security waits faster than airline apps."
     detail: "Use it before switching concourses or choosing a terminal-side rideshare pickup."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "Concourse F"
+    zone: "domestic"
+    bestFor:
+      - "Quiet"
+      - "Space"
+    verdict: "depends"
+    summary: "Largest and least crowded Delta Sky Club midday, worth a visit only with existing access."
+  - name: "Delta Sky Club"
+    terminal: "Concourse E"
+    zone: "domestic"
+    bestFor:
+      - "Convenience"
+    verdict: "depends"
+    summary: "Standard Delta Sky Club option if you already have access and are nearby."
+  - name: "The Club at ATL"
+    terminal: "International Terminal"
+    zone: "international"
+    access:
+      - "day passes"
+    amenities:
+      - "views"
+    bestFor:
+      - "Views"
+      - "Relax"
+    verdict: "depends"
+    summary: "Reasonable day-pass lounge with solid views if you're already in the international terminal."
 ---
 
 # ATL Airport Guide
@@ -46,6 +76,7 @@ bentoTips:
 - Delta dominates; most gates in Concourses A–F and T.
 - International Terminal handles separate arrivals for non-precleared flights.
 - Plane Train runs every 2–3 minutes; 5–12 minute rides between farthest points.
+- **Connections (Delta on one ticket):** Airline minimums are 35 minutes domestic-domestic (45 on widebody inbound), 40 minutes domestic-international, and 85 minutes any international arrival—traveler consensus treats 60–90 minutes domestic and 2+ hours international as sane buffers, especially intl-domestic where you clear CBP and re-screen at E/F.
 - Security lines peak 5–8 a.m. and 4–7 p.m.; PreCheck lanes move faster.
 - Free Wi-Fi and charging ports throughout; water refill stations near most restrooms.
 
@@ -71,6 +102,7 @@ bentoTips:
 - Plane Train stops at every concourse; allow 8–12 minutes between A and F.
 - Walking between Domestic and International terminals takes 15–20 minutes via the pedestrian bridge.
 - Common mistake: exiting security to change terminals—always stay airside via the train.
+- International arrivals connecting domestic must clear CBP at Concourse E/F, recheck bags if interline requires it, and pass security again—budget 90+ minutes even when Delta sells tighter MCTs.
 
 ## Lounges, Food & Amenities
 - Delta Sky Club in Concourses A, B, D, E, and F; the F club is largest and least crowded midday.
@@ -87,4 +119,5 @@ bentoTips:
 ## Official Sources
 - https://www.atl.com/
 - https://www.tsa.gov/airports/hartsfield-jackson-atlanta-international-airport
+- https://www.flyertalk.com/forum/delta-air-lines-skymiles/579051-minimum-connection-transfer-time-atlanta-atl-definitive-thread.html
 - https://itsmarta.com/ (MARTA schedules)

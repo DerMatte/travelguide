@@ -3,17 +3,20 @@ iata: "DEL"
 name: "Indira Gandhi International Airport"
 city: "Delhi"
 country: "India"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.newdelhiairport.in/"
   - "https://www.newdelhiairport.in/terminals"
+  - "https://www.newdelhiairport.in/passenger-guide/transit"
 quickFacts:
   - "Terminals: T1 (domestic LCCs), T3 (international + full-service domestic)"
   - "Hub for IndiGo, Air India, Vistara; 70M+ passengers/year"
+  - "MCT T3 int'l–int'l: 90 min floor; T1↔T3 needs 2.5–4 h landside"
   - "T1 and T3 are 4 km apart; free shuttle runs every 10-15 min"
   - "No TSA PreCheck equivalent; paid fast-track available at T3"
   - "Delhi Metro reaches city center in 25-40 min for ₹60"
   - "Strict 100 ml liquid rule enforced; water bottles confiscated"
+  - "Free Wi-Fi (OTP or kiosk); power scarce at T1 and T3 domestic gates"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -35,6 +38,31 @@ bentoTips:
     title: "Use the Delhi Airport app"
     summary: "Real-time shuttle and security waits help decide between fast-track, shuttle, and taxi."
     detail: "It is especially useful before committing to a T1-T3 transfer."
+lounges:
+  - name: "Plaza Premium Lounge"
+    terminal: "T3"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    amenities:
+      - "showers"
+      - "decent food"
+      - "quiet zones"
+    bestFor:
+      - "Relaxation"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "The standout paid option in T3 with showers and solid food, worth visiting if you have Priority Pass or are willing to pay."
+  - name: "T1 Paid Lounge"
+    terminal: "T1"
+    zone: "domestic"
+    access:
+      - "paid day pass"
+    bestFor:
+      - "None"
+    verdict: "skip"
+    summary: "Avoid; T1 has no decent paid lounges so eat before you arrive if flying a domestic LCC."
 ---
 
 # DEL Airport Guide
@@ -43,9 +71,14 @@ bentoTips:
 
 ## Quick Facts
 - T1 serves IndiGo, Akasa, SpiceJet domestic; T3 handles all international plus Air India/Vistara domestic.
+- **MCT (practical, not airline marketing):**
+  - **T3 int'l → int'l, one ticket:** **90 min** floor, **2 h** in peaks (05:00–09:00, 18:00–23:00).
+  - **T3 int'l → domestic (same terminal):** **2.5 h** floor; immigration + baggage reclaim is the killer.
+  - **T1 ↔ T3 or separate tickets:** **4 h minimum** — landside shuttle, re-check, full security.
 - Peak chaos hits 05:00-09:00 and 18:00-23:00; arrive 3 h early for international, 2.5 h for domestic.
-- Free airside shuttle between T1 and T3; allow 20-25 min including wait.
+- Free **landside** shuttle between T1 and T3; allow 20-25 min including wait — no airside link.
 - Only T3 has reliable paid fast-track security (₹1,200-1,800).
+- **Wi‑Fi:** Free via OTP or passport kiosk; patchy at T1. **Water:** Empty bottle + T3 fountains post-security; buy landside if tight on time.
 - Delhi Metro Yellow Line is the fastest, cheapest exit; avoid cabs at rush hour.
 
 ## Security & Screening Tips
@@ -83,4 +116,5 @@ bentoTips:
 ## Official Sources
 - https://www.newdelhiairport.in/
 - https://www.newdelhiairport.in/terminals
+- https://www.newdelhiairport.in/passenger-guide/transit
 - https://delhimetrorail.com/ (for metro schedules)

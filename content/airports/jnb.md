@@ -34,6 +34,27 @@ bentoTips:
     title: "Use ACSA app for queues"
     summary: "Check real-time security wait times in the ACSA app before leaving the hotel."
     detail: "Updates every 15 minutes and flags when Terminal B domestic lines exceed 25 minutes."
+lounges:
+  - name: "Bidvest Lounge"
+    terminal: "A"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "Strong value choice for ordinary travelers thanks to hot food and showers."
+  - name: "Premier Lounge"
+    terminal: "A"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "Matches Bidvest as the other top-value option with reliable hot meals and shower access."
 ---
 
 # JNB Airport Guide
@@ -41,11 +62,15 @@ bentoTips:
 > Practical, time-saving intel for the busiest airport in Africa, focused on peak-hour movement and reliable connections.
 
 ## Quick Facts
-- Terminals A (international) and B (domestic) are linked by a secure corridor; no train needed.
-- South African Airways, FlySafair, and CemAir dominate domestic; long-haul carriers use Terminal A.
-- Currency exchange and SIM cards are cheaper landside; ATMs inside security have worse rates.
-- Free Wi-Fi is reliable but requires captcha every 45 minutes.
-- Peak congestion hits 05:30-09:00 and 16:00-20:00 on weekdays.
+- **Terminals:** **A** (international), **B** (domestic) — secure corridor link, **12–15 min** farthest gate walk.
+- **MCT (same ticket, practical floor):**
+  - **Domestic → domestic (Terminal B):** **45 min** floor.
+  - **Domestic → international (B → A airside):** **60 min** floor, **75 min** comfortable — follow purple **International Connections** signs.
+  - **Separate tickets:** **2 h** minimum (bags, re-check, immigration).
+- **Wi‑Fi:** Free with captcha every **~45 min** — annoying but workable.
+- **Water:** Buy at **Pick n Pay** landside before security (**30%** cheaper than airside); limited refill fountains near gate **A22** upper level.
+- **Power:** Scarce gates **A1–A10**; duty-free opposite seating has USB ports.
+- **Peaks:** **05:30–09:00** and **16:00–20:00** weekdays — European departure banks.
 
 ## Security & Screening Tips
 - International departures: use the far-left lanes in Terminal A after 09:00; they move faster once European flights clear.
@@ -70,6 +95,7 @@ bentoTips:
 ## Lounges, Food & Amenities
 - Bidvest and Premier Lounges in Terminal A are the best value; both serve hot food and have showers.
 - For actual meals, the Terminal A departures Mugg & Bean has consistent seating and strong Wi-Fi.
+- **Water:** Limited airside refill — buy landside at Pick n Pay before security when possible.
 - The only reliable quiet zone is the seating area above the international arrivals hall on level 2.
 
 ## Ground Transport & Parking

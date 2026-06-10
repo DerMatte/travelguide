@@ -7,12 +7,15 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.massport.com/logan-airport/"
   - "https://www.tsa.gov/airports/boston-logan-international-airport"
+  - "https://www.wbur.org/news/2026/06/01/remote-logan-airport-terminal-framingham-tsa"
 quickFacts:
   - "Four terminals (A, B, C, E) with JetBlue dominant in C"
   - "Domestic flights: arrive 90-120 min early; international: 2.5-3 hrs"
   - "TSA PreCheck and CLEAR available at all terminals"
   - "Silver Line bus connects to South Station in 15-25 min"
-  - "No airside connections between terminals; use ground transport"
+  - "Live security wait times on massport.com for all terminals A, B, C, E"
+  - "Framingham remote terminal pilot (Delta/JetBlue): $9 secure bus past BOS security"
+  - "Free Wi-Fi throughout; water fountains pre- and post-security in C and E"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +37,26 @@ bentoTips:
     title: "Check Massport app"
     summary: "Use the free Massport Logan app for real-time security wait times and gate changes."
     detail: "TSA site lags; app updates every few minutes and shows which checkpoints are shortest."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "A"
+    access:
+      - "Delta status or SkyMiles"
+      - "day pass"
+    bestFor:
+      - "Work"
+      - "Layover"
+    verdict: "depends"
+    summary: "Worth visiting only with free or low-cost access via Delta status; otherwise skip the day-pass fee."
+  - name: "The Club BOS"
+    terminal: "E"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Rest"
+    verdict: "depends"
+    summary: "A solid Priority Pass option in the international terminal if you already have membership; otherwise not worth paying extra."
 ---
 
 # BOS Airport Guide
@@ -45,7 +68,9 @@ bentoTips:
 - No airside walkways; inter-terminal travel requires ground buses or walking outside.
 - Silver Line (SL1) reaches South Station in ~20 min for $2.40 with CharlieCard.
 - Cell-phone lot is free and usually has space; avoid circling the terminals.
-- Winter nor'easters and summer construction frequently cause delays—monitor closely.
+- Free Wi-Fi network-wide; refill bottles at fountains in C (airside) and E arrivals.
+- **June 2026:** Massport's **Framingham remote terminal** pilot lets eligible **Delta/JetBlue** passengers clear TSA ~20 miles west, then ride a secure bus airside to A/C ($9; 5:30 a.m.–4 p.m. departures only).
+- Live security wait estimates for all terminals on **massport.com** — overflow beyond the checkpoint queue isn't counted, so pad peak windows.
 
 ## Security & Screening Tips
 - PreCheck lanes at every terminal; CLEAR kiosks at A, B, and C speed enrollment members.
@@ -54,6 +79,7 @@ bentoTips:
 
 ## Best Airport Tricks & Hacks
 - Download the Massport app before arrival—it shows live security times and gate info the TSA site misses.
+- **Remote terminal hack:** West-suburb departures on Delta/JetBlue can skip Logan security entirely via the Framingham pilot — book on massport.com if your flight qualifies.
 - If connecting from A to C, take the free Massport shuttle rather than walking the long outside path in bad weather.
 - Park in the Central Garage for easiest access to B and C; Terminal A garage is smaller and fills fast.
 - Use the free cell-phone lot on Harborside Drive instead of paying for short-term parking while waiting for arrivals.
@@ -81,3 +107,4 @@ bentoTips:
 - https://www.massport.com/logan-airport/
 - https://www.tsa.gov/airports/boston-logan-international-airport
 - https://www.massport.com/logan-airport/parking-transportation/
+- https://www.wbur.org/news/2026/06/01/remote-logan-airport-terminal-framingham-tsa

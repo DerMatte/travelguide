@@ -34,6 +34,26 @@ bentoTips:
     title: "Check United app for gate changes"
     summary: "EWR gate shifts are frequent; app updates beat airport screens."
     detail: "Works best when you enable push notifications before arrival."
+lounges:
+  - name: "United Club"
+    terminal: "C"
+    access:
+      - "United Club members"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The strongest lounge option for eligible United and Star Alliance passengers."
+  - name: "United Club (far end)"
+    terminal: "C"
+    access:
+      - "United Club members"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Quiet"
+    verdict: "depends"
+    summary: "Head here near gate 120 if you already have access and need quieter seating."
 ---
 
 # EWR Airport Guide
@@ -41,11 +61,17 @@ bentoTips:
 > EWR moves fast once you master AirTrain timing and United gate monitoring.
 
 ## Quick Facts
-- Three terminals (A, B, C) linked by free AirTrain.
-- United Airlines dominant hub; international focus in Terminal C.
-- AirTrain reaches NJ Transit rail in 10 minutes.
-- TSA PreCheck and CLEAR lanes at all terminals.
-- Peak congestion 6-9 AM and 4-7 PM.
+- **Terminals:** **A**, **B**, **C** — **United** hub; int'l focus in **C**; **A** and **B** serve other Star/non-Star carriers.
+- **MCT (same ticket, practical floor):**
+  - **Same terminal (United → United in C):** **45 min** floor, **60 min** comfortable.
+  - **Terminal change (one ticket, airside via AirTrain):** **75 min** floor — AirTrain is **3–5 min** but you still re-clear TSA at departure terminal.
+  - **International → domestic:** CBP + baggage recheck if not through-checked — **2–2.5 h** minimum.
+  - **Separate tickets:** **3 h** minimum.
+- **AirTrain:** Free between terminals; **~10 min** to NJ Transit; **PreCheck + CLEAR** at all terminals.
+- **Wi‑Fi:** Free **EWR Free WiFi** — registration required; usable for gate tracking.
+- **Water:** Limited refill fountains airside in C near gates 70–90; landside has better access before security.
+- **Power:** Scarce at peak — far end of **C near gate 120** has quieter seating and outlets.
+- **Peak congestion:** **06:00–09:00** and **16:00–19:00**.
 
 ## Security & Screening Tips
 - PreCheck and CLEAR are worth it; standard lines can hit 40+ minutes at 7 AM and 5 PM.
@@ -62,9 +88,13 @@ bentoTips:
 - Skip the rental-car shuttle loop by walking to the garage when possible.
 
 ## Terminals & Navigation
-- AirTrain connects all terminals and parking in under 10 minutes.
+- AirTrain connects all terminals and parking in under **10 min** — always use it landside; no practical airside links.
 - Terminal C handles most United long-haul; A and B serve other carriers.
-- Walking between terminals is not practical; always use AirTrain once landside.
+- **Recommended connection buffers:**
+  - Same terminal: **60 min** floor
+  - Terminal change, one ticket: **75–90 min**
+  - Int'l → domestic: **2–2.5 h**
+- Walking between terminals is not practical once landside.
 
 ## Lounges, Food & Amenities
 - United Club in C is the strongest lounge option for eligible passengers.

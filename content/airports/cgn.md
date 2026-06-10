@@ -6,11 +6,12 @@ country: "Germany"
 lastUpdated: "2026-06-10"
 sources:
   - "https://www.cologne-bonn-airport.com/"
-  - "https://www.cologne-bonn-airport.com/en/flight-preparation/security-check"
+  - "https://www.cologne-bonn-airport.com/en/passengers/travel-preparation/security-check"
+  - "https://www.cologne-bonn-airport.com/en/company/next-chapter.html"
 quickFacts:
-  - "Two terminals (T1, T2) linked by a short covered walkway"
+  - "Single central security in T1; CT upgrade rolling out through summer 2026"
   - "Primary base for Eurowings and Ryanair"
-  - "Security lines peak 05:30-08:00 and 16:00-19:00"
+  - "CGNGateWay free security time slots up to 100 days ahead"
   - "Direct train to Cologne Hauptbahnhof in 15 min"
   - "Free Wi-Fi throughout both terminals"
 bentoTips:
@@ -33,7 +34,20 @@ bentoTips:
     label: "Live checks"
     title: "Use the airport app for queue cams"
     summary: "Security wait times update every 5 min in the official app."
-    detail: "Switch to T2 security if T1 shows >25 min and your flight is flexible."
+    detail: "All passengers use the central T1 checkpoint — book CGNGateWay instead of guessing T2 queues."
+lounges:
+  - name: "Eurowings Lounge"
+    terminal: "T1"
+    access:
+      - "€35 day pass"
+    amenities:
+      - "breakfast"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Shower"
+    verdict: "depends"
+    summary: "Solid choice for breakfast and showers with the €35 day pass, but only worth visiting if you have free access via status or membership."
 ---
 
 # CGN Airport Guide
@@ -41,21 +55,23 @@ bentoTips:
 > Fast, no-nonsense guide to clearing Cologne Bonn with minimal stress and wasted time.
 
 ## Quick Facts
-- Two terminals connected by a 4-minute indoor walkway.
+- Two terminals connected by a 4-minute indoor walkway; **one central security checkpoint in T1** serves all departures.
 - Eurowings and Ryanair dominate; Star Alliance uses T1.
-- Security is the only checkpoint; no separate passport control for Schengen.
+- **Security rebuild (2025–2026):** CT scanners rolling out through summer 2026 — liquids/laptops stay in bags once your lane is converted ([CGN Next Chapter](https://www.cologne-bonn-airport.com/en/company/next-chapter.html)).
+- **CGNGateWay:** Free timed security slots up to **100 days** ahead — the insider move on Monday-morning Eurowings banks.
 - S-Bahn line 13 runs every 20 min to Cologne city center (€3.20).
-- Short-term parking directly above T1 departures (€3.50 per 30 min).
+- **Wi‑Fi:** Free airport-wide. **Water:** Fountains next to every restroom airside and landside.
 
 ## Security & Screening Tips
-- Remove liquids and laptops only at the X-ray; trays are provided.
-- Peak congestion hits 06:00-08:00 and 17:00-19:00; use the app queue camera.
-- Families and passengers with reduced mobility get fast-track lanes at both terminals.
-- No PreCheck equivalent; liquids rule is strict 100 ml.
+- Remove liquids and laptops only at the X-ray **until your lane gets CT scanners** (full rollout by summer 2026).
+- Peak congestion hits 06:00-08:00 and 17:00-19:00; book **CGNGateWay** or use the app queue camera.
+- Families and passengers with reduced mobility get fast-track lanes at the central checkpoint.
+- No PreCheck equivalent; liquids rule is strict 100 ml until CT lanes are live.
 
 ## Best Airport Tricks & Hacks
 - Download the official CGN app for live security wait times and gate changes.
-- If T1 security exceeds 25 min, walk to T2 (often faster for non-Ryanair flights).
+- **Book CGNGateWay** for a dedicated lane — frequent-flyer forums rate this above showing up blind at 06:30.
+- If T1 security exceeds 25 min without a slot, you're stuck — there is no alternate checkpoint; arrive earlier instead.
 - Landside bakery “Bäckerei Wüst” opens at 04:30 and beats airside prices.
 - Free charging lockers are behind the escalators near gate A in T1.
 - For early flights, the Radisson Blu hotel walkway lets you skip the drop-off curb chaos.
@@ -73,5 +89,6 @@ S-Bahn line 13 is fastest and cheapest to Cologne. Taxi rank is outside T1 arriv
 
 ## Official Sources
 - https://www.cologne-bonn-airport.com/
-- https://www.cologne-bonn-airport.com/en/flight-preparation/security-check
+- https://www.cologne-bonn-airport.com/en/passengers/travel-preparation/security-check
+- https://www.cologne-bonn-airport.com/en/company/next-chapter.html
 - https://www.bahn.de/ (for S-Bahn schedules)

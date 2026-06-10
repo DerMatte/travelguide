@@ -3,10 +3,11 @@ iata: "IST"
 name: "Istanbul Airport"
 city: "Istanbul"
 country: "Turkey"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.istanbul-airport.com/"
   - "https://www.dhmi.gov.tr/"
+  - "https://www.istanbul-airport.com/en/flight/transfer"
 quickFacts:
   - "Single massive terminal complex handling all international and domestic flights"
   - "Primary hub for Turkish Airlines with extensive long-haul network"
@@ -34,6 +35,27 @@ bentoTips:
     title: "Use the Istanbul Airport app"
     summary: "Gate and queue updates matter in a terminal where long walks can change the plan."
     detail: "Check the app before heading deep into a pier or committing to a transfer route."
+lounges:
+  - name: "Turkish Airlines Lounge"
+    terminal: "Main Terminal"
+    zone: "Zone F"
+    amenities:
+      - "showers"
+      - "hot food"
+    bestFor:
+      - "Showers"
+      - "Food"
+    verdict: "worth-it"
+    summary: "Best showers and hot food selection make this the top choice when you can access it."
+  - name: "Primeclass Lounge"
+    terminal: "Main Terminal"
+    zone: "Gate D area"
+    access:
+      - "day pass"
+    bestFor:
+      - "Value"
+    verdict: "depends"
+    summary: "Decent day-pass backup when the Turkish lounge is full."
 ---
 
 # IST Airport Guide
@@ -41,12 +63,16 @@ bentoTips:
 > Practical navigation, security, and transport advice for Istanbul Airport to minimize delays and costs.
 
 ## Quick Facts
-- Single terminal with satellites; no bus or train transfers required between flights.
-- Turkish Airlines operates the majority of gates; Star Alliance members use dedicated areas.
-- Security and passport control often exceed 45 minutes during 05:00-09:00 and 18:00-22:00 peaks.
-- Free high-speed Wi-Fi available throughout; download offline maps before arrival.
-- Extensive duty-free but limited quality dining outside paid lounges.
-- Baggage storage and wrapping services located near arrivals level.
+- **Layout:** Single mega-terminal with zones **A–G** + far satellites — walks to **20–30 min** gate-to-gate.
+- **MCT (same ticket, practical floor — Turkish Airlines hub):**
+  - **International → international (airside):** **60 min** airline min, **90–120 min** practical — secondary security common.
+  - **Domestic ↔ international:** **75–90 min** airline mins; **2 h** safer in peaks.
+  - **Separate tickets:** **3.5–4 h** minimum (bags, immigration, re-check).
+- **Peaks:** **05:00–09:00** and **18:00–22:00** — entrances **A** and **D** queue first.
+- **Wi‑Fi:** Free high-speed — registration via SMS or passport scan.
+- **Water:** Buy after security — limited free refill; fountains exist but inconsistent in satellites.
+- **Power:** Upper level **Zone E** away from retail — best quiet charging during delays.
+- **Metro M11** to Gayrettepe **~30 min**; Havaist buses **24 h**.
 
 ## Security & Screening Tips
 - Arrive at least 3 hours before long-haul flights; security lines form fastest at entrances A and D.
@@ -65,7 +91,11 @@ bentoTips:
 - Skip the main food court; head to the quieter Zone E cafés for better seating and similar prices.
 
 ## Terminals & Navigation
-- One terminal with numbered zones A–G; walking times between farthest gates reach 20 minutes.
+- One terminal with numbered zones A–G; walking times between farthest gates reach **20–30 min** with moving walkways.
+- **Recommended connection buffers:**
+  - Same ticket, int'l → int'l: **90 min** floor, **2 h** peaks
+  - Domestic ↔ int'l: **2 h** floor
+  - Separate tickets: **4 h**
 - Clear overhead signage in Turkish and English; follow colored floor lines for satellites.
 - Common mistake: following “transfer” signs when already airside—stay on the departures level.
 - Moving walkways run most of the length; use them during tight connections.

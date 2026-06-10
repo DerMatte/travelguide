@@ -10,7 +10,8 @@ sources:
 quickFacts:
   - "Single terminal serving all flights; easy navigation"
   - "Major hub for Aegean Airlines and easyJet"
-  - "Metro Line 3 reaches Syntagma in 45 minutes"
+  - "Metro Line 3 reaches Syntagma in ~40 min; dedicated airport ticket €9 one-way"
+  - "Aegean/Star Alliance hub; Schengen A gates vs non-Schengen B gates in one building"
   - "Security lines peak 05:00-08:00 and 18:00-21:00"
   - "Free unlimited Wi-Fi throughout"
 bentoTips:
@@ -34,6 +35,33 @@ bentoTips:
     title: "Use AIA app for gate changes"
     summary: "Gates shift often; app updates 10 minutes faster than boards."
     detail: "Works offline after first load; check once after clearing security."
+lounges:
+  - name: "Aegean Business Lounge"
+    terminal: "Main Terminal"
+    zone: "non-Schengen"
+    access:
+      - "Star Alliance Gold"
+      - "Aegean business class"
+      - "paid entry"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Food"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only with free Star Gold access or if you value the showers and hot food enough to pay."
+  - name: "Ariston"
+    terminal: "Main Terminal"
+    access:
+      - "paid entry"
+    amenities:
+      - "Greek yogurt"
+      - "spinach pie"
+    bestFor:
+      - "Food"
+    verdict: "skip"
+    summary: "A solid pre-security cafe for quick Greek snacks but not a true lounge experience."
 ---
 
 # ATH Airport Guide
@@ -43,9 +71,11 @@ bentoTips:
 ## Quick Facts
 - Single terminal with all check-in, security, and gates in one building.
 - Aegean Airlines dominates; Star Alliance lounge access available.
-- Direct metro to city center every 30 minutes, €9 ticket.
-- Schengen and non-Schengen gates clearly separated but connected.
+- Metro Line 3 to Syntagma takes ~40 minutes; airport-only ticket is €9 (standard city tickets do not cover the airport segment).
+- Schengen (A) and non-Schengen (B) gates are clearly separated but connected airside.
 - Free Wi-Fi is reliable and fast; no login required after first use.
+- Power posts under the escalators near the metro entrance are the most reliable charging spots.
+- Water fountains are sparse airside—fill before security or buy at landside kiosks.
 
 ## Security & Screening Tips
 - Arrive at security by 05:30 to beat the first wave of Aegean departures.
@@ -60,10 +90,11 @@ bentoTips:
 - Grab a €3 Greek coffee at the arrivals-level kiosk before heading to departures.
 - Walk the full length of the terminal once to locate the least crowded restroom.
 - Charge devices at the power posts under the escalators near the metro entrance.
-- Skip the €25 taxi to the center and take the X95 bus (€6) if metro is delayed.
+- Skip the flat-rate taxi (~€40 daytime per official tariff) and take the X95 bus (~€5.50–6) if metro is delayed or after midnight when Line 3 stops.
 
 ## Terminals & Navigation
 Single terminal with check-in on level 1, security on level 2, and gates split into A (Schengen) and B (non-Schengen). Walking time from security to farthest gate is 10-12 minutes. Follow overhead signs; moving walkways run only toward the B gates.
+- **Connections:** Same-terminal transfers on one ticket usually need 45–60 minutes if crossing Schengen/non-Schengen (passport control); Schengen-to-Schengen can work in ~30 minutes if gates cooperate—Aegean protects single-ticket connections but summer banks get tight.
 
 ## Lounges, Food & Amenities
 Ariston serves excellent Greek yogurt and spinach pie before security. The Aegean Business Lounge (accessible with Star Gold or paid entry) offers solid hot food and showers. For quiet, head to the far end of gate area A near A25. Avoid the overpriced restaurants clustered around the central atrium.

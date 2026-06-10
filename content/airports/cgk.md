@@ -12,7 +12,8 @@ quickFacts:
   - "Major carriers: Garuda Indonesia, Lion Air, Citilink, AirAsia, Singapore Airlines"
   - "T3 is the newest and most efficient; avoid T1/T2 unless on Lion Group flights"
   - "Immigration queues often exceed 45 minutes on arrival"
-  - "No airside train between terminals; use shuttle buses or taxis"
+  - "T3 international MCT same terminal: 60 min floor; T1/T3 change needs 90+ min shuttle"
+  - "Free Wi-Fi (browser login); unstable at peaks — screenshot boarding pass"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +35,28 @@ bentoTips:
     title: "Check flight status on Angkasa Pura app"
     summary: "Gate changes are frequent and announced late."
     detail: "Wi-Fi is free but unstable; download the app before arrival."
+lounges:
+  - name: "Garuda Indonesia Business Lounge"
+    terminal: "T3"
+    zone: "international"
+    access:
+      - "Garuda business class"
+      - "paid access available"
+    bestFor:
+      - "Work"
+      - "Rest"
+    verdict: "depends"
+    summary: "Worth considering only if you have free access via Garuda business class or a reasonable paid rate, otherwise skip."
+  - name: "Plaza Premium Lounge"
+    terminal: "T3"
+    zone: "international"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "A solid backup for Priority Pass holders but nothing special enough to pay full price for."
 ---
 
 # CGK Airport Guide
@@ -44,8 +67,10 @@ bentoTips:
 - Terminals 1 (domestic), 2 (domestic/low-cost), 3 (international + premium domestic)
 - Major carriers: Garuda Indonesia, Lion Air, Citilink, AirAsia, Singapore Airlines
 - T3 is the newest and most efficient; avoid T1/T2 unless on Lion Group flights
+- **MCT:** T3 int'l–int'l on one ticket — **60 min** floor; int'l–domestic or T3↔T1/T2 needs **90 min+** (immigration + landside shuttle).
 - Immigration queues often exceed 45 minutes on arrival
-- No airside train between terminals; use shuttle buses or taxis
+- **Wi‑Fi:** Free (browser login via Angkasa Pura portal); drops during evening banks — download the app on cellular first.
+- **Water/power:** T3 has working outlets at most gates; T1/T2 outlets are mostly dead. Buy water landside T3 before security.
 
 ## Security & Screening Tips
 - Remove liquids and laptops at T3; bins are scarce and staff are strict.

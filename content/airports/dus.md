@@ -34,6 +34,27 @@ bentoTips:
     title: "Check live security times"
     summary: "Use the DUS app or dus.com for current wait estimates."
     detail: "Avoid 6-9 a.m. departures if the app shows >25 minutes."
+lounges:
+  - name: "Lufthansa Lounge"
+    terminal: "B"
+    access:
+      - "Star Alliance Gold"
+      - "Lufthansa status"
+      - "€45 day pass"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth considering for non-Star Alliance passengers at €45."
+  - name: "Lufthansa Senator Lounge"
+    terminal: "B"
+    access:
+      - "Star Alliance Gold"
+      - "Lufthansa Senator status"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Premium access only for top-tier Star Alliance elites; skip otherwise."
 ---
 
 # DUS Airport Guide

@@ -34,6 +34,32 @@ bentoTips:
     title: "Use Vienna Airport app for gate and delay alerts"
     summary: "Official app pushes gate changes 10-15 minutes before FIDS boards."
     detail: "Works offline once downloaded; essential during winter weather disruptions."
+lounges:
+  - name: "Austrian Airlines Lounge"
+    terminal: "Pier C"
+    zone: "non-Schengen"
+    access:
+      - "€39 day pass"
+      - "Star Alliance Gold"
+      - "Business class"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Relaxation"
+      - "Showers"
+    verdict: "worth-it"
+    summary: "The only paid lounge worth considering at VIE thanks to real food and working showers for €39."
+  - name: "Austrian Airlines Lounge"
+    terminal: "Pier B"
+    zone: "Schengen"
+    access:
+      - "Star Alliance Gold"
+      - "Business class"
+    bestFor:
+      - "Work"
+    verdict: "depends"
+    summary: "Fine if you already have free access via status or ticket, otherwise skip in favor of Pier C."
 ---
 
 # VIE Airport Guide
@@ -42,11 +68,14 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal complex with Piers B, C, D, G; all check-in and baggage claim in one building.
+- **MCT (same ticket):** **45 min** Schengen–Schengen floor; **60 min** with non-Schengen passport control at Pier C/G.
 - Austrian Airlines operates the majority of long-haul and connecting flights.
 - CAT train (€14.90) departs every 30 minutes and reaches Wien Mitte in 16 minutes.
 - Security is located after check-in; boarding passes required to enter.
 - Non-Schengen flights require a second passport check after security.
 - Free Wi-Fi is reliable throughout the building.
+- **Power:** Charging tables near gate D21; Pier C far end (gate C39) — charge early.
+- **Water:** Refill fountains post-security in Piers B and C — bring an empty bottle.
 
 ## Security & Screening Tips
 - Arrive at security no earlier than 2 hours before departure; lines peak 06:30-09:00 and 17:00-19:00.

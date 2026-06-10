@@ -34,6 +34,16 @@ bentoTips:
     title: "Refresh flight status often"
     summary: "Check the airport app or boards 90 minutes before departure."
     detail: "Gate changes are common and announced late due to high Pegasus turnaround rates."
+lounges:
+  - name: "Pegasus Lounge"
+    terminal: "Main Terminal"
+    access:
+      - "Pegasus business class"
+      - "Paid entry"
+    bestFor:
+      - "Rest"
+    verdict: "worth-it"
+    summary: "The only worthwhile paid lounge at SAW, free for Pegasus business class or via paid entry near gate 7."
 ---
 
 # SAW Airport Guide
@@ -45,6 +55,8 @@ bentoTips:
 - Pegasus and AnadoluJet dominate; Turkish Airlines uses IST almost exclusively.
 - 35 km from central Istanbul on the Asian side; traffic on the E-80 can double travel time.
 - Free Wi-Fi is reliable but requires captcha every 45 minutes.
+- **Power:** Benches opposite gate 15 have plentiful outlets — best free charging spot.
+- **Water:** Limited airside refill — eat/drink landside before security; bring empty bottle.
 - Currency exchange and ATMs are concentrated near the main entrance.
 
 ## Security & Screening Tips

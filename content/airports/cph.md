@@ -7,12 +7,14 @@ lastUpdated: "2026-06-10"
 sources:
   - "https://www.cph.dk/en"
   - "https://www.cph.dk/en/security"
+  - "https://www.flysas.com/us-en/travel-info/at-the-airport/connecting-flights"
 quickFacts:
   - "Single terminal with piers A, B, C; all under one roof"
   - "Primary hub for SAS Scandinavian Airlines and Norwegian"
   - "Train to Copenhagen Central Station: 12–14 min, 36 DKK"
   - "Security opens 2.5 h before departure for most flights"
-  - "EU/EEA passengers use automated gates when eligible"
+  - "SAS hub MCT: 30 min Schengen; 45 min intercontinental; EES adds 10–60 min"
+  - "Free Wi-Fi; power outlets plentiful at gates"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -34,6 +36,28 @@ bentoTips:
     title: "Use the CPH app for gates"
     summary: "Gates are published 60–90 min prior; check the app, not boards."
     detail: "SAS and Norwegian often open gates in the far C pier first."
+lounges:
+  - name: "SAS Star Alliance Lounge"
+    terminal: "B"
+    access:
+      - "SAS Gold"
+      - "Star Alliance Gold"
+    amenities:
+      - "hot food"
+      - "showers"
+    bestFor:
+      - "Relaxation"
+      - "Showers"
+    verdict: "depends"
+    summary: "Worth visiting only with qualifying Star Alliance status; arrive early because it fills up fast."
+  - name: "Priority Pass Lounge"
+    terminal: "3"
+    access:
+      - "Priority Pass"
+    bestFor:
+      - "Work"
+    verdict: "skip"
+    summary: "Limited independent options exist, so ordinary travelers are usually better off with airside food options like GRØD or LagerBar."
 ---
 
 # CPH Airport Guide
@@ -42,13 +66,18 @@ bentoTips:
 
 ## Quick Facts
 - Single terminal complex with piers A (Schengen), B (mixed), and C (non-Schengen).
+- **MCT (SAS hub, one ticket):**
+  - **Within Europe / Schengen:** **30 min** floor, **45 min** comfortable.
+  - **Intercontinental:** **45 min** floor, **60 min+** if changing Schengen zone.
+  - **EES (since Apr 2026):** First-time non-EU biometric registration can add **10–60 min** at passport control — pad connections involving C pier.
 - SAS and Norwegian dominate; Star Alliance and oneworld passengers use the same security.
 - Direct train to city center every 10 min; metro also available but slower.
-- Free Wi-Fi everywhere; power outlets plentiful at gates.
+- **Wi‑Fi:** Free throughout. **Power:** Outlets at most gates; upstairs B↔C transfer area is the quiet charging spot.
 - No US-style TSA PreCheck; EU citizens use biometric gates when available.
 
 ## Security & Screening Tips
 - Arrive at the central security hall 90–100 min before departure on weekdays.
+- **EES warning:** Non-Schengen arrivals/departures in 2026 can queue **60–90 min** at peak — alert staff if your connection is tight.
 - Liquids in 100 ml containers only; no PreCheck lane exists.
 - Fastest periods: 10:00–12:00 and 14:00–16:00. Avoid 06:30–08:30 and 17:00–19:00.
 - Families and passengers with reduced mobility get priority lanes—ask staff.
@@ -81,4 +110,5 @@ bentoTips:
 ## Official Sources
 - https://www.cph.dk/en
 - https://www.cph.dk/en/security
+- https://www.flysas.com/us-en/travel-info/at-the-airport/connecting-flights
 - https://www.dsb.dk (train tickets)

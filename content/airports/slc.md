@@ -34,6 +34,19 @@ bentoTips:
     title: "Check SLC app gates"
     summary: "Use the official SLC app for real-time gate and delay pushes instead of airline apps."
     detail: "Delta often moves gates within the same concourse; the airport feed updates 2-3 minutes faster."
+lounges:
+  - name: "Delta Sky Club"
+    terminal: "Concourse A"
+    access:
+      - "Delta Sky Club membership"
+      - "Delta One or First Class"
+      - "Delta elite status"
+      - "Day pass when flying Delta"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "depends"
+    summary: "Worth visiting only with free access or a day pass while flying Delta; otherwise skip as it's the sole paid lounge option."
 ---
 
 # SLC Airport Guide
@@ -42,10 +55,12 @@ bentoTips:
 
 ## Quick Facts
 - Delta Air Lines primary hub with ~300 daily departures.
+- **MCT (same ticket, A↔B):** **45 min** airline minimum — treat **60 min** as floor during Delta banks.
 - Single terminal split into Concourses A and B connected by a 5-minute indoor walkway.
 - TSA PreCheck and CLEAR lanes keep average security wait under 15 minutes.
 - Free Wi-Fi, cell phone lot with live camera feeds, and strong on-time stats.
 - Serves 25+ million passengers annually; compact layout reduces walking.
+- **Water:** Refill fountains post-security near A-B connector — bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the east checkpoint for PreCheck/CLEAR during 6-9 a.m. Delta banks; it moves faster than the west.

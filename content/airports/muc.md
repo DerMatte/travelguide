@@ -3,7 +3,7 @@ iata: "MUC"
 name: "Munich Airport (Franz Josef Strauss)"
 city: "Munich"
 country: "Germany"
-lastUpdated: "2026-05-30"
+lastUpdated: "2026-06-10"
 sources:
   - "https://www.munich-airport.com/"
   - "https://www.munich-airport.com/connecting-flights-260553"
@@ -42,6 +42,36 @@ bentoTips:
     title: "Re-check modules and T1 Pier"
     summary: "The new Terminal 1 Pier changed some non-Schengen habits and gate flows."
     detail: "Confirm module and gate assignments the day before travel, especially outside Lufthansa Group."
+lounges:
+  - name: "Lufthansa Senator Lounge"
+    terminal: "T2"
+    zone: "Schengen/non-Schengen split"
+    access:
+      - "airline status"
+      - "alliance tiers"
+    bestFor:
+      - "Work"
+      - "Relax"
+    verdict: "depends"
+    summary: "Solid default for Star Alliance status holders off-peak but fills quickly during morning long-haul banks."
+  - name: "Bayern Lounge"
+    terminal: "T1"
+    access:
+      - "Priority Pass"
+      - "day-pass"
+    bestFor:
+      - "Food"
+    verdict: "depends"
+    summary: "Bavarian-themed pay lounge with mixed food reviews compared to Star Alliance options."
+  - name: "Emirates Lounge"
+    terminal: "T1"
+    zone: "Module C"
+    access:
+      - "eligible itineraries"
+    bestFor:
+      - "Relax"
+    verdict: "skip"
+    summary: "Only relevant if flying Emirates business or first; otherwise not accessible to ordinary travelers."
 ---
 
 # MUC Airport Guide

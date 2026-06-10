@@ -12,7 +12,8 @@ quickFacts:
   - "Single terminal, five concourses (A–E) connected by walkway and tram"
   - "TSA PreCheck and CLEAR available at main checkpoint"
   - "No airside hotel; closest is 5 min by rental car"
-  - "Free cell-phone lot with direct terminal views"
+  - "AA hub MCT: 45 min domestic floor; int'l–domestic 90 min minimum"
+  - "Free Wi-Fi; USB-C/MagSafe tables on A/B walkway"
 bentoTips:
   - category: "timing"
     label: "Timing"
@@ -23,7 +24,7 @@ bentoTips:
     label: "Concourses"
     title: "Walk or tram to E"
     summary: "Use the moving walkway to reach E; tram only if carrying heavy bags."
-    detail: "E is the farthest; allow 12–15 min on foot from security."
+    detail: "E is the farthest; allow 12–15 min on foot from security. AA sells 45-min domestic MCT — treat 60 min as the real floor."
   - category: "food"
     label: "Food & quiet"
     title: "Great Hall before security"
@@ -34,6 +35,16 @@ bentoTips:
     title: "Check AA app first"
     summary: "Use the American app for real-time gate and delay data before entering security."
     detail: "CLT gate changes are frequent; the app updates faster than the boards."
+lounges:
+  - name: "The Club at CLT"
+    terminal: "Main Terminal (Great Hall, pre-security)"
+    access:
+      - "Priority Pass"
+      - "paid day pass"
+    bestFor:
+      - "Quiet"
+    verdict: "depends"
+    summary: "A quiet pre-security lounge worth using with free Priority Pass access but otherwise skippable given limited post-security alternatives."
 ---
 
 # CLT Airport Guide
@@ -42,8 +53,13 @@ bentoTips:
 
 ## Quick Facts
 - American Airlines dominant hub; most connections are AA metal
+- **MCT (AA-published floors — pad for peaks):**
+  - **Domestic → domestic:** **45 min** legal minimum; **60–75 min** sane.
+  - **International → domestic:** **90 min** floor; immigration can run **20–90 min** — tell staff if under 90 min.
+  - **International → international:** **75 min** floor; **90 min+** safer.
 - One terminal building; concourses A–E linked by long moving walkways
 - Main security checkpoint opens at 4:30 a.m.; PreCheck lane usually shorter
+- **Wi‑Fi:** Free airport-wide. **Power:** USB-C/MagSafe tables along A/B walkway near windows.
 - Free cell-phone lot directly across from terminal with live flight displays
 - Rental cars and rideshare on lower level; no hotel inside the terminal
 

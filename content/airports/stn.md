@@ -34,6 +34,28 @@ bentoTips:
     title: "Check the app first"
     summary: "Use the official Stansted app for live gate and queue data."
     detail: "Avoid third-party sites that lag during disruptions."
+lounges:
+  - name: "Escape Lounge"
+    terminal: "Main Terminal"
+    access:
+      - "Priority Pass"
+      - "paid entry"
+    amenities:
+      - "hot food"
+    bestFor:
+      - "Food"
+    verdict: "worth-it"
+    summary: "The landside Escape Lounge offers better value with hot food than the overpriced airside options."
+  - name: "Airside Lounge 1"
+    terminal: "Main Terminal"
+    zone: "international"
+    verdict: "skip"
+    summary: "Overpriced with limited value compared to landside food options."
+  - name: "Airside Lounge 2"
+    terminal: "Main Terminal"
+    zone: "international"
+    verdict: "skip"
+    summary: "Overpriced with limited value compared to landside food options."
 ---
 
 # STN Airport Guide
@@ -46,6 +68,9 @@ bentoTips:
 - Free 24-hour shuttle runs between terminal and long-stay car parks.
 - No train service after 23:00; last coach departs around 01:00.
 - Passport control uses e-gates for most EU/UK/Irish passengers.
+- **Wi‑Fi:** Free **Stansted WiFi** — registration required; captcha every session.
+- **Power:** Mezzanine above check-in has outlets with almost no foot traffic.
+- **Water:** Refill fountains post-security in both halls — bring an empty bottle.
 
 ## Security & Screening Tips
 - Use the airport app to pick the shorter of the two security halls.

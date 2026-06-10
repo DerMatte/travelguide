@@ -34,6 +34,31 @@ bentoTips:
     title: "Check GACA app first"
     summary: "Live flight status and gate changes update faster than airline apps."
     detail: "Use it when Saudia or flynas shows delays; gate swaps are common."
+lounges:
+  - name: "Saudia Alfursan Lounge"
+    terminal: "T5"
+    zone: "international"
+    access:
+      - "Saudia Sapphire/Gold"
+      - "Star Alliance Gold"
+    amenities:
+      - "dining"
+    bestFor:
+      - "Food"
+      - "Relaxation"
+    verdict: "worth-it"
+    summary: "Best option for eligible passengers with above-average food."
+  - name: "Saudia Alfursan First Lounge"
+    terminal: "T5"
+    zone: "international"
+    access:
+      - "Saudia First Class"
+      - "Star Alliance Gold"
+    bestFor:
+      - "Quiet"
+      - "Work"
+    verdict: "depends"
+    summary: "Premium tier of the Alfursan offering that is worth it only with free access."
 ---
 
 # RUH Airport Guide
@@ -42,8 +67,11 @@ bentoTips:
 
 ## Quick Facts
 - Five terminals with T5 handling most Saudia international and domestic flights.
+- **MCT (T3/T5 change):** no airside link — taxi/shuttle + re-clear; budget **2 h+** minimum between terminals.
 - T1-T4 serve other carriers; walking between T3 and T5 takes 15-20 minutes.
 - Free Wi-Fi is reliable but requires a Saudi mobile number for full speed.
+- **Power:** Family rooms in T5 near gate 5 have outlets; older T1/T2 are sparse.
+- **Water:** Refill fountains in T5 post-security; buy landside in T5 departures before late-night flights.
 - Prayer rooms, family rooms, and women-only zones are numerous and clean.
 - No airside hotel; nearest sleep options are outside the secure area.
 

@@ -34,6 +34,36 @@ bentoTips:
     title: "Use AICM app or site"
     summary: "Check terminal and gate status on aicm.com.mx before heading out."
     detail: "Last-minute terminal swaps between T1 and T2 are common and poorly announced."
+lounges:
+  - name: "Aeromexico Lounge"
+    terminal: "T2"
+    zone: "international"
+    access:
+      - "Aeromexico business class"
+      - "SkyTeam Elite Plus"
+    bestFor:
+      - "Work"
+      - "Quiet"
+    verdict: "depends"
+    summary: "Free access only for eligible elites or business passengers; paid entry is not worth the cost."
+  - name: "The Lounge"
+    terminal: "T1"
+    access:
+      - "Priority Pass"
+      - "day pass"
+    bestFor:
+      - "Rest"
+    verdict: "skip"
+    summary: "Basic Priority Pass option that offers little advantage over standard terminal seating."
+  - name: "Salon Premier"
+    terminal: "T2"
+    zone: "domestic"
+    access:
+      - "Aeromexico premium passengers"
+    bestFor:
+      - "Families"
+    verdict: "depends"
+    summary: "Convenient for Aeromexico domestic flyers with status, but nothing special for paid visitors."
 ---
 
 # MEX Airport Guide
@@ -42,10 +72,14 @@ bentoTips:
 
 ## Quick Facts
 - Two terminals 8 km apart; free shuttle every 10-15 minutes.
+- **MCT (T1 ↔ T2):** free red shuttle — budget **90 min** minimum including re-security; **2 h** safer in peaks.
 - T2 handles most international flights and Aeromexico; T1 is mainly domestic.
 - Security and immigration queues frequently exceed 45-60 minutes at peak hours.
 - Metro Line 5 serves only T1; authorized taxis or Uber (with restrictions) serve both.
 - Currency exchange and SIM cards are cheaper landside before security.
+- **Wi‑Fi:** Free airport Wi‑Fi — registration required; slow at peak.
+- **Power:** Outlets in T2 far gates (A20–A30 area); T1 is sparse.
+- **Water:** Buy landside in T2 before security — airside markup is steep; limited refill fountains.
 
 ## Security & Screening Tips
 - Arrive at least 3 hours before international departures; domestic needs 2 hours minimum.

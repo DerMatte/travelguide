@@ -3,24 +3,26 @@ iata: "DUB"
 name: "Dublin Airport"
 city: "Dublin"
 country: "Ireland"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-06-11"
 sources:
   - "https://www.dublinairport.com/"
   - "https://www.dublinairport.com/security"
+  - "https://www.dublinairport.com/flight-information/travelling-to-usa/faqs"
+  - "https://www.dublinairport.com/flight-information/connections"
   - "https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services"
   - "https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations"
 quickFacts:
-  - "Two terminals (T1 domestic/short-haul, T2 long-haul) connected by covered walkway"
+  - "Two terminals (T1 domestic/short-haul, T2 long-haul) connected airside and landside"
   - "Aer Lingus hub; Ryanair primary base"
   - "Security wait times often 15-40 min; online check-in mandatory for most carriers"
-  - "No US preclearance; all US flights require full Irish exit screening"
+  - "US Preclearance in T2 for most US-bound flights — complete US immigration before departure"
   - "AirCoach and 747 bus run 24/7 to city centre (€8-10)"
 bentoTips:
   - category: "timing"
     label: "Timing"
     title: "Arrive 2.5 h early"
     summary: "Security peaks 05:00-08:00 and 16:00-19:00; add 30 min buffer."
-    detail: "T2 US-bound flights add another 20 min on average."
+    detail: "T2 US-bound flights need US Preclearance after Irish security — budget 30–45 min extra."
   - category: "terminal"
     label: "Terminal"
     title: "Use T2 for US flights"
@@ -66,11 +68,11 @@ lounges:
 > Dublin Airport is compact but security and US-bound screening create predictable bottlenecks; this guide shows exactly where to save time.
 
 ## Quick Facts
-- **Terminals:** T1 (Ryanair, easyJet, most short-haul) and T2 (Aer Lingus, long-haul, all US flights) linked by **8-min** covered walkway — both require separate security if you switch terminals airside.
+- **Terminals:** T1 (Ryanair, easyJet, most short-haul) and T2 (Aer Lingus, long-haul, all US flights) linked by **8-min** covered walkway **airside and landside** ([DAA connections](https://www.dublinairport.com/flight-information/connections)).
 - **MCT (same ticket, practical floor):**
   - **Same terminal, Schengen/UK short-haul:** **60 min** floor, **75 min** comfortable.
-  - **T1 ↔ T2 connection (one ticket):** **90 min** floor — exit/re-enter security; walkway is fast, queues are not.
-  - **US-bound departures (T2):** Add **20–30 min** for secondary screening after main security.
+  - **T1 ↔ T2 connection (one ticket, airside):** **75–90 min** floor — use the airside link corridor (gates 300s ↔ 400s); still allow time for security if routing requires it.
+  - **US-bound departures (T2):** Add **30–45 min** for **US Preclearance** after Irish security ([DAA US FAQs](https://www.dublinairport.com/flight-information/travelling-to-usa/faqs)).
   - **Separate tickets:** **2.5–3 h** minimum (immigration, bags, re-check).
 - **Wi‑Fi:** Free unlimited **Dublin Airport Wi-Fi** — no registration ([DAA Wi-Fi](https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services)); can slow during morning banks.
 - **Water:** **27** free refill stations landside and airside in both terminals ([DAA water stations](https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations)) — bring an empty bottle.
@@ -81,11 +83,11 @@ lounges:
 - Online check-in and bag drop 24 h ahead; arrive with boarding pass on phone.
 - Fast-track (€12) worth it only on US flights or when app shows >30 min wait.
 - Liquids in 100 ml clear bag strictly enforced; no exceptions at either terminal.
-- US-bound passengers face secondary screening after regular security; keep laptop and liquids easily accessible.
+- **US Preclearance (T2):** Most US-bound flights complete **US immigration, customs, and agriculture** in Terminal 2 **after** Irish security — this is often the bottleneck, not a quick secondary lane. Arrive **3 h** before long-haul US departures per DAA guidance.
 
 ## Best Airport Tricks & Hacks
 - Download the official Dublin Airport app for live security cameras and bus times.
-- If connecting from T1 to T2, exit landside and re-enter T2; often faster than the walkway during peaks.
+- If connecting T1 ↔ T2 on one ticket, use the **airside walkway** between gates 300s and 400s — avoid exiting landside unless you lack a valid onward boarding pass.
 - The 747 bus stops at both terminals and runs every 10-15 min; buy ticket on phone to skip queue.
 - T2 has a quiet seating area on the mezzanine level above the main concourse after security.
 - Bring a refillable bottle — **27** automatic refill stations marked on the airport map (both terminals, pre- and post-security).
@@ -114,4 +116,6 @@ lounges:
 - [Security wait times](https://www.dublinairport.com/security)
 - [Free Wi-Fi](https://www.dublinairport.com/at-the-airport/facilities/wifi-printing-services)
 - [Drinking water stations](https://www.dublinairport.com/at-the-airport/facilities/drinking-water-stations)
+- [US Preclearance FAQs](https://www.dublinairport.com/flight-information/travelling-to-usa/faqs)
+- [Connecting flights](https://www.dublinairport.com/flight-information/connections)
 - [Ground transport](https://www.dublinairport.com/to-from-the-airport)

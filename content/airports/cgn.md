@@ -3,7 +3,7 @@ iata: "CGN"
 name: "Flughafen Köln/Bonn"
 city: "Cologne"
 country: "Germany"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-06-11"
 sources:
   - "https://www.cologne-bonn-airport.com/"
   - "https://www.cologne-bonn-airport.com/en/passengers/travel-preparation/security-check"
@@ -70,7 +70,7 @@ lounges:
 
 ## Best Airport Tricks & Hacks
 - Download the official CGN app for live security wait times and gate changes.
-- **Book CGNGateWay** for a dedicated lane — frequent-flyer forums rate this above showing up blind at 06:30.
+- **Book CGNGateWay** for a dedicated lane — the official free slot system beats showing up blind at 06:30.
 - If T1 security exceeds 25 min without a slot, you're stuck — there is no alternate checkpoint; arrive earlier instead.
 - Landside bakery “Bäckerei Wüst” opens at 04:30 and beats airside prices.
 - Free charging lockers are behind the escalators near gate A in T1.
@@ -79,7 +79,7 @@ lounges:
 - Short-term parking P1 fills by 07:00 on weekdays; use P3 and take the free shuttle.
 
 ## Terminals & Navigation
-T1 handles Eurowings, Lufthansa, and most international flights. T2 is Ryanair-heavy. Both share one security area per terminal. Walking time between furthest gates is 12 min. Follow the yellow “T1 ↔ T2” signs; moving walkways run only toward departures.
+T1 handles Eurowings, Lufthansa, and most international flights. T2 is Ryanair-heavy. All passengers clear the **single central security checkpoint in T1** (T2 travelers walk over first). Walking time between furthest gates is 12 min. Follow the yellow “T1 ↔ T2” signs; moving walkways run only toward departures.
 
 ## Lounges, Food & Amenities
 The Eurowings Lounge in T1 (airside) offers decent breakfast and showers for €35 day pass. For food, Hans im Glück (T1 airside) serves reliable burgers. Quiet seating is on the upper level near gate C; avoid the noisy central atrium. Water fountains are next to every restroom.

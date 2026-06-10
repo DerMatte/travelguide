@@ -239,7 +239,7 @@ function AirportSearchCombobox({
               variant="ghost"
               role="combobox"
               aria-expanded={open}
-              className="h-12 justify-between rounded-xl px-3 text-left text-base font-normal hover:bg-muted/60"
+              className="h-12 w-full min-w-0 justify-between rounded-xl px-3 text-left text-base font-normal hover:bg-muted/60"
             >
               <span className="flex min-w-0 items-center gap-2">
                 <Search className="size-5 shrink-0 text-muted-foreground" aria-hidden="true" />

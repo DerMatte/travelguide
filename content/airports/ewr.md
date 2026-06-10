@@ -1,0 +1,82 @@
+---
+iata: "EWR"
+name: "Newark Liberty International Airport"
+city: "Newark"
+country: "United States"
+lastUpdated: "2026-06-10"
+sources:
+  - "https://www.newarkairport.com/"
+  - "https://www.tsa.gov/airports/newark-liberty-international-airport"
+quickFacts:
+  - "Three terminals (A, B, C) linked by free AirTrain"
+  - "United Airlines dominant hub; international focus in Terminal C"
+  - "AirTrain reaches NJ Transit rail in 10 minutes"
+  - "TSA PreCheck and CLEAR lanes at all terminals"
+  - "Peak congestion 6-9 AM and 4-7 PM"
+bentoTips:
+  - category: "timing"
+    label: "Timing"
+    title: "Arrive 2 hours early domestic"
+    summary: "Security rarely exceeds 25 minutes outside rush windows."
+    detail: "Add 30 minutes if checking bags on United international flights."
+  - category: "terminal"
+    label: "Terminal"
+    title: "Use Terminal C for United"
+    summary: "Stay in C for most international departures and fastest connections."
+    detail: "AirTrain between terminals runs every 3-5 minutes; avoid if already airside."
+  - category: "food"
+    label: "Food"
+    title: "Grab at Terminal C Shake Shack"
+    summary: "Reliable, fast option before security in C or post-security in A."
+    detail: "Terminal B has fewer solid choices; eat before heading there."
+  - category: "status"
+    label: "Status"
+    title: "Check United app for gate changes"
+    summary: "EWR gate shifts are frequent; app updates beat airport screens."
+    detail: "Works best when you enable push notifications before arrival."
+---
+
+# EWR Airport Guide
+
+> EWR moves fast once you master AirTrain timing and United gate monitoring.
+
+## Quick Facts
+- Three terminals (A, B, C) linked by free AirTrain.
+- United Airlines dominant hub; international focus in Terminal C.
+- AirTrain reaches NJ Transit rail in 10 minutes.
+- TSA PreCheck and CLEAR lanes at all terminals.
+- Peak congestion 6-9 AM and 4-7 PM.
+
+## Security & Screening Tips
+- PreCheck and CLEAR are worth it; standard lines can hit 40+ minutes at 7 AM and 5 PM.
+- Terminal C usually clears fastest for United passengers.
+- Avoid the main checkpoint in B during evening international arrivals surge.
+
+## Best Airport Tricks & Hacks
+- Take AirTrain one stop early to Terminal A when C is jammed.
+- Download the United app and enable gate alerts before landing.
+- Use the short-stay parking garage only for pickups under 30 minutes.
+- Clear security in C then AirTrain to B if your flight is in B and C lines are shorter.
+- Grab coffee at Terminal C before security; post-security options are weaker.
+- For late-night arrivals, pre-book the AirTrain-to-rail connection instead of taxis.
+- Skip the rental-car shuttle loop by walking to the garage when possible.
+
+## Terminals & Navigation
+- AirTrain connects all terminals and parking in under 10 minutes.
+- Terminal C handles most United long-haul; A and B serve other carriers.
+- Walking between terminals is not practical; always use AirTrain once landside.
+
+## Lounges, Food & Amenities
+- United Club in C is the strongest lounge option for eligible passengers.
+- Shake Shack and Gallagher's in C are the most reliable food choices.
+- Quiet seating is scarce; head to the far end of C near gate 120 when waiting.
+
+## Ground Transport & Parking
+- NJ Transit to New York Penn Station costs $15.50 and runs every 20-30 minutes.
+- Taxi/Uber pickup is on level 3; expect 15-25 minute waits at peak.
+- Daily parking in P4 is cheapest for multi-day trips; reserve online.
+
+## Official Sources
+- https://www.newarkairport.com/
+- https://www.tsa.gov/airports/newark-liberty-international-airport
+- https://www.njtransit.com/ewr

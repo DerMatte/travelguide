@@ -41,7 +41,15 @@ sources:
   - "https://relevant-security-or-transport-authority.example"
 quickFacts:
   - "4-6 short bullet facts as YAML strings"
+bentoTips:
+  - category: "timing"
+    label: "Timing"
+    title: "Short imperative headline"
+    summary: "One-sentence takeaway a traveler can act on."
+    detail: "One extra sentence of context (when it applies, what to avoid)."
 ---
+
+Include exactly 4 bentoTips, one for each category in this order: "timing", "terminal", "food", "status". Each label is a 1-2 word display tag (e.g. "Timing", "Transfers", "Food & quiet", "Live checks"). These are the highest-signal tips for this airport — they are shown prominently, so do not waste them on generic advice.
 
 Then continue with the page body using this exact heading structure:
 

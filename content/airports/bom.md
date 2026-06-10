@@ -3,7 +3,7 @@ iata: "BOM"
 name: "Chhatrapati Shivaji Maharaj International Airport"
 city: "Mumbai"
 country: "India"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-06-11"
 sources:
   - "https://www.csia.in/"
   - "https://www.csia.in/passenger-guide"
@@ -83,7 +83,7 @@ lounges:
 - Air India, IndiGo, Vistara, and Akasa dominate; most international carriers use T2.
 - Security is strict on liquids and electronics; expect bag checks even with PreCheck equivalents.
 - Peak hours 6-10 AM and 6-10 PM create long lines; monsoon season adds traffic delays.
-- **MCT:** Same ticket, T3-style int'l–int'l through T2 only — **90 min** floor if bags are through-checked; **T1↔T2** or separate tickets need **2.5–4 h** (shuttle + re-screen).
+- **MCT:** Same ticket, int'l–int'l through **T2 only** — **90 min** floor if bags are through-checked; **T1↔T2** or separate tickets need **2.5–4 h** (shuttle + re-screen).
 - **Wi‑Fi:** Free unlimited on **#MumbaiAirportWiFi** — OTP via mobile or passport/boarding-pass voucher at kiosks (T2 gates 48/67/74, level 4 info desks). Speed drops at evening peaks; carry a power bank anyway.
 - **Water:** Refill stations post-security in T2; landside level 4 food court before security beats airside bottled prices.
 

@@ -3,9 +3,10 @@ iata: "EWR"
 name: "Newark Liberty International Airport"
 city: "Newark"
 country: "United States"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-06-11"
 sources:
   - "https://www.newarkairport.com/"
+  - "https://www.newarkairport.com/flights/connections-guide"
   - "https://www.tsa.gov/airports/newark-liberty-international-airport"
 quickFacts:
   - "Three terminals (A, B, C) linked by free AirTrain"
@@ -64,7 +65,7 @@ lounges:
 - **Terminals:** **A**, **B**, **C** — **United** hub; int'l focus in **C**; **A** and **B** serve other Star/non-Star carriers.
 - **MCT (same ticket, practical floor):**
   - **Same terminal (United → United in C):** **45 min** floor, **60 min** comfortable.
-  - **Terminal change (one ticket, airside via AirTrain):** **75 min** floor — AirTrain is **3–5 min** but you still re-clear TSA at departure terminal.
+  - **Terminal change (one ticket):** **75 min** floor — **AirTrain is landside**; you re-clear TSA at the departure terminal. **Exception:** United **A↔C shuttle bus** stays airside and skips TSA ([EWR connections](https://www.newarkairport.com/flights/connections-guide)).
   - **International → domestic:** CBP + baggage recheck if not through-checked — **2–2.5 h** minimum.
   - **Separate tickets:** **3 h** minimum.
 - **AirTrain:** Free between terminals; **~10 min** to NJ Transit; **PreCheck + CLEAR** at all terminals.
@@ -82,7 +83,7 @@ lounges:
 - Take AirTrain one stop early to Terminal A when C is jammed.
 - Download the United app and enable gate alerts before landing.
 - Use the short-stay parking garage only for pickups under 30 minutes.
-- Clear security in C then AirTrain to B if your flight is in B and C lines are shorter.
+- United passengers connecting **A↔C** can use the **complimentary inter-terminal shuttle** (gates A28, C71) and skip TSA — not available for Terminal B connections.
 - Grab coffee at Terminal C before security; post-security options are weaker.
 - For late-night arrivals, pre-book the AirTrain-to-rail connection instead of taxis.
 - Skip the rental-car shuttle loop by walking to the garage when possible.
@@ -107,6 +108,7 @@ lounges:
 - Daily parking in P4 is cheapest for multi-day trips; reserve online.
 
 ## Official Sources
+- [EWR connections guide](https://www.newarkairport.com/flights/connections-guide)
 - https://www.newarkairport.com/
 - https://www.tsa.gov/airports/newark-liberty-international-airport
 - https://www.njtransit.com/ewr

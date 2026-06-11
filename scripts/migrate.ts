@@ -15,6 +15,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { Pool } from "pg";
+import { buildPoolConfig } from "../lib/db";
 import { loadLocalEnv } from "./load-env";
 
 loadLocalEnv();
@@ -38,7 +39,7 @@ async function main() {
     readFileSync(path.join(MIGRATIONS_DIR, "meta", "_journal.json"), "utf8"),
   ) as { entries: JournalEntry[] };
 
-  const pool = new Pool({ connectionString, max: 1 });
+  const pool = new Pool({ ...buildPoolConfig(connectionString), max: 1 });
 
   await pool.query(`
     CREATE TABLE IF NOT EXISTS "__drizzle_migrations" (

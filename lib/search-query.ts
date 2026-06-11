@@ -7,22 +7,20 @@ import type {
 export interface SearchTag {
   token: string;
   label: string;
-  kind: "amenity" | "region" | "disruption";
+  kind: "amenity" | "disruption";
+}
+
+export interface LocationOption {
+  kind: "region" | "country";
+  value: string;
+  label: string;
 }
 
 export interface ParsedSearchQuery {
   text: string;
   amenities: AmenityCategory[];
-  regions: Region[];
   disruptionStatuses: DisruptionStatus[];
 }
-
-const regions: Region[] = [
-  "North America",
-  "Europe",
-  "Asia-Pacific",
-  "Middle East",
-];
 
 const amenityCategories: AmenityCategory[] = [
   "food",
@@ -99,17 +97,25 @@ export const searchTags: SearchTag[] = [
     label: amenityLabel(category),
     kind: "amenity" as const,
   })),
-  ...regions.map((region) => ({
-    token: slugifyTag(region),
-    label: region,
-    kind: "region" as const,
-  })),
   ...disruptionStatuses.map((status) => ({
     token: status,
     label: disruptionLabel(status),
     kind: "disruption" as const,
   })),
 ];
+
+export const continentOptions: LocationOption[] = (
+  [
+    "North America",
+    "Europe",
+    "Asia-Pacific",
+    "Middle East",
+  ] as Region[]
+).map((region) => ({
+  kind: "region" as const,
+  value: region,
+  label: region,
+}));
 
 function findTag(token: string): SearchTag | undefined {
   const normalized = slugifyTag(token);
@@ -118,7 +124,6 @@ function findTag(token: string): SearchTag | undefined {
 
 export function parseSearchQuery(query: string): ParsedSearchQuery {
   const amenities: AmenityCategory[] = [];
-  const parsedRegions: Region[] = [];
   const disruptionStatusesParsed: DisruptionStatus[] = [];
   const textParts: string[] = [];
 
@@ -133,11 +138,6 @@ export function parseSearchQuery(query: string): ParsedSearchQuery {
         case "amenity":
           if (!amenities.includes(tag.token as AmenityCategory)) {
             amenities.push(tag.token as AmenityCategory);
-          }
-          break;
-        case "region":
-          if (!parsedRegions.includes(tag.label as Region)) {
-            parsedRegions.push(tag.label as Region);
           }
           break;
         case "disruption":
@@ -159,9 +159,42 @@ export function parseSearchQuery(query: string): ParsedSearchQuery {
   return {
     text: textParts.join(" "),
     amenities,
-    regions: parsedRegions,
     disruptionStatuses: disruptionStatusesParsed,
   };
+}
+
+export function countryOptions(countries: string[]): LocationOption[] {
+  return countries.map((country) => ({
+    kind: "country" as const,
+    value: country,
+    label: country,
+  }));
+}
+
+export function suggestLocations(
+  query: string,
+  options: {
+    regions: Region[];
+    countries: string[];
+    selectedRegions: Region[];
+    selectedCountries: string[];
+  },
+): LocationOption[] {
+  const normalizedQuery = slugifyTag(query.replace(/\s+/g, "-"));
+  const allOptions = [
+    ...continentOptions.filter((option) => !options.selectedRegions.includes(option.value as Region)),
+    ...countryOptions(options.countries).filter(
+      (option) => !options.selectedCountries.includes(option.value),
+    ),
+  ];
+
+  if (!normalizedQuery) return allOptions;
+
+  return allOptions.filter(
+    (option) =>
+      slugifyTag(option.label).includes(normalizedQuery) ||
+      option.label.toLowerCase().includes(query.toLowerCase()),
+  );
 }
 
 export function suggestSearchTags(fragment: string): SearchTag[] {

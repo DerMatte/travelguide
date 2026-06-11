@@ -20,6 +20,7 @@ function searchFilters(query: string): AirportFilters {
     searchScope: "all",
     minimumScore: 0,
     regions: [],
+    countries: [],
     amenities: [],
     disruptionStatuses: [],
     sort: "highest-score",

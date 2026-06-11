@@ -56,6 +56,7 @@ const DEFAULT_FILTERS: AirportFilters = {
   searchScope: "all",
   minimumScore: 0,
   regions: [],
+  countries: [],
   amenities: [],
   disruptionStatuses: [],
   sort: "highest-score",
@@ -197,6 +198,7 @@ export function AirportDirectory({ airports }: AirportDirectoryProps) {
   const topAirport = airports[0];
   const activeFilterCount =
     filters.regions.length +
+    filters.countries.length +
     filters.amenities.length +
     filters.disruptionStatuses.length +
     (filters.minimumScore > 0 ? 1 : 0) +
@@ -207,7 +209,13 @@ export function AirportDirectory({ airports }: AirportDirectoryProps) {
   }
 
   function resetFilters() {
-    setFilters({ ...DEFAULT_FILTERS, regions: [], amenities: [], disruptionStatuses: [] });
+    setFilters({
+      ...DEFAULT_FILTERS,
+      regions: [],
+      countries: [],
+      amenities: [],
+      disruptionStatuses: [],
+    });
   }
 
   return (

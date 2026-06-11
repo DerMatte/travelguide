@@ -145,6 +145,7 @@ export interface AirportFilters {
   searchScope: AirportSearchScope;
   minimumScore: number;
   regions: Region[];
+  countries: string[];
   amenities: AmenityCategory[];
   disruptionStatuses: DisruptionStatus[];
   sort: AirportSort;

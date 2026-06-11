@@ -48,13 +48,18 @@ export function getAirportSlugs(): string[] {
   return airports.map((airport) => airport.slug);
 }
 
+export function getUniqueCountries(airportList: Airport[]): string[] {
+  return [...new Set(airportList.map((airport) => airport.country))].sort((a, b) =>
+    a.localeCompare(b),
+  );
+}
+
 export function filterAndSortAirports(
   airportList: Airport[],
   filters: AirportFilters,
 ): Airport[] {
   const parsedQuery = parseSearchQuery(filters.query);
   const normalizedQuery = normalizeSearchValue(parsedQuery.text);
-  const effectiveRegions = [...new Set([...filters.regions, ...parsedQuery.regions])];
   const effectiveAmenities = [
     ...new Set([...filters.amenities, ...parsedQuery.amenities]),
   ];
@@ -71,7 +76,9 @@ export function filterAndSortAirports(
 
     const matchesScore = airport.airportistScore >= filters.minimumScore;
     const matchesRegion =
-      effectiveRegions.length === 0 || effectiveRegions.includes(airport.region);
+      filters.regions.length === 0 || filters.regions.includes(airport.region);
+    const matchesCountry =
+      filters.countries.length === 0 || filters.countries.includes(airport.country);
     const matchesAmenities =
       effectiveAmenities.length === 0 ||
       effectiveAmenities.every((category) =>
@@ -85,6 +92,7 @@ export function filterAndSortAirports(
       matchesQuery &&
       matchesScore &&
       matchesRegion &&
+      matchesCountry &&
       matchesAmenities &&
       matchesDisruption
     );

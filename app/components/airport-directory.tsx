@@ -34,6 +34,7 @@ import { Slider } from "@/components/ui/slider";
 import {
   amenityCategories,
   amenityLabel,
+  DEFAULT_AIRPORT_FILTERS,
   disruptionStatuses,
   filterAndSortAirports,
   regions,
@@ -51,16 +52,7 @@ interface AirportDirectoryProps {
   airports: Airport[];
 }
 
-const DEFAULT_FILTERS: AirportFilters = {
-  query: "",
-  searchScope: "all",
-  minimumScore: 0,
-  regions: [],
-  countries: [],
-  amenities: [],
-  disruptionStatuses: [],
-  sort: "highest-score",
-};
+const DEFAULT_FILTERS = DEFAULT_AIRPORT_FILTERS;
 
 function toggleValue<T extends string>(values: T[], value: T): T[] {
   return values.includes(value)

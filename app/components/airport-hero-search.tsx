@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Globe2, Hash, MapPin, Search, X } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowUpRight, Globe2, Hash, MapPin, Search, X } from "lucide-react";
 import { DisruptionBadge } from "@/app/components/disruption-status";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -11,11 +12,22 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { filterAndSortAirports, getUniqueCountries, regions } from "@/lib/airport-utils";
+import {
+  Dialog,
+  DialogOverlay,
+  DialogPortal,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Dialog as DialogPrimitive } from "radix-ui";
+import {
+  DEFAULT_AIRPORT_FILTERS,
+  filterAndSortAirports,
+  getUniqueCountries,
+  regions,
+} from "@/lib/airport-utils";
 import {
   appendSearchTag,
   getActiveSearchTagTokens,
-  parseSearchQuery,
   suggestLocations,
   suggestSearchTags,
   type LocationOption,
@@ -28,6 +40,10 @@ interface AirportHeroSearchProps {
   airports: Airport[];
   filters: AirportFilters;
   onFiltersChange: (filters: AirportFilters) => void;
+  mode?: "inline" | "palette";
+  autoFocus?: boolean;
+  onClose?: () => void;
+  listId?: string;
 }
 
 function FilterTag({
@@ -59,14 +75,19 @@ export function AirportHeroSearch({
   airports,
   filters,
   onFiltersChange,
+  mode = "inline",
+  autoFocus = false,
+  onClose,
+  listId = "airport-hero-search-list",
 }: AirportHeroSearchProps) {
-  const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const [open, setOpen] = useState(mode === "palette");
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const query = filters.query;
   const availableCountries = useMemo(() => getUniqueCountries(airports), [airports]);
+  const listOpen = mode === "palette" ? true : open;
 
-  const parsed = useMemo(() => parseSearchQuery(query), [query]);
   const visibleAirports = useMemo(
     () => filterAndSortAirports(airports, { ...filters, sort: "highest-score" }),
     [airports, filters],
@@ -99,12 +120,7 @@ export function AirportHeroSearch({
         selectedRegions: filters.regions,
         selectedCountries: filters.countries,
       }),
-    [
-      availableCountries,
-      filters.countries,
-      filters.regions,
-      locationQuery,
-    ],
+    [availableCountries, filters.countries, filters.regions, locationQuery],
   );
 
   const continentSuggestions = locationSuggestions.filter(
@@ -117,9 +133,17 @@ export function AirportHeroSearch({
   const activeHashTags = getActiveSearchTagTokens(query);
   const hasLocationFilters =
     filters.regions.length > 0 || filters.countries.length > 0;
-  const hasActiveFilters = hasLocationFilters || activeHashTags.length > 0 || query.trim().length > 0;
+  const hasActiveFilters =
+    hasLocationFilters || activeHashTags.length > 0 || query.trim().length > 0;
 
   useEffect(() => {
+    if (!autoFocus) return;
+    inputRef.current?.focus();
+  }, [autoFocus]);
+
+  useEffect(() => {
+    if (mode !== "inline") return;
+
     function handlePointerDown(event: MouseEvent) {
       if (!containerRef.current?.contains(event.target as Node)) {
         setOpen(false);
@@ -128,7 +152,7 @@ export function AirportHeroSearch({
 
     document.addEventListener("pointerdown", handlePointerDown);
     return () => document.removeEventListener("pointerdown", handlePointerDown);
-  }, []);
+  }, [mode]);
 
   function updateQuery(nextQuery: string) {
     onFiltersChange({ ...filters, query: nextQuery, searchScope: "all" });
@@ -177,9 +201,9 @@ export function AirportHeroSearch({
   }
 
   function selectAirport(airport: Airport) {
-    updateQuery(airport.iata);
+    onClose?.();
     setOpen(false);
-    inputRef.current?.blur();
+    router.push(`/airports/${airport.slug}`);
   }
 
   function clearAll() {
@@ -192,16 +216,29 @@ export function AirportHeroSearch({
     inputRef.current?.focus();
   }
 
+  function handleEscape() {
+    if (mode === "palette") {
+      onClose?.();
+      return;
+    }
+
+    setOpen(false);
+    inputRef.current?.blur();
+  }
+
   return (
     <div ref={containerRef} className="relative">
       <Command
         shouldFilter={false}
-        className="overflow-visible rounded-2xl border bg-card shadow-xl shadow-foreground/5"
+        className={cn(
+          "overflow-visible rounded-2xl border bg-card shadow-xl shadow-foreground/5",
+          mode === "palette" && "shadow-2xl",
+        )}
       >
         <div
           className={cn(
             "flex flex-wrap items-center gap-2 px-4 py-3",
-            open && "border-b border-border/70",
+            listOpen && "border-b border-border/70",
           )}
         >
           <Search
@@ -242,8 +279,8 @@ export function AirportHeroSearch({
             onFocus={() => setOpen(true)}
             onKeyDown={(event) => {
               if (event.key === "Escape") {
-                setOpen(false);
-                inputRef.current?.blur();
+                event.stopPropagation();
+                handleEscape();
               }
 
               if (
@@ -266,8 +303,8 @@ export function AirportHeroSearch({
             autoComplete="off"
             spellCheck={false}
             aria-label="Search airports"
-            aria-expanded={open}
-            aria-controls="airport-hero-search-list"
+            aria-expanded={listOpen}
+            aria-controls={listId}
             role="combobox"
             className="h-8 min-w-[10rem] flex-1 bg-transparent text-base outline-none placeholder:text-muted-foreground"
           />
@@ -284,10 +321,15 @@ export function AirportHeroSearch({
           ) : null}
         </div>
 
-        {open ? (
+        {listOpen ? (
           <CommandList
-            id="airport-hero-search-list"
-            className="max-h-[min(24rem,calc(100vh-12rem))] p-2"
+            id={listId}
+            className={cn(
+              "p-2",
+              mode === "palette"
+                ? "max-h-[min(28rem,calc(100vh-14rem))]"
+                : "max-h-[min(24rem,calc(100vh-12rem))]",
+            )}
           >
             {continentSuggestions.length > 0 ? (
               <CommandGroup heading="Continents">
@@ -384,9 +426,10 @@ export function AirportHeroSearch({
                         {airport.airportistScore.toFixed(1)}
                       </span>
                     </span>
-                    <span className="font-mono text-xs text-muted-foreground">
-                      {parsed.text ? "Filter" : "Select"}
-                    </span>
+                    <ArrowUpRight
+                      className="size-4 shrink-0 text-muted-foreground"
+                      aria-hidden="true"
+                    />
                   </CommandItem>
                 ))
               )}
@@ -395,5 +438,52 @@ export function AirportHeroSearch({
         ) : null}
       </Command>
     </div>
+  );
+}
+
+interface AirportSearchPaletteProps {
+  airports: Airport[];
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export function AirportSearchPalette({
+  airports,
+  open,
+  onOpenChange,
+}: AirportSearchPaletteProps) {
+  const [filters, setFilters] = useState<AirportFilters>(DEFAULT_AIRPORT_FILTERS);
+
+  function handleOpenChange(nextOpen: boolean) {
+    if (!nextOpen) {
+      setFilters(DEFAULT_AIRPORT_FILTERS);
+    }
+    onOpenChange(nextOpen);
+  }
+
+  return (
+    <Dialog open={open} onOpenChange={handleOpenChange}>
+      <DialogPortal>
+        <DialogOverlay className="bg-black/50 backdrop-blur-sm" />
+        <DialogPrimitive.Content
+          className={cn(
+            "fixed top-1/2 left-1/2 z-50 w-[calc(100%-2rem)] max-w-2xl -translate-x-1/2 -translate-y-1/2 border-0 bg-transparent p-0 shadow-none outline-none",
+            "duration-200 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95 data-closed:animate-out data-closed:fade-out-0 data-closed:zoom-out-95",
+          )}
+          onOpenAutoFocus={(event) => event.preventDefault()}
+        >
+          <DialogTitle className="sr-only">Search airports</DialogTitle>
+          <AirportHeroSearch
+            mode="palette"
+            airports={airports}
+            filters={filters}
+            onFiltersChange={setFilters}
+            autoFocus={open}
+            onClose={() => handleOpenChange(false)}
+            listId="airport-nav-search-list"
+          />
+        </DialogPrimitive.Content>
+      </DialogPortal>
+    </Dialog>
   );
 }

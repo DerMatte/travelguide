@@ -35,6 +35,17 @@ export const disruptionStatuses: DisruptionStatus[] = [
   "severe",
 ];
 
+export const DEFAULT_AIRPORT_FILTERS: AirportFilters = {
+  query: "",
+  searchScope: "all",
+  minimumScore: 0,
+  regions: [],
+  countries: [],
+  amenities: [],
+  disruptionStatuses: [],
+  sort: "highest-score",
+};
+
 export function getAllHonestAirports(): Airport[] {
   return [...airports].sort((a, b) => b.airportistScore - a.airportistScore);
 }

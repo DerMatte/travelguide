@@ -1,4 +1,5 @@
 import { airports } from "@/lib/data";
+import { parseSearchQuery } from "@/lib/search-query";
 import type {
   Airport,
   AirportFilters,
@@ -51,7 +52,15 @@ export function filterAndSortAirports(
   airportList: Airport[],
   filters: AirportFilters,
 ): Airport[] {
-  const normalizedQuery = normalizeSearchValue(filters.query);
+  const parsedQuery = parseSearchQuery(filters.query);
+  const normalizedQuery = normalizeSearchValue(parsedQuery.text);
+  const effectiveRegions = [...new Set([...filters.regions, ...parsedQuery.regions])];
+  const effectiveAmenities = [
+    ...new Set([...filters.amenities, ...parsedQuery.amenities]),
+  ];
+  const effectiveDisruptionStatuses = [
+    ...new Set([...filters.disruptionStatuses, ...parsedQuery.disruptionStatuses]),
+  ];
 
   const filtered = airportList.filter((airport) => {
     const matchesQuery = airportMatchesSearch(
@@ -62,15 +71,15 @@ export function filterAndSortAirports(
 
     const matchesScore = airport.airportistScore >= filters.minimumScore;
     const matchesRegion =
-      filters.regions.length === 0 || filters.regions.includes(airport.region);
+      effectiveRegions.length === 0 || effectiveRegions.includes(airport.region);
     const matchesAmenities =
-      filters.amenities.length === 0 ||
-      filters.amenities.every((category) =>
+      effectiveAmenities.length === 0 ||
+      effectiveAmenities.every((category) =>
         airport.amenities.some((amenity) => amenity.category === category),
       );
     const matchesDisruption =
-      filters.disruptionStatuses.length === 0 ||
-      filters.disruptionStatuses.includes(airport.disruption.status);
+      effectiveDisruptionStatuses.length === 0 ||
+      effectiveDisruptionStatuses.includes(airport.disruption.status);
 
     return (
       matchesQuery &&

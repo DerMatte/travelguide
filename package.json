@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "validate:content": "tsx scripts/validate-airports.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:dev": "tsx scripts/dev-postgres.ts",
     "generate:airport": "tsx --env-file-if-exists=.env.local scripts/generate-airport.ts",
     "generate:airports": "tsx --env-file-if-exists=.env.local scripts/generate-airports-batch.ts",
     "generate:lounges": "tsx --env-file-if-exists=.env.local scripts/generate-lounges.ts",
@@ -24,10 +27,12 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
+    "drizzle-orm": "^0.45.2",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.16.0",
     "lz-string": "^1.5.0",
     "next": "16.2.6",
+    "pg": "^8.21.0",
     "radix-ui": "^1.4.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -44,8 +49,11 @@
     "@tailwindcss/postcss": "^4",
     "@types/lz-string": "^1.5.0",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "embedded-postgres": "18.4.0-beta.17",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
@@ -56,7 +64,11 @@
     "onlyBuiltDependencies": [
       "sqlite3",
       "esbuild",
-      "sharp"
+      "sharp",
+      "embedded-postgres",
+      "@embedded-postgres/linux-arm64",
+      "@embedded-postgres/linux-x64",
+      "@embedded-postgres/darwin-arm64"
     ]
   }
 }

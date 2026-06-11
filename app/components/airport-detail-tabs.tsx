@@ -11,7 +11,6 @@ import {
   Map,
   ShieldCheck,
   Sparkles,
-  Star,
   Train,
   Utensils,
   Wifi,
@@ -21,6 +20,7 @@ import {
   AirportLiveStatusProvider,
 } from "@/app/components/airport-live-status-loader";
 import { AirportLoungeGrid } from "@/app/components/airport-lounges";
+import { AirportReviews } from "@/app/components/airport-reviews";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -488,39 +488,7 @@ export function AirportDetailTabs({ airport, guide }: AirportDetailTabsProps) {
       </TabsContent>
 
       <TabsContent value="reviews" className="grid gap-4 lg:grid-cols-[1fr_360px]">
-        <div className="space-y-4">
-          {airport.reviews.map((review) => (
-            <Card key={review.id}>
-              <CardContent className="p-5">
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <div>
-                    <div className="font-medium">{review.title}</div>
-                    <div className="mt-1 text-xs text-muted-foreground">
-                      {review.author} · {review.tripType} · {review.date}
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-1 text-sm">
-                    {Array.from({ length: 5 }, (_, index) => (
-                      <Star
-                        key={index}
-                        className={cn(
-                          "size-4",
-                          index < review.rating
-                            ? "fill-amber-400 text-amber-400"
-                            : "text-muted-foreground/30",
-                        )}
-                        aria-hidden="true"
-                      />
-                    ))}
-                  </div>
-                </div>
-                <p className="mt-4 text-sm leading-6 text-muted-foreground">
-                  {review.body}
-                </p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+        <AirportReviews iata={airport.iata} seedReviews={airport.reviews} />
 
         <Card>
           <CardHeader>

@@ -5,6 +5,7 @@ import { ArrowLeft, BookOpenText, MapPin, Plane, ShieldCheck, Star } from "lucid
 import { AirportDetailTabs } from "@/app/components/airport-detail-tabs";
 import { AirportGuideArticle } from "@/app/components/airport-guide-article";
 import { AirportLoungeGrid } from "@/app/components/airport-lounges";
+import { AirportReviews } from "@/app/components/airport-reviews";
 import {
   AirportLiveStatusPanel,
   AirportLiveStatusProvider,
@@ -313,6 +314,8 @@ async function GuideOnlyAirportPage({ slug }: { slug: string }) {
         <section className="mt-10 max-w-4xl">
           <AirportGuideArticle content={guideContent.content} />
         </section>
+
+        <AirportReviews iata={frontmatter.iata} showHeading className="mt-10 max-w-4xl" />
       </div>
     </div>
   );
